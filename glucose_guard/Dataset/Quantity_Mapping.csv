@@ -1,0 +1,151 @@
+Quantity_ID,Quantity_Text,Quantity_Value,Unit,Multiplier
+Q001,1 piece,1,piece,1
+Q002,2 pieces,2,piece,2
+Q003,3 pieces,3,piece,3
+Q004,4 pieces,4,piece,4
+Q005,1 roti,1,piece,1
+Q006,2 roti,2,piece,2
+Q007,3 roti,3,piece,3
+Q008,1 chapati,1,piece,1
+Q009,2 chapati,2,piece,2
+Q010,1 bowl,1,bowl,1
+Q011,2 bowls,2,bowl,2
+Q012,1 cup,1,cup,1
+Q013,2 cups,2,cup,2
+Q014,1 plate,1,plate,1
+Q015,2 plates,2,plate,2
+Q016,half bowl,0.5,bowl,0.5
+Q017,half plate,0.5,plate,0.5
+Q018,100 g,100,gram,1
+Q019,150 g,150,gram,1.5
+Q020,200 g,200,gram,2
+Q021,250 g,250,gram,2.5
+Q022,1 glass,1,glass,1
+Q023,2 glass,2,glass,2
+Q024,1 spoon,1,spoon,1
+Q025,2 spoon,2,spoon,2
+Q026,1 tablespoon,1,tbsp,1
+Q027,2 tablespoon,2,tbsp,2
+Q028,1 teaspoon,1,tsp,1
+Q029,2 teaspoon,2,tsp,2
+Q030,small portion,0.75,portion,0.75
+Q031,medium portion,1,portion,1
+Q032,large portion,1.5,portion,1.5
+Q033,1 serving,1,serving,1
+Q034,2 servings,2,serving,2
+Q035,one handful,1,handful,1
+Q036,two handfuls,2,handful,2
+Q037,1 slice,1,slice,1
+Q038,2 slices,2,slice,2
+Q039,3 slices,3,slice,3
+Q040,1 idli,1,piece,0.5
+Q041,2 idli,2,piece,1
+Q042,3 idli,3,piece,1.5
+Q043,1 dosa,1,piece,1
+Q044,2 dosa,2,piece,2
+Q045,1 ladle dal,1,ladle,1
+Q046,2 ladle dal,2,ladle,2
+Q047,1 katori,1,bowl,1
+Q048,2 katori,2,bowl,2
+Q049,1 bowl rice,1,bowl,1
+Q050,2 bowl rice,2,bowl,2
+Q051,3 bowls,3,bowl,3
+Q052,4 bowls,4,bowl,4
+Q053,3 cups,3,cup,3
+Q054,4 cups,4,cup,4
+Q055,3 plates,3,plate,3
+Q056,4 plates,4,plate,4
+Q057,300 g,300,gram,3
+Q058,400 g,400,gram,4
+Q059,500 g,500,gram,5
+Q060,50 g,50,gram,0.5
+Q061,75 g,75,gram,0.75
+Q062,120 g,120,gram,1.2
+Q063,180 g,180,gram,1.8
+Q064,1 small bowl,1,bowl,0.75
+Q065,1 medium bowl,1,bowl,1
+Q066,1 large bowl,1,bowl,1.5
+Q067,half cup,0.5,cup,0.5
+Q068,quarter cup,0.25,cup,0.25
+Q069,half glass,0.5,glass,0.5
+Q070,quarter plate,0.25,plate,0.25
+Q071,1 medium serving,1,serving,1
+Q072,1 large serving,1,serving,1.5
+Q073,3 servings,3,serving,3
+Q074,4 servings,4,serving,4
+Q075,1 small portion,0.5,portion,0.5
+Q076,2 small portions,1,portion,1
+Q077,2 medium portions,2,portion,2
+Q078,2 large portions,3,portion,3
+Q079,1 bowl curry,1,bowl,1
+Q080,2 bowl curry,2,bowl,2
+Q081,1 bowl sabzi,1,bowl,1
+Q082,2 bowl sabzi,2,bowl,2
+Q083,1 bowl dal,1,bowl,1
+Q084,2 bowl dal,2,bowl,2
+Q085,1 bowl poha,1,bowl,1
+Q086,2 bowl poha,2,bowl,2
+Q087,1 bowl upma,1,bowl,1
+Q088,2 bowl upma,2,bowl,2
+Q089,1 parantha,1,piece,1
+Q090,2 parantha,2,piece,2
+Q091,3 parantha,3,piece,3
+Q092,1 puri,1,piece,0.5
+Q093,2 puri,2,piece,1
+Q094,4 puri,4,piece,2
+Q095,1 vada,1,piece,1
+Q096,2 vada,2,piece,2
+Q097,1 sandwich,1,piece,1
+Q098,2 sandwich,2,piece,2
+Q099,1 packet,1,packet,1
+Q100,half serving,0.5,serving,0.5
+Q101,5 pieces,5,piece,5
+Q102,6 pieces,6,piece,6
+Q103,1 medium roti,1,piece,1
+Q104,1 large roti,1,piece,1.5
+Q105,4 roti,4,piece,4
+Q106,5 roti,5,piece,5
+Q107,4 chapati,4,piece,4
+Q108,5 chapati,5,piece,5
+Q109,1 bhakri,1,piece,1
+Q110,2 bhakri,2,piece,2
+Q111,3 bhakri,3,piece,3
+Q112,1 thepla,1,piece,1
+Q113,2 thepla,2,piece,2
+Q114,3 thepla,3,piece,3
+Q115,1 bhatura,1,piece,1
+Q116,2 bhatura,2,piece,2
+Q117,1 small plate,1,plate,0.75
+Q118,1 medium plate,1,plate,1
+Q119,1 large plate,1,plate,1.5
+Q120,3 plate rice,3,plate,3
+Q121,1 small bowl rice,1,bowl,0.75
+Q122,1 medium bowl rice,1,bowl,1
+Q123,1 large bowl rice,1,bowl,1.5
+Q124,3 katori,3,bowl,3
+Q125,4 katori,4,bowl,4
+Q126,5 katori,5,bowl,5
+Q127,1 small katori,1,bowl,0.5
+Q128,1 medium katori,1,bowl,1
+Q129,1 large katori,1,bowl,1.5
+Q130,3 ladle dal,3,ladle,3
+Q131,4 ladle dal,4,ladle,4
+Q132,1 spoonful,1,spoon,1
+Q133,2 spoonful,2,spoon,2
+Q134,3 spoonful,3,spoon,3
+Q135,1 scoop,1,scoop,1
+Q136,2 scoop,2,scoop,2
+Q137,3 scoop,3,scoop,3
+Q138,1 bowl soup,1,bowl,1
+Q139,2 bowl soup,2,bowl,2
+Q140,1 mug,1,mug,1
+Q141,2 mug,2,mug,2
+Q142,half mug,0.5,mug,0.5
+Q143,1 bottle,1,bottle,1
+Q144,half bottle,0.5,bottle,0.5
+Q145,1 packet small,1,packet,0.5
+Q146,1 packet medium,1,packet,1
+Q147,1 packet large,1,packet,1.5
+Q148,1 handful nuts,1,handful,1
+Q149,2 handful nuts,2,handful,2
+Q150,3 handful nuts,3,handful,3

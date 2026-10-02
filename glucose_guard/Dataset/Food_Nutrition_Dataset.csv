@@ -1,0 +1,509 @@
+Food_ID,Food_Name,Serving_Size,Weight_g,Carbohydrates_g,Protein_g,Fat_g,Fiber_g,Calories_kcal,Glycemic_Index
+F001,Roti,1 piece,40,18,3,1,2,120,Medium
+F002,Rice,1 bowl,150,45,4,1,1,200,High
+F003,Dal,1 bowl,150,30,9,2,7,170,Low
+F004,Spicy Curry,1 plate,200,20,5,10,5,250,Medium
+F005,Paneer Curry,1 bowl,180,12,18,15,2,310,Low
+F006,Rajma,1 bowl,150,32,10,2,8,180,Low
+F007,Chole,1 bowl,150,35,10,5,8,220,Medium
+F008,Poha,1 plate,200,40,5,4,3,250,Medium
+F009,Upma,1 bowl,200,35,6,5,3,230,Medium
+F010,Idli,2 pieces,100,24,4,1,1,150,High
+F011,Dosa,1 piece,120,30,5,4,2,180,Medium
+F012,Sambar,1 bowl,150,15,6,2,4,120,Low
+F013,Banana,1 medium,120,27,1,0,3,105,Medium
+F014,Apple,1 medium,180,25,1,0,4,95,Low
+F015,Milk,1 glass,250,12,8,8,0,150,Low
+F016,Curd,1 bowl,200,8,7,8,0,120,Low
+F017,Buttermilk,1 glass,250,6,3,2,0,45,Low
+F018,Lassi (Plain),1 glass,250,20,7,6,1,170,Medium
+F019,Oats Porridge,1 bowl,200,27,6,4,4,180,Low
+F020,Cornflakes,1 bowl,40,34,3,0.5,1,150,High
+F021,Bread (Brown),2 slices,60,28,6,2,4,160,Medium
+F022,Bread (White),2 slices,60,30,5,2,2,165,High
+F023,Peanut Butter,2 tbsp,32,7,8,16,2,188,Low
+F024,Boiled Egg,1 egg,50,1,6,5,0,78,Low
+F025,Omelette,2 eggs,100,2,12,10,0,155,Low
+F026,Chicken Curry,1 bowl,200,8,25,15,1,280,Low
+F027,Grilled Chicken,100 g,100,0,31,4,0,165,Low
+F028,Fish Curry,1 bowl,200,6,24,12,1,230,Low
+F029,Grilled Fish,100 g,100,0,26,3,0,140,Low
+F030,Mutton Curry,1 bowl,200,5,22,20,1,310,Low
+F031,Soybean Curry,1 bowl,180,18,16,8,6,210,Low
+F032,Tofu,100 g,100,3,8,5,1,80,Low
+F033,Sprouts Salad,1 bowl,150,18,10,1,6,120,Low
+F034,Cucumber Salad,1 bowl,100,4,1,0,1,20,Low
+F035,Tomato Salad,1 bowl,100,5,1,0,2,22,Low
+F036,Cabbage Sabzi,1 bowl,150,10,3,4,4,90,Low
+F037,Bhindi Sabzi,1 bowl,150,12,3,5,5,110,Low
+F038,Aloo Sabzi,1 bowl,150,28,3,6,4,180,Medium
+F039,Palak Paneer,1 bowl,180,10,12,14,4,220,Low
+F040,Mixed Vegetable Curry,1 bowl,180,18,5,7,5,170,Low
+F041,Khichdi,1 bowl,200,40,8,4,4,240,Medium
+F042,Lemon Rice,1 bowl,180,42,5,6,2,260,Medium
+F043,Jeera Rice,1 bowl,180,44,4,5,1,250,High
+F044,Vegetable Pulao,1 bowl,200,48,6,7,3,290,Medium
+F045,Biryani (Veg),1 bowl,250,55,8,10,3,360,High
+F046,Biryani (Chicken),1 bowl,250,50,18,14,2,420,High
+F047,Pav Bhaji,1 plate,300,65,10,16,6,450,High
+F048,Vada Pav,1 piece,180,42,8,18,4,350,High
+F049,Samosa,1 piece,100,32,5,15,3,260,High
+F050,Kachori,1 piece,90,30,5,14,2,250,High
+F051,Bhel Puri,1 plate,150,45,6,8,5,280,Medium
+F052,Sev Puri,1 plate,180,40,5,12,4,320,High
+F053,Pani Puri,6 pieces,180,36,5,8,2,220,High
+F054,Ragda Pattice,1 plate,250,55,10,12,6,380,High
+F055,Dhokla,4 pieces,120,28,8,3,2,180,Medium
+F056,Thepla,2 pieces,100,35,6,7,5,240,Medium
+F057,Handvo,1 piece,150,30,9,6,4,220,Medium
+F058,Sabudana Khichdi,1 bowl,200,55,3,10,2,320,High
+F059,Misal Pav,1 plate,300,60,12,14,8,430,High
+F060,Bhakri (Jowar),1 piece,60,28,3,1,4,140,Medium
+F061,Bhakri (Bajra),1 piece,60,27,4,2,5,145,Low
+F062,Ragi Roti,1 piece,50,22,3,1,3,115,Low
+F063,Makai Roti,1 piece,60,30,4,2,3,155,Medium
+F064,Moong Dal Chilla,2 pieces,150,24,12,5,4,210,Low
+F065,Uttapam,1 piece,180,38,7,5,3,250,Medium
+F066,Masala Dosa,1 piece,180,42,7,9,3,320,High
+F067,Pesarattu,2 pieces,180,28,12,4,5,220,Low
+F068,Medu Vada,2 pieces,120,24,6,12,2,280,Medium
+F069,Vegetable Sandwich,1 sandwich,180,38,8,7,5,260,Medium
+F070,Stuffed Paratha,1 piece,150,40,8,12,4,320,Medium
+F071,Aloo Paratha,1 piece,150,42,7,13,4,340,High
+F072,Methi Paratha,1 piece,140,35,7,9,5,280,Medium
+F073,Moong Dal Khichdi,1 bowl,200,38,10,4,5,230,Low
+F074,Besan Chilla,2 pieces,150,20,11,6,4,200,Low
+F075,Vegetable Soup,1 bowl,250,12,4,2,3,80,Low
+F076,Fruit Salad,1 bowl,200,30,2,1,5,140,Low
+F077,Roasted Peanuts,50 g,50,8,13,24,4,290,Low
+F078,Coconut Water,1 glass,250,9,1,0,1,45,Low
+F079,Mango,1 medium,200,35,2,1,3,135,Medium
+F080,Orange,1 medium,150,18,1,0,4,75,Low
+F081,Chicken Biryani (Small Plate),1 plate,300,60,22,16,3,500,High
+F082,Egg Biryani,1 bowl,250,48,16,14,2,390,High
+F083,Vegetable Frankie,1 roll,200,45,8,12,4,330,Medium
+F084,Chicken Roll,1 roll,200,35,18,14,3,360,Medium
+F085,Kulcha,1 piece,100,45,8,6,2,260,High
+F086,Naan,1 piece,90,42,9,5,2,250,High
+F087,Tandoori Roti,1 piece,50,22,4,1,3,120,Low
+F088,Chana Masala,1 bowl,180,38,12,6,10,240,Medium
+F089,Green Peas Curry,1 bowl,150,20,7,5,6,150,Low
+F090,Chicken Tikka,6 pieces,150,4,28,8,1,200,Low
+F091,Paneer Tikka,6 pieces,150,10,20,14,2,240,Low
+F092,Mushroom Curry,1 bowl,180,12,6,8,3,150,Low
+F093,Karela Sabzi,1 bowl,150,10,3,5,5,100,Low
+F094,Lauki Sabzi,1 bowl,150,8,2,4,3,80,Low
+F095,Carrot Halwa,1 bowl,150,45,5,15,3,350,High
+F096,Gulab Jamun,2 pieces,100,45,3,10,1,300,High
+F097,Rasgulla,2 pieces,100,35,4,0,0,160,High
+F098,Jalebi,3 pieces,100,55,2,15,1,360,High
+F099,Kheer,1 bowl,200,40,8,10,1,280,Medium
+F100,Shrikhand,1 bowl,150,35,6,12,1,300,High
+F101,Methi Thepla,2 pieces,120,32,7,8,6,260,Medium
+F102,Poori,3 pieces,120,50,8,15,4,380,High
+F103,Bajra Khichdi,1 bowl,220,42,10,5,6,260,Low
+F104,Masoor Dal,1 bowl,150,28,10,2,6,160,Low
+F105,Toor Dal,1 bowl,150,30,9,3,5,170,Low
+F106,Urad Dal,1 bowl,150,25,10,2,6,150,Low
+F107,Green Gram Dal,1 bowl,150,26,11,1,7,155,Low
+F108,Vegetable Pasta,1 plate,250,55,10,8,5,330,Medium
+F109,Macaroni,1 bowl,200,50,8,6,3,300,Medium
+F110,Vermicelli Upma,1 bowl,200,42,7,5,3,240,Medium
+F111,Chana Dal Chilla,2 pieces,150,22,12,5,5,210,Low
+F112,Chicken Soup,1 bowl,250,5,20,4,1,140,Low
+F113,Egg Curry,1 bowl,200,10,18,14,2,240,Low
+F114,Prawn Curry,1 bowl,200,7,22,10,1,210,Low
+F115,Chicken Keema,1 bowl,200,6,26,18,1,300,Low
+F116,Vegetable Momos,6 pieces,180,35,8,5,3,230,Medium
+F117,Chicken Momos,6 pieces,180,30,18,7,2,260,Medium
+F118,Spring Roll,2 pieces,150,38,6,12,3,300,High
+F119,Chaat (Aloo Tikki),1 plate,200,48,8,12,6,350,High
+F120,Masala Corn,1 cup,150,25,5,3,4,150,Medium
+F121,Palak Dal,1 bowl,180,25,11,4,7,190,Low
+F122,Moong Dal Tadka,1 bowl,180,28,12,5,6,210,Low
+F123,Vegetable Dal,1 bowl,180,30,10,4,7,200,Low
+F124,Arhar Dal Fry,1 bowl,180,32,10,6,5,230,Medium
+F125,Chicken Handi,1 bowl,220,7,28,18,1,330,Low
+F126,Butter Chicken,1 bowl,220,12,26,22,1,380,Low
+F127,Fish Fry,2 pieces,150,8,25,15,1,260,Low
+F128,Egg Bhurji,1 plate,150,5,18,14,1,230,Low
+F129,Chicken 65,8 pieces,180,12,24,18,1,320,Medium
+F130,Tandoori Chicken,4 pieces,200,3,35,10,0,240,Low
+F131,Veg Cutlet,2 pieces,150,35,6,12,4,290,Medium
+F132,Cheese Sandwich,1 sandwich,180,32,10,14,3,310,Medium
+F133,Paneer Sandwich,1 sandwich,200,36,14,15,4,340,Medium
+F134,Masala Pav,2 pieces,150,48,7,12,3,320,High
+F135,Frankie Paneer,1 roll,220,42,12,14,4,350,Medium
+F136,Chicken Shawarma,1 roll,250,40,25,12,3,390,Medium
+F137,White Sauce Pasta,1 plate,250,58,12,15,3,420,Medium
+F138,Red Sauce Pasta,1 plate,250,55,10,8,5,350,Medium
+F139,Vegetable Noodles,1 plate,250,60,8,10,4,370,High
+F140,Chicken Noodles,1 plate,250,55,18,12,3,410,High
+F141,Fried Rice Veg,1 plate,250,65,8,12,3,400,High
+F142,Fried Rice Chicken,1 plate,250,60,20,14,2,450,High
+F143,Manchurian Veg,8 pieces,200,35,7,14,3,330,Medium
+F144,Chicken Manchurian,8 pieces,200,28,22,16,2,360,Medium
+F145,Tomato Soup,1 bowl,250,14,3,2,2,90,Low
+F146,Sweet Corn Soup,1 bowl,250,22,5,3,3,130,Medium
+F147,Mushroom Soup,1 bowl,250,10,5,3,2,100,Low
+F148,Beetroot Salad,1 bowl,150,14,3,1,4,80,Low
+F149,Avocado Salad,1 bowl,150,8,2,12,6,160,Low
+F150,Dates,5 pieces,40,30,1,0,3,120,High
+F151,Chicken Biryani (Large Plate),1 plate,400,80,30,22,4,650,High
+F152,Paneer Butter Masala,1 bowl,200,15,16,22,3,360,Low
+F153,Kadhi,1 bowl,200,18,6,8,3,160,Medium
+F154,Kadhi Pakora,1 bowl,250,35,8,14,4,300,Medium
+F155,Gujarati Dal,1 bowl,180,32,9,3,6,190,Medium
+F156,Gujarati Kadhi,1 bowl,200,20,5,7,2,150,Medium
+F157,Dal Makhani,1 bowl,200,30,12,10,8,260,Low
+F158,Palak Chicken,1 bowl,220,8,28,16,3,310,Low
+F159,Chicken Saag,1 bowl,220,10,27,14,4,300,Low
+F160,Keema Pav,1 plate,300,45,22,20,3,500,High
+F161,Bombay Sandwich,1 sandwich,200,42,8,10,4,300,Medium
+F162,Grilled Cheese Toast,2 slices,120,25,9,12,2,250,Medium
+F163,Masala Maggi,1 bowl,200,45,8,14,2,340,High
+F164,Veg Hakka Noodles,1 plate,250,58,9,11,4,390,High
+F165,Chicken Hakka Noodles,1 plate,250,52,20,13,3,430,High
+F166,Chilli Paneer,1 plate,200,18,16,18,2,320,Medium
+F167,Chilli Chicken,1 plate,200,12,24,16,2,330,Low
+F168,Paneer Do Pyaza,1 bowl,200,14,18,18,3,340,Low
+F169,Kaju Curry,1 bowl,200,18,10,24,2,350,Low
+F170,Navratan Korma,1 bowl,200,22,8,18,4,300,Medium
+F171,Veg Kofta Curry,1 bowl,200,25,8,16,4,310,Medium
+F172,Malai Kofta,1 bowl,200,20,10,25,3,390,Medium
+F173,Aloo Gobi Sabzi,1 bowl,180,22,5,7,6,170,Medium
+F174,Palak Corn Curry,1 bowl,180,18,6,9,5,180,Low
+F175,Matar Paneer,1 bowl,200,20,16,18,5,330,Medium
+F176,Karela Juice,1 glass,200,8,1,0,2,40,Low
+F177,Amla Juice,1 glass,200,12,1,0,1,55,Low
+F178,Guava,1 medium,150,20,2,1,7,100,Low
+F179,Papaya,1 bowl,200,22,1,0,5,90,Low
+F180,Pomegranate,1 bowl,150,24,2,1,5,110,Medium
+F181,Vegetable Biryani (Brown Rice),1 bowl,250,48,8,8,5,310,Medium
+F182,Chicken Korma,1 bowl,220,10,27,20,2,360,Low
+F183,Mutton Rogan Josh,1 bowl,220,8,25,22,1,380,Low
+F184,Amritsari Kulcha,1 piece,120,55,10,8,3,320,High
+F185,Chole Bhature,1 plate,350,85,18,25,10,650,High
+F186,Paneer Bhurji,1 bowl,200,10,18,20,2,330,Low
+F187,Masala Omelette,2 eggs,120,4,14,12,1,190,Low
+F188,Chicken Reshmi Kebab,6 pieces,160,3,30,9,1,220,Low
+F189,Hara Bhara Kebab,4 pieces,150,22,8,10,5,230,Medium
+F190,Vegetable Spring Roll,3 pieces,200,45,7,15,4,350,High
+F191,Thukpa (Veg),1 bowl,300,45,8,6,5,270,Medium
+F192,Thukpa (Chicken),1 bowl,300,40,20,8,4,320,Medium
+F193,Idiyappam,3 pieces,150,45,4,1,2,210,High
+F194,Appam,2 pieces,160,38,5,3,2,220,Medium
+F195,Puttu,1 serving,150,42,5,2,5,210,Medium
+F196,Neer Dosa,3 pieces,150,35,5,2,2,190,Medium
+F197,Mysore Pak,2 pieces,80,35,4,18,1,320,High
+F198,Modak,2 pieces,100,45,5,8,2,270,High
+F199,Puran Poli,1 piece,100,45,7,8,5,280,High
+F200,Basundi,1 bowl,150,35,8,18,1,330,High
+F201,Vegetable Paratha,1 piece,150,38,7,10,5,290,Medium
+F202,Chicken Paratha,1 piece,180,42,18,14,4,380,Medium
+F203,Paneer Paratha,1 piece,180,40,14,15,5,360,Medium
+F204,Missi Roti,1 piece,60,25,6,3,5,150,Low
+F205,Lachha Paratha,1 piece,100,45,7,15,3,330,High
+F206,Amritsari Fish,2 pieces,180,12,28,16,1,310,Low
+F207,Chicken Afghani,4 pieces,200,4,32,18,1,300,Low
+F208,Mutton Biryani,1 plate,300,65,25,20,3,550,High
+F209,Falafel Wrap,1 wrap,220,45,12,10,6,330,Medium
+F210,Hummus,3 tbsp,90,14,4,8,3,150,Low
+F211,Vegetable Shawarma,1 roll,250,48,9,11,5,350,Medium
+F212,Egg Roll,1 roll,200,40,14,13,3,340,Medium
+F213,Chicken Burger,1 burger,220,45,22,18,2,450,High
+F214,Veg Burger,1 burger,200,50,10,15,4,380,High
+F215,French Fries,1 serving,150,48,5,17,4,365,High
+F216,Pizza Veg,2 slices,200,50,14,18,3,430,High
+F217,Pizza Chicken,2 slices,220,48,20,20,3,480,High
+F218,Garlic Naan,1 piece,100,45,8,7,2,280,High
+F219,Roomali Roti,1 piece,70,35,5,2,2,180,Medium
+F220,Tandoori Paneer,6 pieces,160,8,22,12,2,230,Low
+F221,Kofta Biryani,1 bowl,250,58,10,15,4,390,High
+F222,Vegetable Stew,1 bowl,200,18,5,8,4,170,Low
+F223,Chicken Stew,1 bowl,250,10,25,12,2,260,Low
+F224,Kerala Parotta,2 pieces,150,50,7,18,3,380,High
+F225,Fish Tikka,6 pieces,160,3,30,7,1,190,Low
+F226,Chicken Pakora,6 pieces,150,20,22,16,2,330,Medium
+F227,Paneer Pakora,6 pieces,150,25,15,18,3,350,Medium
+F228,Vegetable Pakora,6 pieces,150,30,8,15,4,310,Medium
+F229,Dahi Vada,2 pieces,150,28,8,10,3,240,Medium
+F230,Kesar Pista Kulfi,1 serving,100,30,6,12,1,260,High
+F231,Vegetable Handi,1 bowl,200,22,6,9,5,190,Low
+F232,Chicken Tikka Masala,1 bowl,220,14,26,18,2,360,Low
+F233,Paneer Lababdar,1 bowl,200,16,17,20,3,350,Low
+F234,Kashmiri Pulao,1 bowl,220,52,6,8,3,310,Medium
+F235,Tomato Rice,1 bowl,200,45,5,7,3,270,Medium
+F236,Coconut Rice,1 bowl,200,50,5,10,3,320,Medium
+F237,Curd Rice,1 bowl,250,42,8,7,2,270,Medium
+F238,Tamarind Rice,1 bowl,200,48,5,8,3,290,Medium
+F239,Rasam,1 bowl,200,10,3,1,2,60,Low
+F240,Avial,1 bowl,200,15,4,9,6,160,Low
+F241,Vegetable Korma,1 bowl,200,20,6,14,4,260,Medium
+F242,Chicken Vindaloo,1 bowl,220,9,28,16,2,320,Low
+F243,Mutton Keema,1 bowl,200,8,25,22,2,360,Low
+F244,Prawn Masala,1 bowl,200,10,24,14,2,260,Low
+F245,Chicken Chettinad,1 bowl,220,8,30,17,3,340,Low
+F246,Vegetable Chettinad,1 bowl,200,18,7,12,5,250,Medium
+F247,Beef Curry,1 bowl,200,6,26,22,1,370,Low
+F248,Malabar Parotta,2 pieces,160,55,8,20,3,420,High
+F249,Neer Paniyaram,6 pieces,150,35,6,4,2,210,Medium
+F250,Kuzhi Paniyaram,6 pieces,160,38,7,6,3,240,Medium
+F251,Bisi Bele Bath,1 bowl,250,50,10,8,5,330,Medium
+F252,Akki Roti,1 piece,80,35,5,3,4,190,Medium
+F253,Thalipeeth,1 piece,100,32,8,6,5,220,Low
+F254,Sabudana Vada,2 pieces,120,38,5,12,2,280,High
+F255,Kanda Poha,1 plate,220,42,6,5,4,260,Medium
+F256,Misal Pav (Without Extra Pav),1 bowl,250,45,12,10,8,350,Medium
+F257,Masoor Dal Khichdi,1 bowl,220,35,12,4,6,240,Low
+F258,Panchmel Dal,1 bowl,180,28,11,5,7,210,Low
+F259,Gobi Manchurian,8 pieces,200,30,6,16,3,340,Medium
+F260,Hakka Noodles Veg,1 plate,250,58,9,10,4,380,High
+F261,Chicken Fried Momos,6 pieces,200,32,18,12,2,320,Medium
+F262,Tawa Chicken,1 plate,220,5,30,14,1,270,Low
+F263,Chicken Kolhapuri,1 bowl,220,8,28,18,2,340,Low
+F264,Veg Kolhapuri,1 bowl,220,22,7,14,5,280,Medium
+F265,Paneer Chilli Dry,1 plate,200,16,18,20,2,360,Medium
+F266,Cheese Garlic Bread,2 pieces,120,35,8,14,2,300,High
+F267,Makhana Roasted,50 g,50,18,6,2,5,120,Low
+F268,Flaxseed Ladoo,2 pieces,80,20,5,12,5,220,Low
+F269,Ragi Mudde,1 serving,150,35,4,1,5,170,Low
+F270,Jowar Bhakri with Curry,1 plate,200,40,8,8,7,280,Low
+F271,Batata Vada,2 pieces,150,45,6,14,4,330,High
+F272,Chicken Sukka,1 bowl,200,6,30,16,2,310,Low
+F273,Mutton Sukka,1 bowl,200,5,26,22,2,380,Low
+F274,Vegetable Upma,1 bowl,220,38,7,6,4,250,Medium
+F275,Pesarattu Upma,2 pieces,220,35,14,6,6,270,Low
+F276,Neer Dosa with Chutney,3 pieces,180,42,6,5,2,240,Medium
+F277,Chicken Xacuti,1 bowl,220,9,27,19,2,350,Low
+F278,Goan Fish Curry,1 bowl,220,8,24,14,2,260,Low
+F279,Vegetable Appe,6 pieces,180,32,7,5,4,230,Medium
+F280,Moong Dal Halwa,1 bowl,150,45,8,15,3,340,High
+F281,Vegetable Uttapam,1 piece,200,40,8,6,4,260,Medium
+F282,Chicken Sukka Masala,1 bowl,220,7,29,17,2,330,Low
+F283,Paneer Kathi Roll,1 roll,220,44,16,15,4,370,Medium
+F284,Vegetable Kathi Roll,1 roll,200,46,9,12,5,340,Medium
+F285,Rava Dosa,1 piece,150,35,5,8,2,240,High
+F286,Rava Idli,2 pieces,120,28,6,3,2,170,Medium
+F287,Tomato Bath,1 bowl,200,45,6,7,3,280,Medium
+F288,Curd Vada,2 pieces,160,30,9,11,3,260,Medium
+F289,Chicken Cafreal,1 bowl,220,6,30,15,2,300,Low
+F290,Goan Prawn Curry,1 bowl,220,9,23,13,2,250,Low
+F291,Vegetable Manchurian Dry,8 pieces,200,32,7,15,3,340,Medium
+F292,Chicken Lollipop,6 pieces,180,14,25,18,1,330,Medium
+F293,Paneer Steak,1 serving,180,12,22,16,3,260,Low
+F294,Vegetable Seekh Kebab,4 pieces,160,20,9,8,5,220,Medium
+F295,Chicken Seekh Kebab,4 pieces,160,4,30,12,1,250,Low
+F296,Beetroot Paratha,1 piece,150,36,7,10,6,290,Medium
+F297,Spinach Soup,1 bowl,250,8,5,3,4,90,Low
+F298,Vegetable Clear Soup,1 bowl,250,10,4,2,3,70,Low
+F299,Chicken Clear Soup,1 bowl,250,4,22,3,1,130,Low
+F300,Carrot Peas Curry,1 bowl,180,24,6,7,5,190,Medium
+F301,Vegetable Thali,1 plate,400,75,18,20,10,600,High
+F302,Chicken Thali,1 plate,450,70,35,22,8,650,High
+F303,Fish Thali,1 plate,400,65,32,18,8,550,Medium
+F304,Idiyappam with Coconut Milk,1 serving,220,50,6,8,4,300,Medium
+F305,Kootu Curry,1 bowl,180,22,8,6,7,180,Low
+F306,Kerala Sambar,1 bowl,200,18,7,3,5,140,Low
+F307,Pesarattu,2 pieces,180,30,13,4,6,230,Low
+F308,Masala Vada,2 pieces,120,28,7,12,4,260,Medium
+F309,Thayir Sadam,1 bowl,250,45,8,7,2,280,Medium
+F310,Veg Raita,1 bowl,200,10,6,5,2,110,Low
+F311,Chicken Raita,1 bowl,220,12,15,6,2,170,Low
+F312,Methi Malai Matar,1 bowl,200,18,8,15,5,260,Medium
+F313,Palak Corn,1 bowl,180,20,7,8,5,190,Low
+F314,Baingan Bharta,1 bowl,180,15,4,7,6,150,Low
+F315,Tinda Masala,1 bowl,180,12,3,5,4,110,Low
+F316,Drumstick Curry,1 bowl,200,14,5,6,5,140,Low
+F317,Raw Banana Curry,1 bowl,180,28,4,8,6,190,Medium
+F318,Vegetable Stew Kerala Style,1 bowl,220,20,5,10,5,200,Low
+F319,Chicken Cafreal Roll,1 roll,220,38,22,12,3,360,Medium
+F320,Paneer Kathi Roll Spicy,1 roll,230,46,16,17,4,390,Medium
+F321,Beetroot Halwa,1 bowl,150,42,4,12,3,290,High
+F322,Atta Ladoo,2 pieces,80,35,5,10,4,250,High
+F323,Besan Ladoo,2 pieces,80,32,6,14,3,280,High
+F324,Chakli,5 pieces,80,35,5,15,3,300,High
+F325,Namak Para,1 serving,100,45,6,18,2,360,High
+F326,Mathri,3 pieces,90,35,5,16,2,320,High
+F327,Khakhra,2 pieces,80,40,8,5,6,250,Medium
+F328,Fafda,1 plate,100,45,10,18,5,380,High
+F329,Dabeli,1 piece,180,50,7,15,5,350,High
+F330,Maharashtrian Misal Pav,1 plate,350,70,15,16,10,520,High
+F331,Vegetable Dal Tadka,1 bowl,200,32,11,7,8,240,Low
+F332,Chicken Do Pyaza,1 bowl,220,9,27,18,2,340,Low
+F333,Methi Matar Malai,1 bowl,200,20,7,16,4,280,Medium
+F334,Karela Fry,1 bowl,150,12,3,8,6,130,Low
+F335,Stuffed Capsicum,2 pieces,180,18,6,10,5,200,Low
+F336,Tomato Rasam Rice,1 bowl,250,52,7,6,3,300,Medium
+F337,Vegetable Biryani Hyderabadi,1 bowl,250,55,9,12,4,380,High
+F338,Hyderabadi Chicken Biryani,1 plate,300,65,28,18,3,560,High
+F339,Chicken Tandoori Wrap,1 wrap,250,42,25,12,4,370,Medium
+F340,Paneer Shawarma,1 roll,250,45,16,15,4,390,Medium
+F341,Vegetable Falafel Bowl,1 bowl,300,55,14,12,8,380,Medium
+F342,Chicken Caesar Salad Indian Style,1 bowl,250,15,28,12,5,290,Low
+F343,Moong Sprouts Chaat,1 bowl,180,22,12,2,8,160,Low
+F344,Peanut Chikki,2 pieces,60,28,8,12,4,260,Medium
+F345,Til Ladoo,2 pieces,70,30,6,14,5,280,Medium
+F346,Anjeer Barfi,2 pieces,80,38,5,12,4,270,High
+F347,Kaju Katli,4 pieces,80,32,6,18,2,320,High
+F348,Milk Cake,2 pieces,100,42,8,12,1,300,High
+F349,Gajar Matar Sabzi,1 bowl,180,18,5,6,6,150,Low
+F350,Paneer Tawa Masala,1 bowl,220,14,20,18,3,340,Low
+F351,Vegetable Porridge,1 bowl,250,35,8,5,6,220,Low
+F352,Rice Roti,2 pieces,100,42,5,2,3,210,Medium
+F353,Nachni Bhakri,1 piece,60,25,3,1,4,130,Low
+F354,Chana Sundal,1 bowl,150,30,12,4,9,210,Low
+F355,Masala Oats,1 bowl,250,32,8,6,5,220,Low
+F356,Vegetable Dalia,1 bowl,250,38,9,5,7,230,Low
+F357,Broken Wheat Khichdi,1 bowl,220,35,10,4,6,220,Low
+F358,Beetroot Cutlet,2 pieces,150,32,6,10,5,260,Medium
+F359,Paneer Kofta Curry,1 bowl,220,18,15,20,3,360,Medium
+F360,Chicken Chettinad Rice,1 bowl,300,55,25,15,3,470,High
+F361,Methi Rice,1 bowl,200,40,6,6,4,260,Medium
+F362,Peas Pulao,1 bowl,220,46,8,7,5,300,Medium
+F363,Coconut Chutney,3 tbsp,60,8,2,10,2,120,Low
+F364,Peanut Chutney,3 tbsp,60,10,4,12,3,150,Low
+F365,Mint Chutney,3 tbsp,60,5,1,1,2,35,Low
+F366,Tamarind Chutney,3 tbsp,60,18,1,0,1,80,High
+F367,Garlic Chutney,2 tbsp,40,6,2,8,2,100,Low
+F368,Chicken Sandwich,1 sandwich,220,35,24,12,3,360,Medium
+F369,Egg Sandwich,1 sandwich,200,30,16,10,3,290,Medium
+F370,Veg Cheese Roll,1 roll,220,48,12,16,4,390,Medium
+F371,Chicken Cheese Roll,1 roll,250,45,25,18,3,450,Medium
+F372,Tandoori Momos,6 pieces,180,28,16,6,2,240,Medium
+F373,Steamed Rice Noodles,1 bowl,250,50,6,2,2,250,High
+F374,Vegetable Sushi Indian Style,6 pieces,180,35,7,5,3,230,Medium
+F375,Chicken Sushi Indian Style,6 pieces,200,30,18,7,2,270,Medium
+F376,Vegetable Lasagna,1 serving,250,45,12,15,4,380,Medium
+F377,Chicken Lasagna,1 serving,250,40,25,18,3,430,Medium
+F378,Chocolate Milkshake,1 glass,300,45,10,12,2,330,High
+F379,Mango Lassi,1 glass,300,35,8,8,1,240,High
+F380,Protein Smoothie,1 glass,300,25,20,6,5,240,Low
+F381,Vegetable Pesarattu,2 pieces,200,32,13,5,6,240,Low
+F382,Chicken Rassa,1 bowl,220,9,28,17,2,330,Low
+F383,Maharashtrian Bharli Vangi,1 bowl,180,20,4,10,6,190,Medium
+F384,Amti Dal,1 bowl,180,30,9,4,6,190,Medium
+F385,Thalipeeth with Curd,1 serving,200,38,10,8,6,300,Low
+F386,Kothimbir Vadi,6 pieces,150,25,7,12,4,260,Medium
+F387,Maharashtrian Sabudana Vada,2 pieces,130,40,5,14,2,300,High
+F388,Vegetable Misal,1 bowl,250,35,12,8,7,280,Medium
+F389,Chicken Kolhapuri Rice,1 plate,300,60,28,16,3,500,High
+F390,Paneer Tikka Masala,1 bowl,220,15,20,18,3,360,Low
+F391,Vegetable Jalfrezi,1 bowl,200,18,5,8,5,170,Low
+F392,Chicken Jalfrezi,1 bowl,220,10,30,15,3,320,Low
+F393,Vegetable Korma Rice,1 bowl,250,52,8,12,4,360,Medium
+F394,Masala Khichu,1 bowl,200,35,5,2,3,180,Medium
+F395,Rice Bhakri,1 piece,70,32,4,1,3,150,Medium
+F396,Nachni Dosa,1 piece,150,30,6,4,4,200,Low
+F397,Vegetable Rava Upma,1 bowl,220,40,7,7,4,260,Medium
+F398,Chicken Shawarma Plate,1 plate,350,45,35,15,4,480,Medium
+F399,Paneer Frankie Wrap,1 roll,230,48,15,16,4,400,Medium
+F400,Vegetable Pulao with Raita,1 plate,300,55,10,9,5,370,Medium
+F401,Paneer Bhurji Roll,1 roll,220,38,18,16,4,360,Medium
+F402,Vegetable Khandvi,6 pieces,120,18,7,8,4,170,Low
+F403,Patra (Alu Vadi),6 pieces,150,28,6,8,5,230,Medium
+F404,Chana Dal Fry,1 bowl,180,32,11,6,7,240,Medium
+F405,Masala Rice,1 bowl,200,46,6,8,3,290,Medium
+F406,Vegetable Tehri,1 bowl,250,55,8,9,5,360,Medium
+F407,Kashmiri Dum Aloo,1 bowl,200,25,5,15,4,260,Medium
+F408,Shahi Paneer,1 bowl,220,16,16,24,2,390,Low
+F409,Malai Chicken,1 bowl,220,8,30,20,1,350,Low
+F410,Chicken Curry Andhra Style,1 bowl,220,7,28,17,2,320,Low
+F411,Vegetable Kurma,1 bowl,200,22,6,12,5,250,Medium
+F412,Mushroom Masala,1 bowl,180,14,7,10,3,180,Low
+F413,Paneer Pasanda,1 bowl,220,18,17,25,2,410,Low
+F414,Chicken Pesto Pasta Indian Style,1 plate,250,52,24,15,4,430,Medium
+F415,Veg Schezwan Rice,1 plate,250,62,8,14,4,410,High
+F416,Chicken Schezwan Rice,1 plate,250,58,20,15,3,450,High
+F417,Vegetable Fried Momos,6 pieces,180,35,7,10,3,280,Medium
+F418,Chicken Fried Momos,6 pieces,200,32,20,13,2,340,Medium
+F419,Ragi Dosa,1 piece,150,32,6,3,5,190,Low
+F420,Ragi Idli,3 pieces,150,35,7,2,4,200,Low
+F421,Vegetable Sevai,1 bowl,220,45,7,6,3,260,Medium
+F422,Curd Sevai,1 bowl,250,48,8,7,2,290,Medium
+F423,Lemon Sevai,1 bowl,220,44,6,5,3,250,Medium
+F424,Vegetable Sandwich Brown Bread,1 sandwich,200,35,9,6,6,250,Medium
+F425,Chicken Club Sandwich,1 sandwich,250,42,28,18,3,460,Medium
+F426,Egg Paratha,1 piece,180,38,16,14,4,360,Medium
+F427,Chicken Keema Paratha,1 piece,200,45,22,18,4,430,High
+F428,Methi Dal,1 bowl,180,26,10,4,7,190,Low
+F429,Tomato Dal,1 bowl,180,30,10,4,6,200,Low
+F430,Drumstick Sambar,1 bowl,200,18,7,2,5,140,Low
+F431,Pumpkin Sabzi,1 bowl,150,16,2,4,4,100,Low
+F432,Chana Saag,1 bowl,200,35,13,6,10,260,Medium
+F433,Palak Mushroom,1 bowl,200,12,8,10,5,190,Low
+F434,Corn Palak Curry,1 bowl,200,22,7,9,5,210,Medium
+F435,Vegetable Omelette,2 eggs,120,8,14,12,2,200,Low
+F436,Chicken Omelette,2 eggs,150,6,22,15,1,260,Low
+F437,Fish Masala,1 bowl,220,8,26,13,2,250,Low
+F438,Crab Curry,1 bowl,220,6,24,12,1,230,Low
+F439,Vegetable Panki,3 pieces,150,30,5,3,4,180,Medium
+F440,Handvo with Chutney,1 serving,180,35,10,7,5,260,Medium
+F441,Barnyard Millet Khichdi,1 bowl,220,38,9,4,6,230,Low
+F442,Foxtail Millet Upma,1 bowl,220,40,8,5,7,240,Low
+F443,Little Millet Pongal,1 bowl,220,42,9,5,5,250,Medium
+F444,Veg Millet Pulao,1 bowl,250,45,8,7,6,280,Low
+F445,Chicken Millet Biryani,1 bowl,300,50,28,14,5,430,Medium
+F446,Vegetable Quinoa Bowl Indian Style,1 bowl,250,38,10,8,6,280,Low
+F447,Quinoa Khichdi,1 bowl,250,40,12,6,7,300,Low
+F448,Amaranth Roti,1 piece,60,26,5,2,5,150,Low
+F449,Sattu Drink,1 glass,250,18,10,3,5,140,Low
+F450,Sattu Paratha,1 piece,150,35,12,8,6,260,Low
+F451,Vegetable Dalia,1 bowl,250,38,9,5,7,230,Low
+F452,Chicken Dal,1 bowl,200,15,22,8,5,220,Low
+F453,Paneer Tikka Roll,1 roll,220,40,18,14,4,360,Medium
+F454,Vegetable Frankie Cheese,1 roll,220,50,12,16,4,410,Medium
+F455,Egg Bhurji Pav,1 plate,250,45,18,16,3,390,High
+F456,Chicken Pav,1 plate,250,48,25,15,3,430,High
+F457,Vegetable Cutlet Burger,1 burger,220,55,12,18,5,420,High
+F458,Chicken Wrap Whole Wheat,1 wrap,250,38,28,12,5,380,Medium
+F459,Paneer Wrap Whole Wheat,1 wrap,250,42,18,15,5,400,Medium
+F460,Moong Dal Soup,1 bowl,250,20,12,3,6,150,Low
+F461,Masoor Dal Soup,1 bowl,250,22,13,3,7,160,Low
+F462,Chicken Corn Soup,1 bowl,250,18,20,4,2,180,Low
+F463,Vegetable Hot and Sour Soup,1 bowl,250,15,5,4,3,110,Low
+F464,Chicken Hot and Sour Soup,1 bowl,250,12,18,5,2,170,Low
+F465,Vegetable Fried Rice Brown Rice,1 plate,250,55,8,10,5,360,Medium
+F466,Chicken Brown Rice Bowl,1 bowl,300,50,30,12,6,430,Medium
+F467,Palak Roti,2 pieces,100,36,7,2,6,200,Low
+F468,Garlic Roti,2 pieces,100,38,7,5,3,230,Medium
+F469,Multigrain Roti,2 pieces,100,34,8,3,7,210,Low
+F470,Wheat Dosa,1 piece,150,35,6,3,4,210,Medium
+F471,Vegetable Idli,3 pieces,150,32,7,2,3,190,Medium
+F472,Kanchipuram Idli,2 pieces,140,30,6,5,2,220,Medium
+F473,Paneer Idli,3 pieces,160,28,10,6,3,240,Medium
+F474,Ragi Upma,1 bowl,220,35,8,5,6,230,Low
+F475,Vegetable Pongal,1 bowl,250,42,9,7,5,290,Medium
+F476,Ven Pongal,1 bowl,250,45,10,8,4,310,Medium
+F477,Chicken Pongal,1 bowl,250,40,22,10,4,350,Medium
+F478,Vegetable Kurkuri Bhindi,1 plate,180,20,4,14,6,240,Medium
+F479,Stuffed Bhindi,1 bowl,180,18,5,10,6,210,Low
+F480,Stuffed Tomato Curry,1 bowl,180,15,4,8,4,160,Low
+F481,Drumstick Sambar Rice,1 bowl,300,55,10,5,7,320,Medium
+F482,Curd Khichdi,1 bowl,250,40,10,7,4,280,Medium
+F483,Vegetable Handvo,1 piece,150,32,9,7,5,230,Medium
+F484,Moong Dal Dhokla,4 pieces,120,25,10,3,4,170,Low
+F485,Khaman Dhokla,6 pieces,150,35,9,4,3,220,Medium
+F486,Gujarati Farsan Mix,1 plate,150,35,8,15,4,320,High
+F487,Sevai Kheer,1 bowl,200,45,8,10,1,300,High
+F488,Rice Kheer Low Sugar,1 bowl,200,35,7,8,2,250,Medium
+F489,Almond Milk,1 glass,250,10,6,12,2,170,Low
+F490,Walnuts,30 g,30,4,5,20,2,200,Low
+F491,Almonds,30 g,30,6,6,15,4,180,Low
+F492,Chia Seed Pudding,1 bowl,200,18,6,10,8,210,Low
+F493,Peanut Chaat,1 bowl,150,18,12,10,5,220,Low
+F494,Paneer Salad,1 bowl,200,12,20,14,5,240,Low
+F495,Chicken Salad,1 bowl,250,10,35,12,6,280,Low
+F496,Vegetable Pasta Whole Wheat,1 plate,250,50,12,7,8,320,Medium
+F497,Chicken Whole Wheat Pasta,1 plate,250,48,30,10,6,400,Medium
+F498,Ragi Porridge,1 bowl,250,35,8,4,6,220,Low
+F499,Bajra Porridge,1 bowl,250,38,9,5,7,240,Low
+F500,Jowar Upma,1 bowl,220,40,8,6,7,260,Low
+
+
+
+
+
+
+
+

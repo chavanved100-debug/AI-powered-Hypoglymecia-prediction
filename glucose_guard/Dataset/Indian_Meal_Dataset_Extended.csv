@@ -1,0 +1,2001 @@
+Meal_ID,Meal_Name,Food_Items,Total_Carbohydrates_g,Total_Protein_g,Total_Fat_g,Total_Fiber_g,Total_Calories_kcal,Glycemic_Load
+M001,Simple Lunch,2 Roti + 1 Bowl Dal + 1 Bowl Mixed Vegetable Curry,66,20,10,12,530,Medium
+M002,Rice Dal Meal,1 Bowl Rice + 1 Bowl Dal + Salad,80,14,4,8,400,High
+M003,Roti Paneer Meal,3 Roti + 1 Bowl Paneer Curry,66,30,18,8,700,Medium
+M004,South Indian Breakfast,2 Idli + 1 Bowl Sambar,39,10,4,5,270,Medium
+M005,Dosa Breakfast,1 Dosa + 1 Bowl Sambar + Chutney,50,12,8,6,380,Medium
+M006,Poha Breakfast,1 Plate Poha + 1 Glass Milk,52,13,12,3,400,Medium
+M007,Upma Breakfast,1 Bowl Upma + 1 Cup Curd,43,13,13,4,350,Medium
+M008,Rajma Rice Meal,1 Bowl Rice + 1 Bowl Rajma + Salad,77,18,5,10,430,High
+M009,Chole Bhature,2 Bhature + 1 Bowl Chole,90,20,25,12,650,High
+M010,Khichdi Meal,1 Bowl Khichdi + 1 Bowl Curd,48,15,8,6,380,Medium
+M011,Biryani Meal,1 Bowl Chicken Biryani + Raita,55,25,16,4,520,High
+M012,Veg Pulao Meal,1 Bowl Vegetable Pulao + Curd,55,12,12,5,420,Medium
+M013,Maharashtrian Meal,2 Bhakri + Pithla + Salad,65,16,8,12,450,Medium
+M014,Gujarati Thali,2 Roti + Dal + Sabzi + Rice + Curd,110,25,15,15,750,High
+M015,Punjabi Meal,3 Roti + Dal Makhani + Salad,85,24,18,14,650,Medium
+M016,Bengali Meal,Rice + Fish Curry + Dal,75,28,12,6,560,High
+M017,Sabudana Meal,1 Bowl Sabudana Khichdi + Curd,60,8,15,4,400,High
+M018,Misal Pav,1 Plate Misal Pav,60,12,14,8,430,High
+M019,Vada Pav Meal,2 Vada Pav + Tea,90,16,25,8,700,High
+M020,Pav Bhaji Meal,1 Plate Pav Bhaji,65,10,18,6,450,High
+M021,Healthy Breakfast,Oats Porridge + Banana,55,10,6,7,360,Medium
+M022,Fruit Breakfast,Apple + Banana + Milk,65,10,8,7,380,Medium
+M023,Chicken Roti Meal,2 Roti + Chicken Curry,44,35,18,6,520,Medium
+M024,Fish Rice Meal,Rice + Fish Curry + Salad,70,30,10,6,500,High
+M025,Vegetable Thali,2 Roti + Dal + Sabzi + Curd,75,22,14,14,580,Medium
+M026,Aloo Paratha Meal,2 Aloo Paratha + Curd,75,12,22,8,560,High
+M027,Gobi Paratha Meal,2 Gobi Paratha + Pickle + Curd,70,14,18,9,520,Medium
+M028,Methi Paratha Meal,2 Methi Paratha + Curd,60,13,16,10,460,Medium
+M029,Chana Masala Meal,2 Roti + Chana Masala + Salad,72,22,10,14,520,Medium
+M030,Dal Tadka Rice,1 Bowl Rice + Dal Tadka + Salad,78,16,8,9,450,High
+M031,Moong Dal Khichdi,1 Bowl Moong Dal Khichdi + Curd,52,18,7,8,390,Medium
+M032,Vegetable Sandwich,2 Bread Sandwich + Vegetables,48,12,14,6,370,Medium
+M033,Egg Breakfast,2 Boiled Eggs + 2 Bread Slices + Milk,42,24,18,4,450,Medium
+M034,Egg Curry Meal,2 Roti + Egg Curry,50,25,18,6,500,Medium
+M035,Chicken Rice Meal,1 Bowl Rice + Chicken Curry,75,35,15,4,600,High
+M036,Chicken Biryani Large,1 Plate Chicken Biryani + Raita,85,35,22,5,720,High
+M037,Mutton Curry Meal,2 Roti + Mutton Curry,48,32,25,5,620,Medium
+M038,Prawn Rice Meal,Rice + Prawn Curry + Salad,72,28,12,5,520,High
+M039,Veg Fried Rice,1 Plate Vegetable Fried Rice,80,10,15,6,500,High
+M040,Hakka Noodles Veg,1 Plate Veg Hakka Noodles,75,12,18,5,540,High
+M041,Pasta Veg,1 Bowl White Sauce Pasta,70,15,20,5,580,High
+M042,Pasta Tomato Sauce,1 Bowl Tomato Pasta,65,14,12,6,450,Medium
+M043,Chapati Dal Meal,4 Chapati + Dal + Salad,85,24,8,14,560,Medium
+M044,Bhakri Vegetable Meal,2 Bhakri + Vegetable Curry,70,14,12,13,500,Medium
+M045,Jowar Bhakri Meal,2 Jowar Bhakri + Dal,65,18,8,15,470,Medium
+M046,Bajra Roti Meal,2 Bajra Roti + Sabzi,60,15,10,14,450,Medium
+M047,Ragi Dosa Meal,2 Ragi Dosa + Sambar,55,12,8,7,390,Medium
+M048,Uttapam Meal,2 Vegetable Uttapam + Chutney,65,14,10,7,450,Medium
+M049,Medu Vada Breakfast,3 Medu Vada + Sambar,60,15,20,6,520,High
+M050,Poori Bhaji,4 Poori + Potato Bhaji,90,12,25,8,650,High
+M051,Kachori Meal,2 Kachori + Chole,85,18,28,10,700,High
+M052,Samosa Meal,2 Samosa + Chutney,55,8,22,5,450,High
+M053,Dhokla Breakfast,6 Pieces Dhokla + Chutney,45,14,8,5,330,Medium
+M054,Thepla Meal,3 Thepla + Curd,65,16,14,9,480,Medium
+M055,Handvo Meal,2 Pieces Handvo + Chutney,50,12,15,8,400,Medium
+M056,Pesarattu Meal,2 Pesarattu + Chutney,55,18,8,9,390,Medium
+M057,Veg Momos Meal,8 Veg Momos + Sauce,55,12,10,4,350,Medium
+M058,Chicken Momos Meal,8 Chicken Momos,50,22,12,3,400,Medium
+M059,Burger Meal,1 Veg Burger + Fries,85,12,28,6,700,High
+M060,Pizza Meal,2 Pizza Slices,70,20,25,4,650,High
+M061,Healthy Dal Roti,3 Roti + Dal + Salad,70,22,7,14,500,Medium
+M062,Protein Meal,Paneer + Roti + Salad,45,35,20,8,550,Medium
+M063,Tofu Rice Meal,Rice + Tofu Curry,75,25,12,6,530,High
+M064,Soya Chunk Meal,2 Roti + Soya Curry,55,30,10,12,480,Medium
+M065,Sprouts Breakfast,Sprouts Salad + Milk,35,20,8,10,300,Low
+M066,Fruit Bowl,Apple + Papaya + Banana,60,5,2,8,280,Medium
+M067,Museli Breakfast,Muesli + Milk + Nuts,55,15,14,8,420,Medium
+M068,Cornflakes Meal,Cornflakes + Milk,60,12,8,3,360,High
+M069,Peanut Butter Toast,2 Bread + Peanut Butter,45,14,18,5,420,Medium
+M070,Oats Meal,Oats + Milk + Nuts,50,18,15,8,400,Medium
+M071,Curd Rice,1 Bowl Curd Rice,65,12,6,3,380,Medium
+M072,Lemon Rice,1 Bowl Lemon Rice,70,8,12,3,430,High
+M073,Tamarind Rice,1 Bowl Tamarind Rice,75,10,14,4,470,High
+M074,Coconut Rice,1 Bowl Coconut Rice,70,10,18,4,500,High
+M075,Veg Biryani,1 Bowl Vegetable Biryani + Raita,65,14,16,6,480,High
+M076,Korma Roti Meal,2 Roti + Vegetable Korma,55,15,20,7,520,Medium
+M077,Palak Paneer Meal,2 Roti + Palak Paneer,50,28,22,9,600,Medium
+M078,Kadhi Rice Meal,Rice + Kadhi + Salad,75,15,8,5,450,High
+M079,Kadhi Khichdi,1 Bowl Khichdi + Kadhi,60,18,10,8,460,Medium
+M080,Amti Rice Meal,Rice + Maharashtrian Amti Dal,75,16,6,7,430,High
+M081,Puran Poli Meal,2 Puran Poli + Milk,90,15,22,6,700,High
+M082,Sheera Breakfast,1 Bowl Sheera + Milk,65,10,18,3,450,High
+M083,Sabudana Vada Meal,4 Sabudana Vada + Curd,70,10,25,5,600,High
+M084,Thalipeeth Meal,2 Thalipeeth + Curd,60,18,15,10,500,Medium
+M085,Masala Rice Meal,1 Bowl Masala Rice + Raita,70,12,12,5,460,High
+M086,Vegetable Soup Meal,Soup + Sandwich,55,15,10,8,380,Medium
+M087,Chicken Soup Meal,Chicken Soup + Bread,40,25,8,3,350,Medium
+M088,Grilled Chicken Meal,Grilled Chicken + Salad + Roti,45,40,12,8,520,Medium
+M089,Fish Fry Meal,Fish Fry + Rice + Salad,75,32,20,4,620,High
+M090,Paneer Tikka Meal,Paneer Tikka + Roti,45,30,18,6,520,Medium
+M091,Vegetable Cutlet Meal,3 Vegetable Cutlet + Chutney,60,10,18,7,450,High
+M092,Besan Chilla Meal,3 Besan Chilla + Curd,45,22,12,10,430,Medium
+M093,Moong Chilla Meal,3 Moong Chilla + Chutney,40,24,8,12,390,Low
+M094,Rajma Roti Meal,3 Roti + Rajma Curry,80,24,10,16,580,Medium
+M095,Lobia Rice Meal,Rice + Lobia Curry,75,20,8,14,520,High
+M096,Vegetable Porridge,Dalia Vegetable Porridge,50,14,6,10,330,Medium
+M097,Dalia Milk Meal,Sweet Dalia + Milk,55,14,10,6,390,Medium
+M098,Idiyappam Meal,3 Idiyappam + Vegetable Curry,70,12,10,5,450,High
+M099,Pongal Meal,1 Bowl Ven Pongal + Sambar,55,14,12,6,420,Medium
+M100,Full Indian Dinner,3 Roti + Dal + Sabzi + Curd,85,28,15,16,650,Medium
+M101,Vegetable Dal Khichdi,1 Bowl Vegetable Khichdi + Curd,55,18,8,9,400,Medium
+M102,Masoor Dal Roti Meal,3 Roti + Masoor Dal + Salad,75,23,8,15,540,Medium
+M103,Palak Dal Rice,Rice + Palak Dal + Salad,70,18,7,10,460,High
+M104,Chole Rice Meal,1 Bowl Rice + Chole Curry + Salad,85,20,8,14,570,High
+M105,Paneer Rice Meal,Rice + Paneer Curry + Salad,75,28,18,7,620,High
+M106,Methi Dal Roti,3 Roti + Methi Dal,70,22,9,14,520,Medium
+M107,Karela Sabzi Meal,2 Roti + Karela Sabzi + Dal,65,20,10,15,500,Medium
+M108,Lauki Dal Meal,2 Roti + Lauki Dal + Salad,60,18,7,13,430,Medium
+M109,Baingan Bharta Meal,3 Roti + Baingan Bharta,70,15,12,11,500,Medium
+M110,Mixed Veg Curry Meal,2 Roti + Mixed Vegetable Curry + Curd,60,18,14,10,480,Medium
+M111,Tomato Rice Meal,1 Bowl Tomato Rice + Raita,75,12,10,5,450,High
+M112,Curd Roti Meal,3 Roti + Curd + Pickle,65,16,10,8,450,Medium
+M113,Green Moong Dal Meal,3 Roti + Green Moong Dal + Salad,70,24,7,16,520,Medium
+M114,White Rice Sambar,Rice + Sambar + Coconut Chutney,80,14,10,7,500,High
+M115,Rava Idli Meal,3 Rava Idli + Sambar,60,12,8,5,420,Medium
+M116,Masala Dosa Meal,1 Masala Dosa + Sambar + Chutney,70,14,18,6,520,High
+M117,Set Dosa Meal,3 Set Dosa + Sambar,65,14,8,6,430,Medium
+M118,Appam Vegetable Stew,3 Appam + Vegetable Stew,75,12,14,5,500,High
+M119,Kerala Rice Meal,Rice + Vegetable Curry + Dal,85,18,10,12,560,High
+M120,Avial Rice Meal,Rice + Avial + Curd,70,16,12,9,500,High
+M121,Chicken Curry Rice,Rice + Chicken Curry + Salad,78,35,16,5,650,High
+M122,Chicken Tikka Roti,2 Roti + Chicken Tikka,45,38,15,6,520,Medium
+M123,Egg Bhurji Roti,3 Roti + Egg Bhurji,65,28,18,7,560,Medium
+M124,Egg Paratha Meal,2 Egg Paratha + Curd,70,25,22,6,620,High
+M125,Fish Curry Roti,3 Roti + Fish Curry,65,32,14,7,560,Medium
+M126,Prawn Curry Rice,Rice + Prawn Curry,75,30,12,4,540,High
+M127,Soya Biryani,1 Bowl Soya Biryani + Raita,65,25,14,10,520,Medium
+M128,Paneer Bhurji Roti,3 Roti + Paneer Bhurji,70,30,22,8,650,Medium
+M129,Mushroom Curry Meal,2 Roti + Mushroom Curry,55,18,15,9,460,Medium
+M130,Corn Chaat Meal,Corn Chaat + Sprouts + Lemon,45,12,6,8,280,Medium
+M131,Chana Salad Meal,Chana Salad + Curd,40,18,8,12,320,Low
+M132,Moong Sprouts Meal,Sprouts + Paneer + Vegetables,35,25,12,12,350,Low
+M133,Protein Bowl,Paneer + Chickpeas + Salad,40,32,18,14,500,Low
+M134,Quinoa Indian Bowl,Quinoa + Dal + Vegetables,55,22,10,12,450,Medium
+M135,Brown Rice Dal Meal,Brown Rice + Dal + Salad,65,20,6,14,480,Medium
+M136,Ragi Mudde Meal,2 Ragi Balls + Sambar,60,15,5,12,420,Medium
+M137,Jowar Roti Dal,3 Jowar Roti + Dal,70,22,8,16,520,Medium
+M138,Bajra Khichdi,Bajra Khichdi + Curd,55,18,10,14,430,Medium
+M139,Foxtail Millet Meal,Millet Rice + Dal + Vegetables,60,20,8,15,450,Medium
+M140,Little Millet Pongal,Millet Pongal + Sambar,55,16,9,10,410,Medium
+M141,Veg Frankie Roll,2 Vegetable Frankie Rolls,80,14,22,7,620,High
+M142,Paneer Frankie Roll,2 Paneer Frankie Rolls,75,28,25,8,700,High
+M143,Chicken Roll Meal,2 Chicken Rolls,70,32,20,5,650,High
+M144,Cheese Sandwich Meal,2 Cheese Vegetable Sandwich,55,18,22,5,550,Medium
+M145,Grilled Paneer Sandwich,2 Grilled Paneer Sandwich,50,28,20,7,560,Medium
+M146,Veg Pasta Meal,1 Bowl Vegetable Pasta,70,15,16,6,520,High
+M147,Chicken Pasta Meal,1 Bowl Chicken Pasta,65,30,18,5,620,Medium
+M148,Veg Manchurian Rice,Fried Rice + Veg Manchurian,95,12,22,5,700,High
+M149,Chinese Noodles Chicken,Chicken Hakka Noodles,80,28,20,5,650,High
+M150,Indian Balanced Meal,2 Roti + Dal + Paneer + Salad + Curd,75,35,18,18,650,Medium
+M151,Masala Roti Meal,3 Masala Roti + Vegetable Curry + Curd,72,18,14,12,520,Medium
+M152,Drumstick Dal Rice,Rice + Drumstick Dal + Salad,75,18,7,10,470,High
+M153,Vegetable Pesarattu Meal,2 Vegetable Pesarattu + Chutney,50,20,9,10,420,Medium
+M154,Paneer Stuffed Paratha,2 Paneer Stuffed Paratha + Curd,78,24,25,8,650,High
+M155,Beetroot Paratha Meal,2 Beetroot Paratha + Curd,68,15,16,9,500,Medium
+M156,Carrot Peas Pulao,1 Bowl Carrot Peas Pulao + Raita,70,12,10,7,450,High
+M157,Vegetable Handi Meal,2 Roti + Vegetable Handi + Salad,65,16,13,11,490,Medium
+M158,Masoor Dal Rice,Rice + Masoor Dal + Vegetables,76,20,6,13,500,High
+M159,Black Chana Roti Meal,3 Roti + Black Chana Curry,78,23,9,15,550,Medium
+M160,Vegetable Dalia Meal,Dalia + Mixed Vegetables + Curd,52,16,8,11,380,Medium
+M161,Mushroom Rice Meal,Rice + Mushroom Curry + Salad,72,18,12,7,520,High
+M162,Palak Roti Meal,3 Roti + Palak Sabzi + Dal,70,22,8,15,510,Medium
+M163,Capsicum Paneer Meal,2 Roti + Capsicum Paneer Curry,55,30,22,8,580,Medium
+M164,Vegetable Sevai,1 Bowl Vegetable Sevai,65,12,10,5,420,Medium
+M165,Masala Sevai Meal,Vegetable Sevai + Curd,60,14,11,6,430,Medium
+M166,Beefless Soy Keema Meal,2 Roti + Soya Keema,58,30,12,13,500,Medium
+M167,Moong Dal Rice Meal,Rice + Moong Dal + Salad,70,20,5,12,460,Medium
+M168,Vegetable Kofta Meal,2 Roti + Vegetable Kofta Curry,65,15,18,9,520,Medium
+M169,Stuffed Capsicum Meal,Stuffed Capsicum + 2 Roti,60,18,14,10,480,Medium
+M170,Paneer Peas Curry Meal,2 Roti + Matar Paneer,58,28,24,9,600,Medium
+M171,Chicken Keema Roti,3 Roti + Chicken Keema,65,38,18,6,650,Medium
+M172,Chicken Tandoori Meal,Chicken Tandoori + 2 Roti + Salad,45,42,14,7,560,Low
+M173,Chicken Korma Rice,Rice + Chicken Korma,80,35,22,4,700,High
+M174,Egg Fried Rice,1 Plate Egg Fried Rice,82,20,18,5,600,High
+M175,Egg Sandwich Meal,2 Egg Sandwich + Juice,60,25,16,5,500,Medium
+M176,Fish Curry Rice Kerala,Rice + Fish Curry + Vegetables,78,32,14,7,600,High
+M177,Fish Tikka Meal,Fish Tikka + 2 Roti + Salad,45,35,12,6,480,Low
+M178,Prawn Masala Roti,3 Roti + Prawn Masala,65,32,15,7,570,Medium
+M179,Chicken Wrap Meal,2 Chicken Wraps,75,35,20,6,680,High
+M180,Veg Wrap Meal,2 Vegetable Wraps,70,15,18,7,580,High
+M181,Paneer Wrap Meal,2 Paneer Wraps,68,28,22,8,650,High
+M182,Healthy Millet Bowl,Millet + Dal + Vegetables + Curd,58,22,8,15,450,Medium
+M183,Barnyard Millet Meal,Barnyard Millet + Vegetable Curry,60,18,7,14,430,Medium
+M184,Kodo Millet Khichdi,Kodo Millet Khichdi + Curd,55,17,8,13,420,Medium
+M185,Broken Wheat Khichdi,Dalia Khichdi + Vegetables,50,15,6,10,360,Medium
+M186,Vegetable Soup Dinner,Vegetable Soup + Multigrain Toast,48,16,8,9,350,Low
+M187,Lentil Soup Meal,Dal Soup + Bread + Salad,55,20,6,11,400,Medium
+M188,Chickpea Sandwich,Chickpea Sandwich + Curd,60,22,12,10,480,Medium
+M189,Paneer Salad Bowl,Paneer + Vegetables + Sprouts,25,30,18,12,380,Low
+M190,Chicken Salad Bowl,Chicken + Vegetables + Nuts,20,38,18,8,420,Low
+M191,Vegetable Omelette Meal,3 Egg Vegetable Omelette + Bread,40,28,20,4,480,Medium
+M192,Ragi Roti Meal,3 Ragi Roti + Dal + Salad,68,22,7,16,510,Medium
+M193,Jowar Vegetable Meal,2 Jowar Roti + Vegetable Curry,62,15,10,14,450,Medium
+M194,Bajra Khichdi Meal,Bajra Khichdi + Buttermilk,58,18,9,14,440,Medium
+M195,Multigrain Roti Meal,3 Multigrain Roti + Dal,70,24,9,16,540,Medium
+M196,Vegetable Porridge Dinner,Savory Oats Porridge + Vegetables,45,16,8,9,350,Low
+M197,Paneer Bhurji Rice,Rice + Paneer Bhurji + Salad,78,28,18,7,620,High
+M198,Chicken Dal Meal,2 Roti + Chicken Curry + Dal,60,40,16,8,650,Medium
+M199,Traditional Indian Combo,2 Roti + Dal + Sabzi + Rice + Curd,95,26,14,15,680,High
+M200,Balanced Diabetic Meal,2 Roti + Dal + Green Vegetables + Salad,55,24,8,18,450,Low
+M201,Vegetable Dal Fry Meal,3 Roti + Dal Fry + Salad,72,22,9,14,520,Medium
+M202,Spinach Paneer Meal,2 Roti + Palak Paneer + Curd,55,30,20,10,590,Medium
+M203,Vegetable Rajma Bowl,Rajma + Brown Rice + Salad,70,20,7,15,500,Medium
+M204,Moong Dal Roti Meal,3 Roti + Moong Dal + Vegetables,68,24,8,15,510,Medium
+M205,Healthy Chickpea Bowl,Chickpeas + Vegetables + Curd,45,22,10,14,400,Low
+M206,Vegetable Millet Khichdi,Millet Khichdi + Curd,58,18,8,14,430,Medium
+M207,Paneer Tawa Meal,2 Roti + Tawa Paneer + Salad,50,32,22,9,600,Medium
+M208,Vegetable Pulao Protein Meal,Vegetable Pulao + Dal,78,18,8,10,520,High
+M209,Chicken Dal Roti,2 Roti + Chicken Curry + Dal,60,42,18,8,670,Medium
+M210,Healthy Egg Plate,3 Boiled Eggs + 2 Multigrain Bread + Salad,35,28,18,6,430,Low
+M211,Vegetable Sev Tameta Meal,2 Roti + Sev Tameta Curry,65,15,16,9,500,Medium
+M212,Masoor Dal Khichdi,Masoor Dal Khichdi + Curd,52,20,7,12,390,Medium
+M213,Vegetable Handvo Breakfast,2 Handvo Pieces + Curd,50,14,14,8,410,Medium
+M214,Paneer Chole Meal,2 Roti + Paneer Chole Curry,70,30,20,13,620,Medium
+M215,Chicken Salad Wrap,2 Chicken Salad Wraps,65,35,18,7,620,Medium
+M216,Fish Curry Millet Meal,Millet Rice + Fish Curry + Salad,65,32,12,10,540,Medium
+M217,Vegetable Uttapam Meal,3 Vegetable Uttapam + Sambar,75,16,10,8,500,Medium
+M218,Masala Omelette Meal,3 Egg Masala Omelette + 2 Roti,55,30,20,6,560,Medium
+M219,Vegetable Thepla Meal,3 Thepla + Vegetable Curry + Curd,70,18,15,10,530,Medium
+M220,Green Peas Pulao Meal,Green Peas Pulao + Raita,72,14,10,8,470,High
+M221,Chicken Tikka Rice Bowl,Chicken Tikka + Rice + Vegetables,75,38,15,6,650,High
+M222,Vegetable Dal Soup Meal,Dal Soup + Multigrain Toast,50,20,7,10,390,Low
+M223,Paneer Tikka Bowl,Paneer Tikka + Salad + Curd,25,35,22,8,420,Low
+M224,Vegetable Korma Rice,Rice + Vegetable Korma + Salad,80,14,18,8,560,High
+M225,Black Dal Roti Meal,3 Roti + Dal Makhani + Salad,85,25,18,14,650,Medium
+M226,Chicken Keema Rice,Rice + Chicken Keema Curry,80,40,20,5,700,High
+M227,Falafel Indian Bowl,Falafel + Salad + Curd,45,18,14,12,430,Medium
+M228,Vegetable Stuffed Roti,3 Stuffed Vegetable Roti + Curd,75,16,15,11,540,Medium
+M229,Beetroot Dal Rice,Rice + Beetroot Dal + Salad,72,18,7,12,470,High
+M230,Tofu Vegetable Bowl,Tofu + Vegetables + Brown Rice,60,28,12,12,520,Medium
+M231,Chicken Vegetable Soup Meal,Chicken Soup + Whole Wheat Bread,38,30,8,5,360,Low
+M232,Vegetable Dosa Meal,2 Vegetable Dosa + Sambar,65,14,10,7,450,Medium
+M233,Curd Millet Bowl,Millet + Curd + Nuts,55,16,14,10,430,Medium
+M234,Peas Paneer Meal,2 Roti + Matar Paneer + Salad,60,28,22,9,580,Medium
+M235,Vegetable Dalia Bowl,Dalia + Vegetables + Curd,50,16,8,11,380,Medium
+M236,Chicken Multigrain Roti,3 Multigrain Roti + Chicken Curry,70,38,18,12,650,Medium
+M237,Vegetable Rice Bowl,Rice + Mixed Vegetables + Dal,80,18,8,10,520,High
+M238,Protein Sprouts Bowl,Sprouts + Paneer + Vegetables,35,30,12,14,400,Low
+M239,Vegetable Corn Bowl,Corn + Beans + Vegetables + Curd,55,18,8,12,420,Medium
+M240,Traditional South Meal,Rice + Sambar + Rasam + Vegetables,85,16,8,12,540,High
+M241,Chicken Coconut Curry Meal,2 Roti + Chicken Coconut Curry,55,36,24,6,650,Medium
+M242,Vegetable Ragi Meal,Ragi Roti + Dal + Vegetables,65,22,7,16,500,Medium
+M243,Pumpkin Dal Meal,2 Roti + Pumpkin Dal + Salad,60,20,6,14,450,Low
+M244,Vegetable Soup Bowl,Vegetable Soup + Paneer Toast,40,22,12,9,390,Low
+M245,Chicken Egg Rice Meal,Rice + Chicken + Egg Curry,82,38,20,5,720,High
+M246,Paneer Corn Wrap,2 Paneer Corn Wraps,75,28,20,8,650,High
+M247,Vegetable Idli Meal,4 Vegetable Idli + Sambar,60,14,6,7,420,Medium
+M248,Healthy Roti Bowl,2 Roti + Dal + Vegetables + Sprouts,58,26,8,17,470,Low
+M249,Fiber Rich Indian Meal,Jowar Roti + Dal + Green Vegetables,65,24,7,18,500,Low
+M250,High Protein Indian Plate,Paneer + Dal + Roti + Salad,55,38,18,16,600,Medium
+M251,Vegetable Dal Tadka Meal,3 Roti + Dal Tadka + Green Salad,70,22,9,15,520,Medium
+M252,Paneer Vegetable Bowl,Paneer + Mixed Vegetables + Brown Rice,65,32,18,10,560,Medium
+M253,Chicken Roti Salad Meal,2 Roti + Chicken Curry + Salad,48,38,15,8,540,Medium
+M254,Vegetable Sambar Rice,Rice + Vegetable Sambar + Curd,82,16,7,9,500,High
+M255,Moong Dal Chilla Meal,4 Moong Dal Chilla + Curd,50,28,10,13,460,Low
+M256,Vegetable Paniyaram Meal,8 Vegetable Paniyaram + Sambar,65,14,10,7,440,Medium
+M257,Paneer Lababdar Meal,2 Roti + Paneer Lababdar + Salad,58,30,24,8,620,Medium
+M258,Chicken Pepper Rice,Rice + Pepper Chicken Curry,78,36,18,5,650,High
+M259,Vegetable Falooda Meal,Fruit Falooda + Nuts,75,10,15,6,480,High
+M260,Masala Khichdi Meal,Vegetable Masala Khichdi + Curd,55,18,9,10,420,Medium
+M261,Vegetable Biryani Protein,Vegetable Biryani + Dal,80,20,12,9,560,High
+M262,Egg Bhurji Rice,Rice + Egg Bhurji + Salad,75,26,16,5,570,High
+M263,Paneer Paratha Meal,2 Paneer Paratha + Curd,80,25,25,8,680,High
+M264,Vegetable Khandvi Meal,Khandvi + Green Chutney + Curd,40,16,10,5,350,Low
+M265,Chicken Curry Millet Bowl,Millet + Chicken Curry + Vegetables,60,40,15,12,580,Medium
+M266,Vegetable Dalia Upma,Dalia Upma + Curd,55,15,8,10,390,Medium
+M267,Tofu Roti Meal,3 Roti + Tofu Curry + Salad,65,30,12,14,520,Medium
+M268,Fish Tikka Rice Bowl,Fish Tikka + Rice + Vegetables,70,35,12,6,560,High
+M269,Vegetable Appe Meal,10 Vegetable Appe + Chutney,60,14,9,7,420,Medium
+M270,Chicken Sandwich Meal,2 Chicken Sandwich + Salad,55,35,18,6,550,Medium
+M271,Lentil Rice Bowl,Brown Rice + Mixed Lentils + Vegetables,68,22,7,15,500,Medium
+M272,Vegetable Roti Wrap,2 Vegetable Roti Wraps,70,16,14,9,540,Medium
+M273,Pumpkin Vegetable Curry Meal,2 Roti + Pumpkin Curry + Dal,62,20,8,14,480,Medium
+M274,Paneer Spinach Rice,Rice + Spinach Paneer Curry,72,30,20,8,620,High
+M275,Chicken Saag Meal,2 Roti + Chicken Saag,50,40,18,10,590,Medium
+M276,Vegetable Oats Khichdi,Oats Khichdi + Curd,45,18,8,12,380,Low
+M277,Chickpea Rice Bowl,Chickpeas + Rice + Vegetables,85,22,8,16,560,High
+M278,Vegetable Poha Protein,Poha + Sprouts + Peanuts,60,18,14,8,450,Medium
+M279,Paneer Corn Rice,Rice + Paneer Corn Curry,80,28,20,7,640,High
+M280,Egg Curry Rice,Rice + Egg Curry + Salad,78,28,18,5,610,High
+M281,Vegetable Besan Roti,3 Besan Roti + Vegetable Curry,65,24,12,14,520,Medium
+M282,Chicken Seekh Meal,Chicken Seekh Kebab + 2 Roti + Salad,45,42,16,7,560,Low
+M283,Vegetable Litti Chokha,3 Litti + Chokha,85,18,20,12,650,High
+M284,Paneer Litti Meal,3 Paneer Litti + Chokha,90,28,22,10,720,High
+M285,Vegetable Rice Dal Combo,Rice + Dal + Mixed Vegetables,82,20,7,12,520,High
+M286,Chicken Stew Meal,Chicken Stew + Appam,65,35,18,6,580,Medium
+M287,Vegetable Appam Meal,3 Appam + Vegetable Curry,78,14,12,6,510,High
+M288,Paneer Shawarma Indian Style,Paneer Wrap + Salad,70,28,20,8,620,High
+M289,Chicken Shawarma Meal,Chicken Wrap + Salad,65,38,18,7,600,High
+M290,Vegetable Naan Meal,2 Naan + Vegetable Curry,95,16,18,8,680,High
+M291,Paneer Naan Meal,2 Naan + Paneer Curry,100,32,25,8,760,High
+M292,Chicken Naan Meal,2 Naan + Chicken Curry,95,40,22,6,750,High
+M293,Vegetable Raita Bowl,Vegetable Raita + Roti + Dal,55,20,8,12,450,Medium
+M294,Protein Khichdi Bowl,Dal Khichdi + Paneer + Salad,50,32,12,14,520,Low
+M295,Vegetable Quinoa Meal,Quinoa + Vegetables + Dal,55,24,10,14,470,Medium
+M296,Chicken Quinoa Bowl,Quinoa + Chicken + Vegetables,50,42,14,10,560,Low
+M297,Paneer Millet Bowl,Millet + Paneer + Vegetables,58,30,16,15,540,Medium
+M298,Vegetable Dal Soup Dinner,Dal Soup + Roti + Salad,60,22,7,16,460,Low
+M299,High Fiber Indian Plate,Jowar Roti + Dal + Vegetables + Curd,62,26,8,20,520,Low
+M300,Balanced Protein Dinner,2 Roti + Dal + Paneer + Green Vegetables,60,36,15,17,590,Medium
+M301,Vegetable Dal Roti Combo,3 Roti + Vegetable Dal + Salad,72,22,8,15,520,Medium
+M302,Paneer Tikka Rice Bowl,Rice + Paneer Tikka + Vegetables,75,30,20,8,620,High
+M303,Chicken Dal Rice Meal,Rice + Chicken Curry + Dal,82,42,18,7,700,High
+M304,Vegetable Makhani Meal,2 Roti + Vegetable Makhani + Curd,65,18,16,10,520,Medium
+M305,Masala Oats Breakfast,Masala Oats + Vegetables + Curd,45,16,8,10,370,Low
+M306,Vegetable Rava Upma,1 Bowl Rava Upma + Coconut Chutney,55,12,12,5,420,Medium
+M307,Paneer Chilla Meal,3 Paneer Besan Chilla + Curd,50,28,15,12,480,Low
+M308,Chicken Chilla Meal,3 Chicken Stuffed Chilla,45,35,14,8,520,Low
+M309,Vegetable Dal Dosa,2 Vegetable Dosa + Sambar,68,16,10,7,470,Medium
+M310,Paneer Dosa Meal,1 Paneer Dosa + Sambar,65,24,18,6,560,High
+M311,Chicken Dosa Meal,1 Chicken Dosa + Chutney,70,32,20,5,620,High
+M312,Vegetable Sevai Meal,Vegetable Sevai + Curd + Salad,60,15,10,7,430,Medium
+M313,Moong Dal Soup Meal,Moong Dal Soup + Multigrain Bread,45,22,6,12,380,Low
+M314,Paneer Salad Wrap,2 Paneer Salad Wraps,60,30,18,10,560,Medium
+M315,Chicken Salad Wrap,2 Whole Wheat Chicken Wraps,55,38,16,9,590,Medium
+M316,Vegetable Frankie Meal,2 Vegetable Frankie Rolls,78,15,20,8,620,High
+M317,Egg Frankie Meal,2 Egg Frankie Rolls,72,28,22,6,650,High
+M318,Paneer Frankie Meal,2 Paneer Frankie Rolls,75,30,24,8,700,High
+M319,Vegetable Dal Bowl,Dal + Brown Rice + Vegetables,65,22,7,15,480,Medium
+M320,Chicken Brown Rice Meal,Brown Rice + Chicken Curry + Salad,70,40,14,12,600,Medium
+M321,Vegetable Millet Pulao,Millet Pulao + Curd,58,16,9,13,420,Medium
+M322,Chicken Millet Bowl,Millet + Chicken + Vegetables,60,38,15,12,560,Medium
+M323,Paneer Millet Dinner,Millet + Paneer Curry + Salad,62,30,18,14,550,Medium
+M324,Vegetable Lentil Bowl,Mixed Lentils + Vegetables + Curd,50,24,8,16,430,Low
+M325,Chicken Lentil Bowl,Chicken + Lentils + Vegetables,45,42,12,14,520,Low
+M326,Vegetable Sattu Meal,Sattu Paratha + Curd + Salad,65,24,12,14,520,Medium
+M327,Sattu Drink Breakfast,Sattu Drink + Sprouts + Fruit,40,20,6,10,350,Low
+M328,Vegetable Methi Roti,3 Methi Roti + Dal,68,22,9,15,510,Medium
+M329,Palak Dal Rice,Rice + Spinach Dal + Salad,75,20,7,12,500,High
+M330,Vegetable Curry Rice,Rice + Mixed Vegetable Curry,80,14,12,8,540,High
+M331,Paneer Butter Masala Meal,2 Roti + Paneer Butter Masala,65,30,28,7,680,Medium
+M332,Chicken Butter Masala Meal,2 Roti + Chicken Butter Masala,60,38,25,6,700,Medium
+M333,Fish Curry Millet Meal,Millet + Fish Curry + Vegetables,62,34,12,11,540,Medium
+M334,Egg Curry Roti Meal,3 Roti + Egg Curry,68,28,18,7,570,Medium
+M335,Vegetable Handi Rice,Rice + Vegetable Handi + Raita,78,15,16,8,560,High
+M336,Chicken Handi Meal,2 Roti + Chicken Handi,55,40,22,6,650,Medium
+M337,Vegetable Biryani Bowl,Vegetable Biryani + Curd,70,15,14,7,520,High
+M338,Chicken Biryani Healthy,Chicken Biryani + Salad + Raita,75,38,18,6,650,High
+M339,Paneer Biryani Meal,Paneer Biryani + Raita,80,28,22,6,670,High
+M340,Vegetable Rajma Bowl,Rajma + Quinoa + Vegetables,55,22,8,17,450,Medium
+M341,Chicken Quinoa Meal,Quinoa + Chicken + Vegetables,50,42,14,11,570,Low
+M342,Paneer Quinoa Bowl,Quinoa + Paneer + Vegetables,55,32,16,12,520,Medium
+M343,Vegetable Thali Healthy,2 Roti + Dal + Sabzi + Salad + Curd,70,25,10,18,520,Low
+M344,Protein Rich Thali,Roti + Paneer + Dal + Salad,58,38,18,17,600,Medium
+M345,Low Carb Indian Meal,Paneer + Vegetables + Salad + Curd,25,35,20,12,420,Low
+M346,High Fiber Dinner,Jowar Roti + Dal + Green Vegetables,65,24,8,20,510,Low
+M347,Diabetic Friendly Bowl,Brown Rice + Dal + Vegetables + Salad,60,22,7,18,460,Low
+M348,Balanced Lunch Bowl,2 Roti + Dal + Paneer + Vegetables,62,32,14,16,560,Medium
+M349,Traditional Protein Meal,Roti + Dal + Egg Curry + Salad,65,35,16,14,590,Medium
+M350,Complete Indian Nutrition Meal,Roti + Dal + Chicken/Paneer + Vegetables + Curd,70,40,18,18,650,Medium
+M351,Vegetable Dal Paratha,2 Vegetable Paratha + Dal + Curd,75,22,16,12,560,Medium
+M352,Paneer Vegetable Roti,3 Roti + Paneer Vegetable Curry,68,32,22,10,620,Medium
+M353,Chicken Vegetable Bowl,Chicken + Brown Rice + Vegetables,65,40,14,12,580,Medium
+M354,Moong Dal Rice Bowl,Rice + Moong Dal + Vegetables + Salad,72,20,6,14,480,Medium
+M355,Vegetable Rajma Roti,3 Roti + Rajma Curry + Salad,82,24,10,16,570,Medium
+M356,Paneer Spinach Roti,2 Roti + Spinach Paneer Curry,55,30,20,11,580,Medium
+M357,Chicken Spinach Meal,2 Roti + Chicken Spinach Curry,50,38,18,10,560,Medium
+M358,Vegetable Chana Bowl,Chana + Vegetables + Curd,45,20,8,15,390,Low
+M359,Protein Poha Meal,Poha + Sprouts + Peanuts + Curd,58,20,14,9,460,Medium
+M360,Vegetable Idli Sambar,5 Idli + Sambar + Chutney,70,16,7,8,470,Medium
+M361,Rice Dal Vegetable Meal,Rice + Dal + Mixed Vegetables,85,20,7,12,540,High
+M362,Chicken Tawa Rice,Rice + Tawa Chicken + Salad,78,38,16,6,640,High
+M363,Paneer Tawa Rice,Rice + Tawa Paneer + Vegetables,80,30,20,8,650,High
+M364,Vegetable Stuffed Paratha,3 Stuffed Vegetable Paratha + Curd,85,18,18,10,620,High
+M365,Chicken Stuffed Paratha,2 Chicken Stuffed Paratha + Curd,70,35,22,8,650,High
+M366,Paneer Stuffed Roti,3 Paneer Stuffed Roti + Salad,72,30,20,11,600,Medium
+M367,Vegetable Kadhi Meal,2 Roti + Vegetable Kadhi + Salad,65,18,10,12,480,Medium
+M368,Kadhi Bajra Roti,2 Bajra Roti + Kadhi + Vegetables,62,20,10,15,470,Medium
+M369,Chicken Kadhi Rice,Rice + Chicken Kadhi,78,35,15,5,620,High
+M370,Vegetable Dal Fry Rice,Rice + Dal Fry + Vegetables,80,22,8,11,520,High
+M371,Paneer Dal Combo,2 Roti + Dal + Paneer Curry,65,35,18,15,600,Medium
+M372,Chicken Dal Combo,2 Roti + Chicken Curry + Dal,58,42,16,10,650,Medium
+M373,Vegetable Kuttu Meal,Kuttu Roti + Vegetable Curry + Curd,60,18,12,14,480,Medium
+M374,Amaranth Roti Meal,3 Rajgira Roti + Dal + Salad,65,24,9,16,520,Medium
+M375,Rajma Quinoa Bowl,Quinoa + Rajma + Vegetables,58,24,8,18,480,Medium
+M376,Chicken Quinoa Salad,Quinoa + Chicken + Vegetables,45,42,12,10,540,Low
+M377,Paneer Quinoa Salad,Quinoa + Paneer + Vegetables,50,32,16,12,520,Medium
+M378,Vegetable Barley Meal,Barley + Dal + Vegetables,55,20,7,18,430,Low
+M379,Chicken Barley Bowl,Barley + Chicken + Vegetables,50,38,12,15,520,Low
+M380,Vegetable Lentil Khichdi,Mixed Lentil Khichdi + Curd,55,22,8,14,420,Medium
+M381,Chicken Khichdi Meal,Chicken Khichdi + Salad,60,38,12,10,560,Medium
+M382,Paneer Khichdi Meal,Paneer Khichdi + Curd,58,28,16,12,520,Medium
+M383,Vegetable Soup Roti,Vegetable Soup + 2 Roti + Salad,55,18,7,14,420,Low
+M384,Chicken Soup Roti,Chicken Soup + 2 Roti,50,35,10,7,480,Low
+M385,Paneer Soup Meal,Paneer Soup + Multigrain Bread,40,30,14,8,430,Low
+M386,Vegetable Pasta Healthy,Whole Wheat Pasta + Vegetables,65,18,12,10,500,Medium
+M387,Chicken Pasta Healthy,Whole Wheat Pasta + Chicken,60,35,14,8,600,Medium
+M388,Paneer Pasta Meal,Whole Wheat Pasta + Paneer,68,28,18,9,620,High
+M389,Vegetable Noodles Healthy,Whole Wheat Noodles + Vegetables,70,15,10,8,500,Medium
+M390,Chicken Noodles Healthy,Whole Wheat Noodles + Chicken,72,32,14,7,620,High
+M391,Vegetable Wrap Healthy,Whole Wheat Vegetable Wrap,55,16,10,9,450,Medium
+M392,Chicken Wrap Healthy,Whole Wheat Chicken Wrap,50,35,12,8,520,Medium
+M393,Paneer Wrap Healthy,Whole Wheat Paneer Wrap,58,28,16,10,560,Medium
+M394,Vegetable Burger Healthy,Whole Wheat Veg Burger + Salad,70,18,15,9,550,Medium
+M395,Chicken Burger Healthy,Whole Wheat Chicken Burger,65,35,18,7,650,High
+M396,Paneer Burger Healthy,Whole Wheat Paneer Burger,68,28,20,8,620,High
+M397,Vegetable Rice Bowl,Brown Rice + Vegetables + Dal,65,20,6,16,470,Medium
+M398,Chicken Rice Bowl Healthy,Brown Rice + Chicken + Vegetables,62,40,12,13,560,Medium
+M399,Paneer Rice Bowl Healthy,Brown Rice + Paneer + Vegetables,65,30,16,14,540,Medium
+M400,Complete Balanced Meal,2 Roti + Dal + Paneer/Chicken + Vegetables + Salad,65,38,16,18,600,Low
+M401,Vegetable Dal Bowl,1 Bowl Dal + Brown Rice + Vegetables,65,22,7,15,480,Medium
+M402,Paneer Bhurji Healthy Meal,2 Multigrain Roti + Paneer Bhurji + Salad,55,32,18,12,570,Medium
+M403,Chicken Millet Roti Meal,2 Millet Roti + Chicken Curry + Salad,58,38,16,14,580,Medium
+M404,Vegetable Sprouts Chaat,Sprouts + Vegetables + Peanuts + Lemon,35,18,10,12,320,Low
+M405,Egg Protein Breakfast,3 Boiled Eggs + Multigrain Toast + Milk,38,30,20,6,470,Low
+M406,Ragi Porridge Meal,Ragi Porridge + Milk + Nuts,55,14,12,8,390,Medium
+M407,Vegetable Dalia Khichdi,Dalia + Mixed Vegetables + Dal,52,18,7,12,390,Medium
+M408,Chicken Oats Bowl,Oats + Chicken + Vegetables,45,35,12,9,480,Low
+M409,Paneer Oats Bowl,Oats + Paneer + Vegetables,50,28,16,10,500,Medium
+M410,Vegetable Sattu Paratha,2 Sattu Paratha + Curd,70,24,12,14,540,Medium
+M411,Chicken Sattu Meal,Sattu Roti + Chicken Curry + Salad,55,38,14,15,560,Medium
+M412,Vegetable Barley Khichdi,Barley + Dal + Vegetables + Curd,50,20,7,16,420,Low
+M413,Paneer Barley Bowl,Barley + Paneer + Vegetables,55,30,15,14,520,Medium
+M414,Chicken Barley Meal,Barley + Chicken + Vegetables,50,40,13,15,540,Low
+M415,Vegetable Rajgira Meal,Rajgira Roti + Dal + Vegetables,65,22,8,16,510,Medium
+M416,Paneer Rajgira Plate,Rajgira Roti + Paneer Curry + Salad,60,32,18,14,580,Medium
+M417,Vegetable Buckwheat Meal,Buckwheat Roti + Vegetable Curry + Curd,58,18,10,14,460,Medium
+M418,Chicken Buckwheat Bowl,Buckwheat + Chicken + Vegetables,55,38,14,13,560,Low
+M419,Vegetable Quinoa Khichdi,Quinoa + Dal + Vegetables,52,22,8,15,450,Medium
+M420,Egg Quinoa Bowl,Quinoa + Eggs + Vegetables,48,32,16,10,520,Low
+M421,Chicken Quinoa Salad,Quinoa + Chicken + Vegetables + Nuts,35,42,15,12,510,Low
+M422,Paneer Quinoa Salad,Quinoa + Paneer + Vegetables,45,32,18,13,520,Medium
+M423,Vegetable Lentil Soup,Mixed Lentil Soup + Whole Wheat Toast,45,22,6,12,380,Low
+M424,Chicken Lentil Soup,Chicken + Lentil Soup + Bread,42,38,10,10,460,Low
+M425,Paneer Lentil Soup,Dal Soup + Paneer + Salad,35,32,14,11,420,Low
+M426,Vegetable Millet Roti,2 Millet Roti + Dal + Green Vegetables,60,22,8,17,500,Medium
+M427,Chicken Millet Bowl,Millet + Chicken Curry + Vegetables,62,40,14,13,590,Medium
+M428,Paneer Millet Bowl,Millet + Paneer + Vegetables + Curd,58,32,16,15,550,Medium
+M429,Vegetable Chickpea Wrap,2 Chickpea Whole Wheat Wraps,70,20,12,14,540,Medium
+M430,Chicken Chickpea Wrap,Chicken + Chickpea Whole Wheat Wrap,65,38,16,12,620,Medium
+M431,Paneer Chickpea Wrap,Paneer + Chickpea Wrap + Salad,68,30,18,13,610,Medium
+M432,Vegetable Tofu Bowl,Tofu + Brown Rice + Vegetables,60,28,12,14,520,Medium
+M433,Chicken Tofu Bowl,Chicken + Tofu + Vegetables,45,42,14,12,560,Low
+M434,Vegetable Soybean Meal,Soya Bean Curry + 2 Roti + Salad,60,30,10,16,520,Medium
+M435,Soya Rice Protein Meal,Soya Curry + Rice + Vegetables,75,32,12,14,580,High
+M436,Vegetable Mung Bean Bowl,Moong Beans + Vegetables + Curd,40,24,8,15,380,Low
+M437,Chicken Mung Bean Bowl,Chicken + Moong Beans + Salad,35,42,12,14,500,Low
+M438,Paneer Mung Bean Bowl,Paneer + Moong Beans + Vegetables,38,34,16,14,470,Low
+M439,Vegetable Stuffed Moong Roti,3 Moong Stuffed Roti + Curd,65,26,12,15,540,Medium
+M440,Chicken Stuffed Roti Meal,2 Chicken Stuffed Roti + Salad,70,36,18,10,620,High
+M441,Paneer Stuffed Roti Meal,2 Paneer Stuffed Roti + Curd,75,28,22,10,650,High
+M442,Vegetable Porridge Bowl,Savory Vegetable Porridge + Curd,45,16,8,12,360,Low
+M443,Chicken Porridge Bowl,Chicken Vegetable Porridge,40,32,10,10,430,Low
+M444,Paneer Porridge Bowl,Paneer Vegetable Porridge,45,28,12,11,450,Low
+M445,Vegetable Makhana Meal,Roasted Makhana + Curd + Fruits,50,15,10,9,350,Medium
+M446,Protein Makhana Bowl,Makhana + Paneer + Vegetables,35,30,14,12,420,Low
+M447,Chicken Makhana Bowl,Chicken + Makhana + Salad,30,38,12,10,450,Low
+M448,Vegetable Healthy Thali,2 Roti + Dal + Sabzi + Salad + Buttermilk,65,25,9,18,520,Low
+M449,High Protein Dinner Bowl,Paneer + Chicken + Vegetables + Salad,25,45,20,12,520,Low
+M450,Indian Diabetes Friendly Plate,2 Multigrain Roti + Dal + Green Vegetables + Curd,55,28,8,20,480,Low
+M451,Vegetable Dalia Bowl,Dalia + Vegetables + Sprouts + Curd,48,18,7,12,380,Low
+M452,Paneer Vegetable Soup Meal,Paneer Soup + Multigrain Toast,35,28,12,9,420,Low
+M453,Chicken Vegetable Khichdi,Chicken + Rice + Dal + Vegetables,65,38,12,10,560,Medium
+M454,Vegetable Amaranth Bowl,Rajgira Grain + Dal + Vegetables,58,22,8,15,450,Medium
+M455,Paneer Amaranth Meal,Rajgira Roti + Paneer Curry + Salad,62,32,18,14,590,Medium
+M456,Chicken Amaranth Bowl,Rajgira + Chicken + Vegetables,55,40,14,13,560,Low
+M457,Vegetable Brown Rice Bowl,Brown Rice + Vegetables + Lentils,68,20,6,16,480,Medium
+M458,Paneer Brown Rice Meal,Brown Rice + Paneer Curry + Salad,65,30,16,14,560,Medium
+M459,Chicken Brown Rice Bowl,Brown Rice + Chicken + Vegetables,60,42,14,13,590,Medium
+M460,Vegetable Lentil Pasta,Whole Wheat Pasta + Lentils + Vegetables,70,24,10,12,520,Medium
+M461,Paneer Lentil Pasta,Whole Wheat Pasta + Paneer + Lentils,65,32,16,11,590,Medium
+M462,Chicken Lentil Pasta,Whole Wheat Pasta + Chicken + Lentils,68,38,14,10,620,Medium
+M463,Vegetable Millet Dosa,2 Millet Dosa + Sambar + Chutney,55,16,8,10,420,Medium
+M464,Paneer Millet Dosa,2 Millet Dosa + Paneer Filling,60,28,16,9,540,Medium
+M465,Chicken Millet Dosa,2 Millet Dosa + Chicken Filling,62,35,15,8,580,Medium
+M466,Vegetable Chickpea Bowl,Chickpeas + Vegetables + Curd,48,22,8,15,410,Low
+M467,Paneer Chickpea Bowl,Chickpeas + Paneer + Vegetables,45,34,16,14,520,Low
+M468,Chicken Chickpea Bowl,Chickpeas + Chicken + Salad,42,40,14,13,530,Low
+M469,Vegetable Soya Pulao,Soya Chunks + Rice + Vegetables,75,32,10,14,580,High
+M470,Paneer Soya Meal,Paneer + Soya Curry + 2 Roti,58,38,18,15,620,Medium
+M471,Chicken Soya Meal,Chicken + Soya Curry + Roti,55,45,16,14,640,Medium
+M472,Vegetable Oats Bowl,Oats + Vegetables + Seeds + Curd,42,18,9,11,360,Low
+M473,Paneer Oats Bowl,Oats + Paneer + Vegetables,45,30,15,10,480,Medium
+M474,Chicken Oats Bowl,Oats + Chicken + Vegetables,40,38,12,9,500,Low
+M475,Vegetable Roti Salad Meal,2 Roti + Vegetable Salad + Dal,60,22,7,16,470,Medium
+M476,Paneer Roti Salad Meal,2 Roti + Paneer + Green Salad,50,35,18,12,560,Medium
+M477,Chicken Roti Salad Meal,2 Roti + Chicken + Green Salad,45,40,15,10,540,Low
+M478,Vegetable Barley Bowl,Barley + Vegetables + Dal,52,20,7,17,430,Low
+M479,Paneer Barley Bowl,Barley + Paneer + Vegetables,50,30,15,15,510,Medium
+M480,Chicken Barley Bowl,Barley + Chicken + Vegetables,48,40,13,14,540,Low
+M481,Vegetable Millet Soup,Millet Soup + Vegetables + Toast,45,16,6,11,350,Low
+M482,Paneer Millet Soup,Millet Soup + Paneer + Vegetables,38,28,12,10,420,Low
+M483,Chicken Millet Soup,Millet Soup + Chicken + Vegetables,35,35,10,9,440,Low
+M484,Vegetable Tofu Stir Fry,Tofu + Vegetables + Brown Rice,60,28,12,14,520,Medium
+M485,Paneer Tofu Bowl,Paneer + Tofu + Vegetables,30,40,22,12,520,Low
+M486,Chicken Tofu Bowl,Chicken + Tofu + Vegetables,28,45,16,10,510,Low
+M487,Vegetable Peanut Bowl,Peanuts + Sprouts + Vegetables + Curd,40,20,14,12,390,Low
+M488,Paneer Peanut Bowl,Paneer + Peanuts + Vegetables,35,32,22,10,480,Low
+M489,Chicken Peanut Bowl,Chicken + Peanuts + Salad,30,42,20,9,500,Low
+M490,Vegetable Pumpkin Meal,2 Roti + Pumpkin Curry + Dal,62,20,7,15,460,Medium
+M491,Paneer Pumpkin Meal,2 Roti + Pumpkin Paneer Curry,58,30,20,12,560,Medium
+M492,Chicken Pumpkin Meal,2 Roti + Chicken Pumpkin Curry,55,38,16,11,570,Medium
+M493,Vegetable Beetroot Bowl,Beetroot + Dal + Brown Rice + Salad,65,22,7,16,490,Medium
+M494,Paneer Beetroot Bowl,Paneer + Beetroot + Vegetables,35,32,18,12,450,Low
+M495,Chicken Beetroot Bowl,Chicken + Beetroot + Vegetables,30,40,14,10,470,Low
+M496,Vegetable Fenugreek Meal,Methi Roti + Dal + Curd,65,22,9,16,510,Medium
+M497,Paneer Fenugreek Meal,Methi Roti + Methi Paneer Curry,60,30,20,13,580,Medium
+M498,Chicken Fenugreek Meal,Methi Roti + Chicken Methi Curry,58,38,17,12,590,Medium
+M499,Indian Superfood Bowl,Millet + Dal + Sprouts + Vegetables + Curd,55,30,10,18,520,Low
+M500,Complete Diabetic Balanced Meal,2 Multigrain Roti + Dal + Paneer + Vegetables + Salad,58,35,12,20,560,Low
+M501,Vegetable Dal Millet Bowl,Millet + Dal + Mixed Vegetables + Curd,60,22,8,16,480,Medium
+M502,Paneer Spinach Bowl,Paneer + Spinach + Brown Rice + Salad,55,32,18,14,560,Medium
+M503,Chicken Spinach Rice Meal,Brown Rice + Chicken Spinach Curry,65,40,15,10,590,Medium
+M504,Vegetable Moong Soup Meal,Moong Soup + Multigrain Toast,42,22,6,12,370,Low
+M505,Paneer Moong Bowl,Moong Dal + Paneer + Vegetables,45,34,16,14,500,Low
+M506,Chicken Moong Bowl,Chicken + Moong Dal + Salad,40,42,14,13,520,Low
+M507,Vegetable Chia Breakfast,Chia Seeds + Oats + Milk + Fruits,48,16,12,10,390,Low
+M508,Paneer Breakfast Wrap,Whole Wheat Wrap + Paneer + Vegetables,58,30,18,9,550,Medium
+M509,Chicken Breakfast Wrap,Whole Wheat Wrap + Chicken + Vegetables,55,38,15,8,570,Medium
+M510,Vegetable Sprouts Bowl,Sprouts + Corn + Vegetables + Curd,45,20,8,14,380,Low
+M511,Paneer Sprouts Bowl,Sprouts + Paneer + Vegetables,38,32,18,13,450,Low
+M512,Chicken Sprouts Bowl,Chicken + Sprouts + Salad,30,42,12,12,460,Low
+M513,Vegetable Ragi Bowl,Ragi + Vegetables + Dal + Curd,58,20,7,15,450,Medium
+M514,Paneer Ragi Meal,Ragi Roti + Paneer Curry + Salad,62,32,18,14,580,Medium
+M515,Chicken Ragi Meal,Ragi Roti + Chicken Curry + Salad,60,38,15,13,570,Medium
+M516,Vegetable Millet Upma,Millet Upma + Curd + Vegetables,55,16,9,12,420,Medium
+M517,Paneer Millet Upma,Millet Upma + Paneer + Vegetables,58,28,15,12,520,Medium
+M518,Chicken Millet Upma,Millet Upma + Chicken + Vegetables,55,35,13,11,540,Medium
+M519,Vegetable Lentil Bowl,Mixed Lentils + Vegetables + Brown Rice,65,24,7,17,500,Medium
+M520,Paneer Lentil Bowl,Lentils + Paneer + Green Vegetables,40,35,18,15,520,Low
+M521,Chicken Lentil Bowl,Lentils + Chicken + Vegetables,38,42,14,14,530,Low
+M522,Vegetable Quinoa Salad,Quinoa + Vegetables + Curd + Nuts,50,20,12,14,430,Medium
+M523,Paneer Quinoa Salad,Quinoa + Paneer + Vegetables + Seeds,45,34,18,15,540,Low
+M524,Chicken Quinoa Salad Protein,Quinoa + Chicken + Vegetables + Nuts,35,45,16,13,550,Low
+M525,Vegetable Brown Rice Khichdi,Brown Rice + Dal + Vegetables,68,22,7,16,490,Medium
+M526,Paneer Brown Rice Bowl,Brown Rice + Paneer Curry + Salad,70,30,18,14,590,Medium
+M527,Chicken Brown Rice Bowl,Brown Rice + Chicken Curry + Vegetables,65,42,14,13,600,Medium
+M528,Vegetable Barley Soup Meal,Barley Soup + Multigrain Bread,45,18,6,15,380,Low
+M529,Paneer Barley Soup,Barley + Paneer + Vegetables,40,30,15,14,450,Low
+M530,Chicken Barley Soup,Barley + Chicken + Vegetables,35,38,12,13,460,Low
+M531,Vegetable Soya Bowl,Soya Chunks + Vegetables + Brown Rice,65,32,10,15,540,Medium
+M532,Paneer Soya Bowl,Soya + Paneer + Vegetables,42,40,18,16,560,Low
+M533,Chicken Soya Bowl,Chicken + Soya + Salad,35,45,14,14,550,Low
+M534,Vegetable Pumpkin Dal Meal,Pumpkin Curry + Dal + 2 Roti,62,20,7,16,470,Medium
+M535,Paneer Pumpkin Bowl,Pumpkin + Paneer + Vegetables,40,32,20,12,480,Low
+M536,Chicken Pumpkin Bowl,Pumpkin + Chicken + Vegetables,35,40,16,12,500,Low
+M537,Vegetable Beetroot Meal,Beetroot Curry + Dal + Roti + Salad,65,22,8,17,510,Medium
+M538,Paneer Beetroot Meal,Paneer + Beetroot + Brown Rice,55,32,18,14,560,Medium
+M539,Chicken Beetroot Meal,Chicken + Beetroot + Vegetables,38,42,14,12,520,Low
+M540,Vegetable Cauliflower Meal,2 Roti + Cauliflower Curry + Dal,65,22,8,15,500,Medium
+M541,Paneer Cauliflower Meal,Paneer + Cauliflower Curry + Salad,35,34,20,12,500,Low
+M542,Chicken Cauliflower Meal,Chicken + Cauliflower Curry + Roti,50,40,16,11,570,Medium
+M543,Vegetable Mushroom Bowl,Mushroom + Vegetables + Brown Rice,60,18,10,14,480,Medium
+M544,Paneer Mushroom Bowl,Paneer + Mushroom + Vegetables,35,35,22,12,520,Low
+M545,Chicken Mushroom Bowl,Chicken + Mushroom + Vegetables,30,42,15,11,510,Low
+M546,Vegetable Fenugreek Bowl,Methi + Dal + Millet + Curd,55,24,8,18,480,Low
+M547,Paneer Fenugreek Bowl,Methi Paneer + Multigrain Roti,60,32,20,14,590,Medium
+M548,Chicken Fenugreek Bowl,Chicken Methi + Roti + Salad,55,40,17,12,580,Medium
+M549,Indian High Fiber Bowl,Millet + Sprouts + Dal + Vegetables,50,28,8,20,450,Low
+M550,Indian Complete Protein Bowl,Paneer + Chicken + Dal + Vegetables + Salad,35,48,18,16,600,Low
+M551,Vegetable Rajma Millet Bowl,Millet + Rajma + Vegetables + Curd,60,24,8,18,500,Medium
+M552,Paneer Rajma Bowl,Rajma + Paneer + Salad + Brown Rice,55,35,18,16,560,Medium
+M553,Chicken Rajma Meal,Chicken + Rajma Curry + 2 Roti,58,42,16,14,620,Medium
+M554,Vegetable Lentil Roti Bowl,3 Roti + Mixed Lentils + Vegetables,70,24,8,17,530,Medium
+M555,Paneer Lentil Roti Meal,2 Roti + Paneer Lentil Curry,62,34,20,14,600,Medium
+M556,Chicken Lentil Roti Meal,2 Roti + Chicken Lentil Curry,55,40,15,12,590,Medium
+M557,Vegetable Pumpkin Quinoa Bowl,Quinoa + Pumpkin + Vegetables + Dal,55,22,8,16,450,Medium
+M558,Paneer Pumpkin Quinoa,Quinoa + Paneer + Pumpkin Vegetables,50,34,18,14,540,Low
+M559,Chicken Pumpkin Quinoa,Quinoa + Chicken + Pumpkin + Salad,45,42,14,12,560,Low
+M560,Vegetable Carrot Dal Meal,2 Roti + Carrot Dal + Salad,62,20,7,15,460,Medium
+M561,Paneer Carrot Bowl,Paneer + Carrot Vegetables + Brown Rice,58,32,18,13,550,Medium
+M562,Chicken Carrot Rice Bowl,Rice + Chicken + Carrot Vegetables,72,40,15,8,620,High
+M563,Vegetable Cabbage Roti Meal,3 Roti + Cabbage Sabzi + Dal,68,22,8,16,510,Medium
+M564,Paneer Cabbage Meal,2 Roti + Paneer Cabbage Curry,60,32,20,12,580,Medium
+M565,Chicken Cabbage Meal,2 Roti + Chicken Cabbage Curry,55,38,16,11,570,Medium
+M566,Vegetable Broccoli Bowl,Brown Rice + Broccoli + Dal + Salad,58,22,7,17,470,Medium
+M567,Paneer Broccoli Bowl,Paneer + Broccoli + Brown Rice,50,34,20,15,560,Medium
+M568,Chicken Broccoli Bowl,Chicken + Broccoli + Vegetables,35,45,14,13,520,Low
+M569,Vegetable Spinach Quinoa,Quinoa + Spinach + Vegetables,52,24,8,16,450,Medium
+M570,Paneer Spinach Quinoa,Quinoa + Spinach Paneer Curry,48,36,20,14,560,Medium
+M571,Chicken Spinach Quinoa,Quinoa + Chicken Spinach Curry,45,42,15,12,570,Low
+M572,Vegetable Beetroot Khichdi,Beetroot + Dal + Rice Khichdi + Curd,60,20,7,14,430,Medium
+M573,Paneer Beetroot Khichdi,Paneer + Beetroot Khichdi + Salad,55,30,16,13,500,Medium
+M574,Chicken Beetroot Khichdi,Chicken + Beetroot Rice Khichdi,58,38,12,10,540,Medium
+M575,Vegetable Cauliflower Rice Bowl,Cauliflower Rice + Dal + Vegetables,35,20,8,18,350,Low
+M576,Paneer Cauliflower Bowl,Cauliflower Rice + Paneer + Salad,25,35,20,14,430,Low
+M577,Chicken Cauliflower Bowl,Cauliflower Rice + Chicken + Vegetables,20,42,14,12,420,Low
+M578,Vegetable Mushroom Roti Meal,2 Roti + Mushroom Curry + Dal,62,22,9,15,490,Medium
+M579,Paneer Mushroom Roti Meal,2 Roti + Mushroom Paneer Curry,55,34,22,12,600,Medium
+M580,Chicken Mushroom Roti Meal,2 Roti + Chicken Mushroom Curry,52,40,18,11,610,Medium
+M581,Vegetable Sweet Potato Bowl,Sweet Potato + Dal + Vegetables + Curd,65,20,6,14,460,Medium
+M582,Paneer Sweet Potato Bowl,Sweet Potato + Paneer + Salad,55,32,18,13,520,Medium
+M583,Chicken Sweet Potato Bowl,Sweet Potato + Chicken + Vegetables,50,40,14,12,550,Medium
+M584,Vegetable Drumstick Millet Meal,Millet + Drumstick Curry + Dal,58,22,7,17,470,Medium
+M585,Paneer Drumstick Millet Bowl,Millet + Paneer + Drumstick Vegetables,55,32,16,15,540,Medium
+M586,Chicken Drumstick Millet Bowl,Millet + Chicken + Drumstick Curry,52,40,14,13,570,Medium
+M587,Vegetable Green Peas Dal Meal,3 Roti + Green Peas Dal + Salad,72,24,8,16,540,Medium
+M588,Paneer Green Peas Bowl,Paneer + Green Peas + Brown Rice,65,32,18,14,580,Medium
+M589,Chicken Green Peas Bowl,Chicken + Green Peas + Rice,75,40,16,10,650,High
+M590,Vegetable Fenugreek Quinoa,Quinoa + Methi + Vegetables + Dal,50,24,8,18,450,Low
+M591,Paneer Fenugreek Quinoa,Quinoa + Methi Paneer + Salad,45,35,18,15,540,Low
+M592,Chicken Fenugreek Quinoa,Quinoa + Chicken Methi Curry,42,42,14,13,560,Low
+M593,Vegetable Almond Bowl,Brown Rice + Vegetables + Almonds + Dal,60,22,12,16,520,Medium
+M594,Paneer Almond Bowl,Paneer + Almonds + Vegetables + Salad,30,38,24,12,520,Low
+M595,Chicken Almond Bowl,Chicken + Almonds + Vegetables,25,45,20,10,500,Low
+M596,Vegetable Seed Protein Bowl,Millet + Seeds + Sprouts + Vegetables,45,28,12,18,470,Low
+M597,Paneer Seed Protein Bowl,Paneer + Seeds + Sprouts + Salad,30,38,22,14,520,Low
+M598,Chicken Seed Protein Bowl,Chicken + Seeds + Vegetables + Salad,25,45,18,12,510,Low
+M599,Vegetable Mediterranean Indian Bowl,Quinoa + Chickpeas + Vegetables + Curd,55,24,10,16,480,Medium
+M600,Ultimate Balanced Indian Meal,Multigrain Roti + Dal + Paneer + Vegetables + Salad + Curd,60,38,14,20,600,Low
+M601,Vegetable Dal Quinoa Bowl,Quinoa + Dal + Mixed Vegetables + Curd,55,24,8,16,470,Medium
+M602,Paneer Tofu Protein Plate,Paneer + Tofu + Salad + Multigrain Roti,45,42,20,14,580,Low
+M603,Chicken Vegetable Millet Bowl,Millet + Chicken + Green Vegetables,58,40,14,13,570,Medium
+M604,Vegetable Chickpea Dal Meal,2 Roti + Chickpea Dal + Salad,70,24,10,16,540,Medium
+M605,Paneer Green Salad Meal,Paneer + Sprouts + Green Salad + Curd,30,35,18,12,450,Low
+M606,Chicken Green Salad Bowl,Chicken + Vegetables + Nuts + Salad,25,45,16,10,520,Low
+M607,Vegetable Lentil Rice Bowl,Brown Rice + Lentils + Vegetables,68,22,7,17,500,Medium
+M608,Paneer Lentil Rice Bowl,Brown Rice + Paneer + Lentils + Salad,65,32,18,14,590,Medium
+M609,Chicken Lentil Rice Bowl,Brown Rice + Chicken + Lentils,70,42,15,12,620,Medium
+M610,Vegetable Bajra Roti Meal,2 Bajra Roti + Dal + Vegetable Curry,62,22,8,17,500,Medium
+M611,Paneer Bajra Plate,Bajra Roti + Paneer Curry + Salad,55,32,20,15,580,Medium
+M612,Chicken Bajra Meal,Bajra Roti + Chicken Curry + Salad,58,40,15,14,590,Medium
+M613,Vegetable Oats Dal Bowl,Oats + Dal + Vegetables,48,20,7,13,390,Low
+M614,Paneer Oats Protein Bowl,Oats + Paneer + Vegetables,50,32,18,12,520,Medium
+M615,Chicken Oats Protein Bowl,Oats + Chicken + Vegetables,42,38,12,10,480,Low
+M616,Vegetable Rajma Quinoa,Rajma + Quinoa + Vegetables + Curd,60,24,8,18,500,Medium
+M617,Paneer Rajma Bowl,Rajma + Paneer + Brown Rice,65,35,18,16,580,Medium
+M618,Chicken Rajma Bowl,Rajma + Chicken + Salad,50,42,14,15,540,Low
+M619,Vegetable Sprouts Roti Meal,2 Roti + Sprouts Curry + Salad,65,22,7,17,480,Medium
+M620,Paneer Sprouts Roti Meal,2 Roti + Paneer + Sprouts Salad,50,38,18,15,560,Low
+M621,Chicken Sprouts Roti Meal,2 Roti + Chicken + Sprouts Salad,48,42,15,12,570,Low
+M622,Vegetable Methi Dal Bowl,Methi Dal + Brown Rice + Salad,65,22,7,16,470,Medium
+M623,Paneer Methi Rice Meal,Rice + Methi Paneer Curry,75,30,20,10,620,High
+M624,Chicken Methi Rice Meal,Rice + Chicken Methi Curry,78,38,16,8,650,High
+M625,Vegetable Pumpkin Quinoa Bowl,Pumpkin + Quinoa + Dal + Vegetables,55,22,8,16,450,Medium
+M626,Paneer Pumpkin Roti Meal,2 Roti + Pumpkin Paneer Curry,60,32,20,12,570,Medium
+M627,Chicken Pumpkin Roti Meal,2 Roti + Chicken Pumpkin Curry,55,40,16,11,580,Medium
+M628,Vegetable Beetroot Roti Plate,3 Roti + Beetroot Curry + Dal,68,22,8,16,520,Medium
+M629,Paneer Beetroot Rice Bowl,Rice + Paneer + Beetroot Vegetables,65,32,18,13,560,Medium
+M630,Chicken Beetroot Rice Bowl,Rice + Chicken + Beetroot Vegetables,70,40,15,11,610,High
+M631,Vegetable Broccoli Dal Meal,Broccoli + Dal + Multigrain Roti,55,24,7,18,480,Low
+M632,Paneer Broccoli Protein Bowl,Paneer + Broccoli + Brown Rice,45,36,20,15,560,Low
+M633,Chicken Broccoli Protein Bowl,Chicken + Broccoli + Vegetables,30,45,14,13,520,Low
+M634,Vegetable Mushroom Quinoa,Quinoa + Mushroom + Vegetables,52,22,9,15,450,Medium
+M635,Paneer Mushroom Quinoa,Quinoa + Paneer + Mushroom Curry,50,34,20,14,560,Medium
+M636,Chicken Mushroom Quinoa,Quinoa + Chicken + Mushroom Curry,45,42,15,12,570,Low
+M637,Vegetable Sweet Potato Dal Bowl,Sweet Potato + Dal + Salad,65,20,6,15,460,Medium
+M638,Paneer Sweet Potato Bowl,Sweet Potato + Paneer + Vegetables,55,32,18,13,520,Medium
+M639,Chicken Sweet Potato Bowl,Sweet Potato + Chicken + Salad,50,40,14,12,550,Medium
+M640,Vegetable Drumstick Dal Meal,Drumstick Dal + Roti + Salad,62,22,7,16,480,Medium
+M641,Paneer Drumstick Bowl,Paneer + Drumstick Vegetables + Millet,55,34,18,15,550,Medium
+M642,Chicken Drumstick Bowl,Chicken + Drumstick Curry + Millet,58,42,14,13,580,Medium
+M643,Vegetable Cabbage Millet Meal,Millet + Cabbage Curry + Dal,60,22,7,17,470,Medium
+M644,Paneer Cabbage Millet Bowl,Millet + Paneer + Cabbage Vegetables,58,32,18,15,540,Medium
+M645,Chicken Cabbage Millet Bowl,Millet + Chicken + Cabbage Curry,55,40,15,13,570,Medium
+M646,Vegetable Almond Quinoa Bowl,Quinoa + Vegetables + Almonds + Curd,50,22,12,16,460,Medium
+M647,Paneer Almond Protein Bowl,Paneer + Almonds + Vegetables,30,38,24,13,520,Low
+M648,Chicken Almond Protein Bowl,Chicken + Almonds + Salad,25,45,20,11,510,Low
+M649,Vegetable Seed Millet Bowl,Millet + Seeds + Sprouts + Vegetables,48,28,12,19,480,Low
+M650,Ultimate High Fiber Meal,Multigrain Roti + Dal + Vegetables + Sprouts + Curd,58,32,10,22,560,Low
+M651,Vegetable Palak Rice Meal,Rice + Palak Vegetable Curry + Curd,72,16,8,10,500,High
+M652,Paneer Palak Bowl,Paneer + Palak + Multigrain Roti,55,34,20,13,580,Medium
+M653,Chicken Palak Bowl,Chicken + Palak Curry + Brown Rice,60,42,16,12,620,Medium
+M654,Vegetable Dalia Protein Meal,Dalia + Dal + Vegetables + Curd,50,20,8,14,410,Low
+M655,Paneer Dal Soup Meal,Dal Soup + Paneer + Whole Wheat Toast,42,32,14,12,450,Low
+M656,Chicken Dal Soup Bowl,Chicken + Dal Soup + Vegetables,38,40,12,11,500,Low
+M657,Vegetable Millet Salad Bowl,Millet + Vegetables + Sprouts + Curd,48,22,8,16,430,Low
+M658,Paneer Millet Salad Bowl,Millet + Paneer + Vegetables + Seeds,45,34,16,15,520,Medium
+M659,Chicken Millet Salad Bowl,Millet + Chicken + Vegetables + Nuts,40,42,15,13,540,Low
+M660,Vegetable Roti Dal Bowl,2 Roti + Mixed Dal + Green Vegetables,62,24,8,17,510,Medium
+M661,Paneer Roti Dal Bowl,2 Roti + Dal + Paneer Curry,65,35,18,15,610,Medium
+M662,Chicken Roti Dal Bowl,2 Roti + Dal + Chicken Curry,60,42,16,12,650,Medium
+M663,Vegetable Rice Sambar Bowl,Rice + Sambar + Vegetables + Curd,80,18,7,11,520,High
+M664,Paneer Sambar Rice Meal,Rice + Paneer Curry + Sambar,78,28,18,8,620,High
+M665,Chicken Sambar Rice Meal,Rice + Chicken Curry + Sambar,82,38,15,7,650,High
+M666,Vegetable Chickpea Salad Bowl,Chickpeas + Vegetables + Lemon + Curd,45,20,8,15,380,Low
+M667,Paneer Chickpea Protein Bowl,Chickpeas + Paneer + Salad,40,35,18,14,520,Low
+M668,Chicken Chickpea Protein Bowl,Chickpeas + Chicken + Vegetables,38,42,14,13,530,Low
+M669,Vegetable Almond Roti Meal,2 Roti + Vegetable Curry + Almonds,65,20,14,15,540,Medium
+M670,Paneer Almond Roti Meal,2 Roti + Paneer Curry + Almonds,55,36,24,13,620,Medium
+M671,Chicken Almond Roti Meal,2 Roti + Chicken Curry + Almonds,58,42,20,12,650,Medium
+M672,Vegetable Flaxseed Bowl,Flaxseed + Vegetables + Dal + Curd,42,24,12,18,430,Low
+M673,Paneer Flaxseed Bowl,Paneer + Flaxseed + Vegetables,35,38,22,14,500,Low
+M674,Chicken Flaxseed Bowl,Chicken + Flaxseed + Vegetables,30,45,18,12,520,Low
+M675,Vegetable Tomato Dal Meal,3 Roti + Tomato Dal + Salad,70,22,8,15,520,Medium
+M676,Paneer Tomato Curry Meal,2 Roti + Tomato Paneer Curry,60,32,20,10,580,Medium
+M677,Chicken Tomato Curry Meal,2 Roti + Tomato Chicken Curry,58,40,18,9,610,Medium
+M678,Vegetable Garlic Rice Meal,Garlic Rice + Vegetables + Raita,78,14,10,7,500,High
+M679,Paneer Garlic Rice Bowl,Garlic Rice + Paneer + Vegetables,75,30,20,9,620,High
+M680,Chicken Garlic Rice Bowl,Garlic Rice + Chicken + Vegetables,76,38,16,8,640,High
+M681,Vegetable Curd Millet Bowl,Millet + Curd + Vegetables + Seeds,50,18,10,15,420,Low
+M682,Paneer Curd Millet Bowl,Millet + Paneer + Curd + Vegetables,48,32,18,14,540,Medium
+M683,Chicken Curd Millet Bowl,Millet + Chicken + Curd + Vegetables,45,40,14,12,560,Low
+M684,Vegetable Beetroot Soup Meal,Beetroot Soup + Multigrain Toast,45,16,6,12,350,Low
+M685,Paneer Beetroot Soup Meal,Beetroot Soup + Paneer Toast,38,28,14,11,430,Low
+M686,Chicken Beetroot Soup Meal,Chicken Beetroot Soup + Bread,35,36,10,10,450,Low
+M687,Vegetable Capsicum Rice Meal,Rice + Capsicum Curry + Dal,78,18,8,12,510,High
+M688,Paneer Capsicum Rice Bowl,Rice + Capsicum Paneer Curry,75,30,20,10,630,High
+M689,Chicken Capsicum Rice Bowl,Rice + Capsicum Chicken Curry,80,40,16,8,650,High
+M690,Vegetable Protein Khichdi,Dal + Rice + Vegetables + Sprouts,58,24,8,16,450,Medium
+M691,Paneer Protein Khichdi,Khichdi + Paneer + Salad,55,32,16,14,520,Medium
+M692,Chicken Protein Khichdi,Chicken Khichdi + Vegetables,60,40,14,12,570,Medium
+M693,Vegetable Coconut Dal Meal,2 Roti + Coconut Dal + Salad,65,22,10,15,530,Medium
+M694,Paneer Coconut Curry Meal,2 Roti + Coconut Paneer Curry,60,30,24,10,620,Medium
+M695,Chicken Coconut Curry Bowl,Rice + Coconut Chicken Curry,75,38,22,8,680,High
+M696,Vegetable Fenugreek Dal Bowl,Methi Dal + Brown Rice + Salad,65,24,7,18,480,Low
+M697,Paneer Fenugreek Protein Bowl,Paneer + Methi + Millet,55,34,18,15,540,Medium
+M698,Chicken Fenugreek Protein Bowl,Chicken + Methi + Brown Rice,60,42,15,13,590,Medium
+M699,Vegetable Ultimate Fiber Bowl,Millet + Dal + Vegetables + Sprouts + Curd,52,30,9,22,500,Low
+M700,Complete Indian Wellness Meal,Multigrain Roti + Dal + Paneer + Vegetables + Salad + Curd,60,40,15,21,620,Low
+M701,Vegetable Methi Khichdi,Methi Khichdi + Curd + Salad,58,18,8,12,430,Medium
+M702,Paneer Stuffed Moong Roti,3 Moong Roti + Paneer Filling + Curd,65,30,18,14,560,Medium
+M703,Chicken Vegetable Dal Bowl,Chicken + Dal + Mixed Vegetables,45,42,14,12,520,Low
+M704,Vegetable Rajma Millet Bowl,Millet + Rajma + Vegetables + Curd,62,24,8,18,510,Medium
+M705,Paneer Tomato Rice Meal,Rice + Tomato Paneer Curry + Salad,78,28,20,8,640,High
+M706,Chicken Tomato Rice Bowl,Rice + Tomato Chicken Curry + Vegetables,80,38,16,7,650,High
+M707,Vegetable Spinach Dal Meal,2 Roti + Spinach Dal + Salad,60,22,7,16,470,Medium
+M708,Paneer Spinach Dal Bowl,Dal + Palak Paneer + Brown Rice,58,34,18,14,570,Medium
+M709,Chicken Spinach Dal Bowl,Chicken + Spinach Dal + Roti,55,40,15,12,560,Medium
+M710,Vegetable Garlic Millet Bowl,Garlic Millet + Vegetables + Dal,55,20,8,15,450,Medium
+M711,Paneer Garlic Millet Bowl,Millet + Paneer + Vegetables,50,32,18,14,540,Medium
+M712,Chicken Garlic Millet Bowl,Millet + Chicken + Vegetables,48,40,14,13,560,Low
+M713,Vegetable Lentil Paratha Meal,2 Lentil Paratha + Curd,72,22,12,13,540,Medium
+M714,Paneer Lentil Paratha,2 Paneer Lentil Paratha + Salad,75,32,22,12,650,High
+M715,Chicken Lentil Paratha,2 Chicken Stuffed Paratha + Curd,78,38,20,10,680,High
+M716,Vegetable Beetroot Dal Bowl,Beetroot + Dal + Brown Rice,65,22,7,16,480,Medium
+M717,Paneer Beetroot Protein Meal,Paneer + Beetroot + Multigrain Roti,55,34,20,14,570,Medium
+M718,Chicken Beetroot Protein Meal,Chicken + Beetroot + Salad,35,42,15,12,500,Low
+M719,Vegetable Carrot Quinoa Bowl,Quinoa + Carrot + Vegetables + Dal,55,22,8,16,450,Medium
+M720,Paneer Carrot Quinoa Bowl,Quinoa + Paneer + Carrot Vegetables,50,34,18,14,550,Medium
+M721,Chicken Carrot Quinoa Bowl,Quinoa + Chicken + Carrot Vegetables,45,42,14,12,560,Low
+M722,Vegetable Curd Rice Healthy,Brown Rice + Curd + Vegetables,60,16,7,10,420,Medium
+M723,Paneer Curd Rice Bowl,Brown Rice + Paneer + Curd + Salad,65,30,18,12,570,Medium
+M724,Chicken Curd Rice Bowl,Brown Rice + Chicken + Curd,68,38,14,10,590,Medium
+M725,Vegetable Pumpkin Khichdi,Pumpkin Khichdi + Curd,55,18,7,14,420,Low
+M726,Paneer Pumpkin Khichdi,Pumpkin Khichdi + Paneer + Salad,52,30,16,13,500,Low
+M727,Chicken Pumpkin Khichdi,Chicken Pumpkin Khichdi + Vegetables,58,38,12,11,550,Medium
+M728,Vegetable Capsicum Roti Meal,3 Roti + Capsicum Curry + Dal,70,22,8,15,520,Medium
+M729,Paneer Capsicum Roti Meal,2 Roti + Capsicum Paneer Curry,58,32,20,11,580,Medium
+M730,Chicken Capsicum Roti Meal,2 Roti + Capsicum Chicken Curry,55,40,16,10,590,Medium
+M731,Vegetable Drumstick Rice Bowl,Rice + Drumstick Curry + Dal,75,18,7,12,500,High
+M732,Paneer Drumstick Rice Bowl,Rice + Drumstick Paneer Curry,70,30,18,10,600,High
+M733,Chicken Drumstick Rice Bowl,Rice + Drumstick Chicken Curry,78,40,15,8,650,High
+M734,Vegetable Cauliflower Dal Bowl,Cauliflower Curry + Dal + Roti,60,22,8,16,470,Medium
+M735,Paneer Cauliflower Protein Bowl,Paneer + Cauliflower + Salad,30,35,20,14,450,Low
+M736,Chicken Cauliflower Protein Bowl,Chicken + Cauliflower + Vegetables,25,42,15,12,480,Low
+M737,Vegetable Broccoli Millet Bowl,Millet + Broccoli + Dal,55,22,7,18,450,Low
+M738,Paneer Broccoli Millet Bowl,Millet + Paneer + Broccoli,50,34,18,16,540,Medium
+M739,Chicken Broccoli Millet Bowl,Millet + Chicken + Broccoli,45,42,14,14,560,Low
+M740,Vegetable Almond Dal Meal,Dal + Almonds + Roti + Salad,60,24,14,16,520,Medium
+M741,Paneer Almond Protein Plate,Paneer + Almonds + Vegetables + Roti,50,38,24,14,620,Medium
+M742,Chicken Almond Protein Plate,Chicken + Almonds + Salad + Roti,45,45,20,12,600,Low
+M743,Vegetable Flaxseed Roti Meal,2 Roti + Flaxseed Dal + Vegetables,62,24,10,18,520,Low
+M744,Paneer Flaxseed Bowl,Paneer + Flaxseed + Vegetables + Curd,35,36,22,15,510,Low
+M745,Chicken Flaxseed Bowl,Chicken + Flaxseed + Salad,25,45,18,12,520,Low
+M746,Vegetable Protein Millet Plate,Millet + Sprouts + Dal + Vegetables,50,30,8,20,470,Low
+M747,Paneer Protein Millet Plate,Millet + Paneer + Sprouts + Salad,45,38,18,18,560,Low
+M748,Chicken Protein Millet Plate,Millet + Chicken + Sprouts + Vegetables,40,45,14,16,570,Low
+M749,Traditional Maharashtra Healthy Meal,2 Bhakri + Usal + Vegetables + Curd,70,26,10,18,540,Medium
+M750,Complete Indian Low GI Meal,Multigrain Roti + Dal + Paneer + Vegetables + Salad,55,38,14,22,580,Low
+M751,Vegetable Tofu Roti Meal,2 Roti + Tofu Curry + Salad,58,30,12,15,520,Medium
+M752,Paneer Bajra Bowl,Bajra Roti + Paneer Curry + Vegetables,60,34,20,16,590,Medium
+M753,Chicken Bajra Protein Meal,Bajra Roti + Chicken Curry + Salad,55,42,15,15,600,Low
+M754,Vegetable Lentil Soup Bowl,Mixed Lentil Soup + Multigrain Bread,48,22,6,13,390,Low
+M755,Paneer Lentil Soup Bowl,Lentil Soup + Paneer + Vegetables,40,34,16,12,470,Low
+M756,Chicken Lentil Soup Bowl,Chicken Lentil Soup + Salad,35,45,14,11,520,Low
+M757,Vegetable Amaranth Bowl,Amaranth Grain + Dal + Vegetables,60,24,8,17,470,Medium
+M758,Paneer Amaranth Protein Bowl,Amaranth + Paneer + Vegetables,55,35,18,15,560,Medium
+M759,Chicken Amaranth Bowl,Amaranth + Chicken + Vegetables,50,42,14,13,570,Low
+M760,Vegetable Millet Salad,Millet + Sprouts + Vegetables + Curd,45,22,8,18,430,Low
+M761,Paneer Millet Salad,Millet + Paneer + Seeds + Vegetables,42,35,18,15,540,Low
+M762,Chicken Millet Salad,Millet + Chicken + Vegetables + Nuts,38,44,15,14,560,Low
+M763,Vegetable Rajma Bowl,Rajma + Brown Rice + Vegetables,70,22,7,18,510,Medium
+M764,Paneer Rajma Protein Bowl,Rajma + Paneer + Salad,50,36,18,16,540,Low
+M765,Chicken Rajma Protein Bowl,Rajma + Chicken + Vegetables,45,42,14,15,560,Low
+M766,Vegetable Moong Rice Bowl,Moong Dal + Brown Rice + Salad,65,24,6,15,490,Medium
+M767,Paneer Moong Rice Bowl,Moong Rice + Paneer + Vegetables,60,34,16,14,560,Medium
+M768,Chicken Moong Rice Bowl,Moong Rice + Chicken + Salad,62,42,14,12,590,Medium
+M769,Vegetable Barley Roti Meal,Barley Roti + Dal + Vegetables,55,22,7,18,450,Low
+M770,Paneer Barley Roti Meal,Barley Roti + Paneer Curry,50,34,18,16,540,Low
+M771,Chicken Barley Roti Meal,Barley Roti + Chicken Curry,48,42,15,14,560,Low
+M772,Vegetable Quinoa Dal Bowl,Quinoa + Dal + Vegetables + Curd,58,24,8,16,480,Medium
+M773,Paneer Quinoa Dal Bowl,Quinoa + Paneer + Dal + Salad,50,36,18,15,560,Low
+M774,Chicken Quinoa Dal Bowl,Quinoa + Chicken + Dal + Vegetables,45,44,15,13,590,Low
+M775,Vegetable Soya Chunks Bowl,Soya Chunks + Brown Rice + Vegetables,65,32,10,16,550,Medium
+M776,Paneer Soya Protein Bowl,Soya + Paneer + Vegetables + Salad,40,42,18,16,580,Low
+M777,Chicken Soya Protein Bowl,Chicken + Soya + Vegetables,35,46,14,14,560,Low
+M778,Vegetable Ragi Bowl,Ragi + Dal + Vegetables + Curd,60,22,7,16,470,Medium
+M779,Paneer Ragi Protein Bowl,Ragi Roti + Paneer + Salad,58,34,18,15,570,Medium
+M780,Chicken Ragi Protein Bowl,Ragi Roti + Chicken Curry + Salad,55,40,15,14,580,Medium
+M781,Vegetable Pumpkin Millet Bowl,Millet + Pumpkin + Dal + Vegetables,55,22,7,17,450,Low
+M782,Paneer Pumpkin Millet Bowl,Millet + Pumpkin + Paneer,50,34,18,14,540,Low
+M783,Chicken Pumpkin Millet Bowl,Millet + Pumpkin + Chicken,48,42,14,13,560,Low
+M784,Vegetable Spinach Roti Meal,3 Roti + Spinach Dal + Salad,70,24,8,17,520,Medium
+M785,Paneer Spinach Roti Meal,2 Roti + Spinach Paneer + Salad,55,36,20,14,600,Medium
+M786,Chicken Spinach Roti Meal,2 Roti + Spinach Chicken Curry,52,42,16,13,610,Medium
+M787,Vegetable Broccoli Rice Bowl,Brown Rice + Broccoli + Dal,60,22,7,18,480,Medium
+M788,Paneer Broccoli Rice Bowl,Brown Rice + Paneer + Broccoli,55,34,18,16,560,Medium
+M789,Chicken Broccoli Rice Bowl,Brown Rice + Chicken + Broccoli,50,44,14,14,580,Low
+M790,Vegetable Capsicum Millet Bowl,Millet + Capsicum + Dal + Salad,55,24,8,17,460,Medium
+M791,Paneer Capsicum Millet Bowl,Millet + Paneer + Capsicum Curry,52,34,20,14,570,Medium
+M792,Chicken Capsicum Millet Bowl,Millet + Chicken + Capsicum Curry,50,42,16,13,590,Medium
+M793,Vegetable Flaxseed Protein Bowl,Flaxseed + Dal + Vegetables + Curd,40,26,12,19,440,Low
+M794,Paneer Flaxseed Protein Bowl,Paneer + Flaxseed + Vegetables,30,38,22,15,520,Low
+M795,Chicken Flaxseed Protein Bowl,Chicken + Flaxseed + Salad,25,46,18,13,530,Low
+M796,Vegetable Seed Power Bowl,Seeds + Millet + Sprouts + Vegetables,45,28,12,20,470,Low
+M797,Paneer Seed Power Bowl,Paneer + Seeds + Vegetables + Curd,35,40,22,16,540,Low
+M798,Chicken Seed Power Bowl,Chicken + Seeds + Salad + Vegetables,30,45,18,14,550,Low
+M799,Vegetable Ultimate Nutrition Bowl,Millet + Dal + Paneer + Vegetables + Curd,55,35,12,22,560,Low
+M800,Complete Indian Diabetic Meal,Multigrain Roti + Dal + Chicken/Paneer + Green Vegetables + Salad,58,42,14,22,600,Low
+M801,Vegetable Dal Pulao,Vegetable Pulao + Dal + Salad,78,20,8,12,520,High
+M802,Paneer Vegetable Curry Meal,2 Roti + Paneer Vegetable Curry + Salad,60,32,22,10,590,Medium
+M803,Chicken Vegetable Roti Bowl,2 Roti + Chicken Vegetable Curry,55,38,16,9,580,Medium
+M804,Vegetable Mung Dal Khichdi,Moong Dal Khichdi + Vegetables + Curd,55,20,7,12,420,Medium
+M805,Paneer Mung Dal Bowl,Moong Dal + Paneer + Vegetables,42,35,18,14,510,Low
+M806,Chicken Mung Dal Bowl,Chicken + Moong Dal + Salad,38,42,14,12,520,Low
+M807,Vegetable Roti Sabzi Meal,3 Roti + Seasonal Vegetable Curry,75,16,10,14,520,Medium
+M808,Paneer Vegetable Rice Bowl,Rice + Paneer Curry + Vegetables,75,30,20,9,620,High
+M809,Chicken Vegetable Rice Bowl,Rice + Chicken Curry + Vegetables,78,38,16,8,640,High
+M810,Vegetable Millet Dal Bowl,Millet + Dal + Vegetables + Curd,55,22,8,16,450,Medium
+M811,Paneer Millet Protein Bowl,Millet + Paneer + Vegetables,50,34,18,15,540,Low
+M812,Chicken Millet Protein Bowl,Millet + Chicken + Vegetables,48,42,14,13,560,Low
+M813,Vegetable Sprouts Paratha,2 Sprouts Paratha + Curd,70,22,12,14,540,Medium
+M814,Paneer Sprouts Paratha,2 Paneer Sprouts Paratha + Curd,72,32,20,12,620,Medium
+M815,Chicken Sprouts Wrap,Chicken + Sprouts Whole Wheat Wrap,55,40,15,10,580,Medium
+M816,Vegetable Soya Roti Meal,2 Roti + Soya Curry + Salad,58,30,10,15,500,Medium
+M817,Paneer Soya Rice Bowl,Soya + Paneer + Rice + Vegetables,70,38,18,14,620,High
+M818,Chicken Soya Rice Bowl,Chicken + Soya + Brown Rice,65,45,15,13,650,Medium
+M819,Vegetable Chana Dal Meal,3 Roti + Chana Dal + Salad,72,24,9,16,530,Medium
+M820,Paneer Chana Protein Bowl,Chana + Paneer + Vegetables,45,35,20,15,520,Low
+M821,Chicken Chana Bowl,Chicken + Chickpeas + Salad,40,42,16,14,540,Low
+M822,Vegetable Spinach Khichdi,Spinach Khichdi + Curd,55,18,7,13,410,Medium
+M823,Paneer Spinach Khichdi,Spinach Khichdi + Paneer,50,30,18,12,520,Medium
+M824,Chicken Spinach Khichdi,Chicken Spinach Rice Khichdi,60,38,14,10,560,Medium
+M825,Vegetable Tomato Rice Bowl,Tomato Rice + Dal + Salad,80,18,8,10,520,High
+M826,Paneer Tomato Bowl,Tomato Rice + Paneer Curry,78,30,20,9,630,High
+M827,Chicken Tomato Bowl,Tomato Rice + Chicken Curry,82,38,16,8,650,High
+M828,Vegetable Beetroot Dal Meal,2 Roti + Beetroot Dal + Salad,62,22,7,16,480,Medium
+M829,Paneer Beetroot Roti Bowl,2 Roti + Paneer Beetroot Curry,58,32,20,13,570,Medium
+M830,Chicken Beetroot Roti Bowl,2 Roti + Chicken Beetroot Curry,55,40,15,11,590,Medium
+M831,Vegetable Curd Millet Meal,Millet + Curd + Vegetables + Seeds,50,18,10,15,420,Low
+M832,Paneer Curd Millet Bowl,Millet + Paneer + Curd + Vegetables,48,32,18,14,540,Medium
+M833,Chicken Curd Millet Bowl,Millet + Chicken + Curd + Vegetables,45,40,14,12,560,Low
+M834,Vegetable Peanut Poha,Poha + Peanuts + Vegetables,60,16,14,8,450,Medium
+M835,Paneer Peanut Poha,Poha + Paneer + Peanuts,58,28,20,10,540,Medium
+M836,Chicken Peanut Poha,Poha + Chicken + Peanuts,55,35,18,9,560,Medium
+M837,Vegetable Masala Dalia,Dalia + Vegetables + Curd,52,16,8,11,380,Medium
+M838,Paneer Masala Dalia,Dalia + Paneer + Vegetables,48,28,15,12,460,Low
+M839,Chicken Masala Dalia,Dalia + Chicken + Vegetables,45,35,12,10,500,Low
+M840,Vegetable Rajma Millet Bowl,Millet + Rajma + Vegetables,62,24,8,18,500,Medium
+M841,Paneer Rajma Millet Bowl,Rajma + Paneer + Millet,55,36,18,16,560,Medium
+M842,Chicken Rajma Millet Bowl,Rajma + Chicken + Millet,58,42,14,15,590,Medium
+M843,Vegetable Tofu Roti Bowl,2 Roti + Tofu Curry + Salad,60,28,12,14,500,Medium
+M844,Paneer Tofu Protein Bowl,Paneer + Tofu + Vegetables,35,42,22,14,520,Low
+M845,Chicken Tofu Protein Bowl,Chicken + Tofu + Vegetables,30,45,16,12,510,Low
+M846,Vegetable Healthy Thali,2 Roti + Dal + Sabzi + Salad + Curd,70,25,10,18,520,Low
+M847,Paneer Balanced Thali,2 Roti + Paneer + Dal + Vegetables + Curd,65,38,18,17,620,Medium
+M848,Chicken Balanced Thali,2 Roti + Chicken + Dal + Vegetables + Salad,60,42,16,15,640,Medium
+M849,High Protein Low Carb Bowl,Paneer + Chicken + Sprouts + Salad,25,48,20,15,550,Low
+M850,Ultimate Indian Nutrition Bowl,Millet + Dal + Paneer + Vegetables + Curd + Seeds,55,40,15,22,600,Low
+M851,Vegetable Dal Thali,2 Roti + Dal + Mixed Vegetable + Salad,64,22,9,16,500,Medium
+M852,Paneer Vegetable Thali,2 Roti + Paneer Curry + Salad,56,32,18,10,570,Medium
+M853,Chicken Vegetable Thali,2 Roti + Chicken Curry + Salad,52,40,15,9,560,Medium
+M854,Brown Rice Rajma Meal,Brown Rice + Rajma + Salad,72,22,7,15,500,Medium
+M855,Brown Rice Chole Meal,Brown Rice + Chole + Salad,74,21,8,14,510,Medium
+M856,Millet Vegetable Bowl,Foxtail Millet + Vegetables + Dal,58,20,8,15,450,Medium
+M857,Ragi Dal Meal,Ragi Roti + Dal + Salad,60,22,8,16,470,Medium
+M858,Jowar Paneer Meal,Jowar Roti + Paneer Bhurji,54,30,18,11,560,Medium
+M859,Bajra Chicken Meal,Bajra Roti + Chicken Curry,52,38,16,10,550,Medium
+M860,Oats Vegetable Khichdi,Oats + Moong Dal + Vegetables,46,18,7,12,380,Low
+M861,Vegetable Upma Meal,Vegetable Upma + Curd,52,14,10,7,400,Medium
+M862,Rava Idli Plate,4 Rava Idli + Sambar,58,14,8,6,420,Medium
+M863,Vegetable Dosa Plate,2 Plain Dosa + Sambar,68,14,10,7,470,Medium
+M864,Paneer Dosa Plate,Paneer Dosa + Sambar,64,24,18,7,550,High
+M865,Chicken Dosa Plate,Chicken Stuffed Dosa,66,32,16,6,580,High
+M866,Vegetable Uttapam Plate,2 Uttapam + Chutney,62,15,10,8,450,Medium
+M867,Vegetable Pesarattu Plate,2 Pesarattu + Ginger Chutney,54,20,8,10,410,Medium
+M868,Moong Chilla Plate,4 Moong Chilla + Curd,48,28,10,13,460,Low
+M869,Besan Chilla Plate,4 Besan Chilla + Chutney,50,24,11,12,450,Low
+M870,Sprouts Breakfast Bowl,Sprouts + Vegetables + Lemon,34,20,6,13,300,Low
+M871,Protein Oats Bowl,Oats + Milk + Nuts + Seeds,48,20,14,9,420,Medium
+M872,Vegetable Sandwich Meal,Whole Wheat Sandwich + Soup,50,16,10,9,390,Medium
+M873,Paneer Sandwich Meal,Whole Wheat Paneer Sandwich,46,28,16,8,500,Medium
+M874,Chicken Sandwich Meal,Whole Wheat Chicken Sandwich,44,34,12,7,490,Low
+M875,Vegetable Wrap Plate,Whole Wheat Veg Wrap,56,16,10,8,450,Medium
+M876,Paneer Wrap Plate,Whole Wheat Paneer Wrap,52,30,18,9,560,Medium
+M877,Chicken Wrap Plate,Whole Wheat Chicken Wrap,48,38,14,8,550,Medium
+M878,Vegetable Fried Rice Lite,Brown Rice Veg Fried Rice,68,14,10,8,470,Medium
+M879,Paneer Fried Rice,Brown Rice + Paneer,65,28,18,8,560,Medium
+M880,Chicken Fried Rice,Brown Rice + Chicken,66,34,14,7,570,Medium
+M881,Vegetable Quinoa Bowl,Quinoa + Vegetables + Dal,52,22,8,13,440,Medium
+M882,Paneer Quinoa Bowl,Quinoa + Paneer + Vegetables,48,32,18,12,540,Low
+M883,Chicken Quinoa Bowl,Quinoa + Chicken + Vegetables,45,40,14,11,550,Low
+M884,Vegetable Millet Khichdi,Millet + Dal + Vegetables,54,18,8,14,420,Medium
+M885,Paneer Millet Khichdi,Millet + Paneer,50,30,18,12,530,Medium
+M886,Chicken Millet Khichdi,Millet + Chicken,48,38,14,11,540,Low
+M887,Vegetable Lentil Soup,Lentil Soup + Toast,42,18,5,11,340,Low
+M888,Paneer Lentil Soup,Lentil Soup + Paneer,36,30,14,10,420,Low
+M889,Chicken Lentil Soup,Chicken Lentil Soup,34,38,10,9,430,Low
+M890,Vegetable Barley Bowl,Barley + Vegetables + Dal,52,20,6,15,420,Low
+M891,Paneer Barley Bowl,Barley + Paneer + Salad,48,30,16,13,510,Medium
+M892,Chicken Barley Bowl,Barley + Chicken + Salad,45,40,12,12,520,Low
+M893,Vegetable Brown Rice Plate,Brown Rice + Vegetable Curry,66,16,8,11,470,Medium
+M894,Paneer Brown Rice Plate,Brown Rice + Paneer Curry,62,30,18,10,560,Medium
+M895,Chicken Brown Rice Plate,Brown Rice + Chicken Curry,60,40,14,9,570,Medium
+M896,High Fiber Indian Meal,Jowar Roti + Dal + Greens,58,24,8,18,470,Low
+M897,High Protein Veg Meal,Paneer + Dal + Salad,34,38,18,14,500,Low
+M898,High Protein Chicken Meal,Chicken + Dal + Vegetables,32,46,14,13,520,Low
+M899,Diabetic Friendly Lunch,2 Multigrain Roti + Dal + Green Vegetables,54,24,8,19,460,Low
+M900,Complete Balanced Indian Plate,2 Multigrain Roti + Dal + Paneer + Vegetables + Salad,60,36,16,18,580,Low
+M901,Simple Roti Dal Meal,2 Roti + 1 Bowl Dal,66,15,4,11,410,Medium
+M902,Rice Rajma Lunch,1 Bowl Rice + 1 Bowl Rajma,77,18,5,10,430,High
+M903,Vegetable Khichdi,1 Bowl Vegetable Khichdi + Salad,52,10,5,7,320,Medium
+M904,Paneer Roti Combo,2 Roti + 1 Bowl Paneer Curry,48,24,17,6,550,Medium
+M905,South Indian Meal,2 Idli + 1 Bowl Sambar + Chutney,45,11,6,5,310,Medium
+M906,Dosa Sambar Meal,1 Plain Dosa + 1 Bowl Sambar,45,11,6,5,300,Medium
+M907,Poha Breakfast,1 Plate Poha + 1 Glass Buttermilk,46,8,6,3,295,Medium
+M908,Upma Breakfast,1 Bowl Upma + Coconut Chutney,40,8,9,4,310,Medium
+M909,Rice Fish Curry,1 Bowl Rice + 1 Bowl Fish Curry,51,28,13,2,430,Medium
+M910,Chicken Rice Meal,1 Bowl Rice + Chicken Curry,53,29,16,2,480,Medium
+M911,Chapati Bhindi Meal,2 Roti + Bhindi Sabzi,48,9,7,9,350,Medium
+M912,Aloo Roti Lunch,2 Roti + Aloo Sabzi,64,9,8,8,420,Medium
+M913,Palak Paneer Meal,2 Roti + Palak Paneer,46,18,15,7,470,Medium
+M914,Mixed Veg Meal,2 Roti + Mixed Vegetable Curry,54,11,9,9,390,Medium
+M915,Curd Rice,1 Bowl Rice + 1 Bowl Curd,53,11,9,2,330,Medium
+M916,Lemon Rice Combo,1 Bowl Lemon Rice + Salad,46,6,6,4,285,Medium
+M917,Jeera Rice Dal,1 Bowl Jeera Rice + 1 Bowl Dal,74,13,7,8,420,High
+M918,Veg Pulao Raita,1 Bowl Vegetable Pulao + Raita,54,11,9,5,390,Medium
+M919,Chole Rice,1 Bowl Rice + 1 Bowl Chole,80,14,6,9,450,High
+M920,Rajma Roti Meal,2 Roti + 1 Bowl Rajma,68,16,4,12,430,Medium
+M921,Moong Chilla Breakfast,2 Moong Dal Chilla + Green Chutney,26,13,6,5,240,Low
+M922,Oats Banana Meal,1 Bowl Oats Porridge + 1 Banana,54,7,4,7,285,Medium
+M923,Dhokla Breakfast,4 Pieces Dhokla + Green Chutney,30,8,3,3,190,Medium
+M924,Thepla Curd Meal,2 Thepla + 1 Bowl Curd,43,13,15,5,360,Medium
+M925,Bhakri Pithla Meal,2 Jowar Bhakri + Pithla,62,15,8,10,430,Medium
+M926,Ragi Breakfast,2 Ragi Roti + 1 Bowl Curd,52,13,9,8,360,Low
+M927,Vegetable Upma Meal,1 Bowl Vegetable Upma + 1 Glass Buttermilk,42,9,7,5,300,Medium
+M928,Oats Milk Breakfast,1 Bowl Oats Porridge + 1 Glass Milk,39,14,12,5,330,Low
+M929,Egg Toast Meal,2 Brown Bread + 2 Boiled Eggs,30,18,12,5,320,Medium
+M930,Paneer Sandwich,4 Brown Bread Slices + Paneer Filling,54,20,16,8,450,Medium
+M931,Chicken Roti Lunch,2 Roti + 1 Bowl Chicken Curry,44,31,16,5,510,Medium
+M932,Fish Roti Meal,2 Roti + 1 Bowl Fish Curry,42,30,13,5,470,Medium
+M933,Soybean Rice Meal,1 Bowl Rice + Soybean Curry,63,20,9,8,410,Medium
+M934,Tofu Roti Meal,2 Roti + 100 g Tofu,39,14,7,5,320,Low
+M935,Sprouts Breakfast,1 Bowl Sprouts Salad + 1 Apple,43,11,1,10,215,Low
+M936,Healthy Fruit Meal,Banana + Apple + 1 Glass Milk,64,10,8,7,350,Medium
+M937,Poha Egg Combo,1 Plate Poha + 1 Boiled Egg,41,11,9,3,330,Medium
+M938,Dosa Egg Meal,1 Plain Dosa + Omelette,32,17,14,2,335,Medium
+M939,Idli Curd Meal,2 Idli + 1 Bowl Curd,32,11,9,2,270,Medium
+M940,Vegetable Rice Meal,1 Bowl Rice + Mixed Vegetable Curry,63,9,8,6,370,Medium
+M941,Bhindi Rice Meal,1 Bowl Rice + Bhindi Sabzi,57,7,6,6,330,Medium
+M942,Cabbage Roti Meal,2 Roti + Cabbage Sabzi,46,9,5,8,320,Medium
+M943,Aloo Paratha Meal,2 Aloo Paratha + Curd,68,15,18,8,560,High
+M944,Moong Chilla Meal,3 Moong Dal Chilla + Mint Chutney,36,18,8,6,310,Low
+M945,Uttapam Sambar Meal,1 Uttapam + 1 Bowl Sambar,53,13,7,6,370,Medium
+M946,Lemon Rice Curd,1 Bowl Lemon Rice + Curd,50,11,10,3,360,Medium
+M947,Vegetable Pulao Meal,1 Bowl Vegetable Pulao + Salad,50,7,7,5,310,Medium
+M948,Bhakri Vegetable Meal,2 Bajra Bhakri + Mixed Vegetable Curry,72,13,9,12,450,Medium
+M949,Rajma Chapati Meal,3 Roti + 1 Bowl Rajma,86,19,5,14,540,Medium
+M950,Dal Khichdi Meal,1 Bowl Dal Khichdi + Curd,56,16,8,7,390,Medium
+M951,Paneer Rice Meal,1 Bowl Rice + 1 Bowl Paneer Curry,57,22,16,3,510,Medium
+M952,Chicken Pulao Meal,1 Bowl Chicken Pulao + Raita,52,24,12,3,460,Medium
+M953,Fish Rice Lunch,1 Bowl Jeera Rice + Grilled Fish,44,30,8,1,390,Medium
+M954,Rajma Salad Meal,1 Bowl Rajma + Cucumber Salad,36,11,2,9,220,Low
+M955,Chole Roti Meal,2 Roti + 1 Bowl Chole,71,16,7,12,440,Medium
+M956,Dal Rice Lunch,1 Bowl Rice + 1 Bowl Dal + Salad,75,14,4,9,400,High
+M957,Vegetable Khichdi Meal,1 Bowl Khichdi + Mixed Vegetable Curry,58,13,10,8,410,Medium
+M958,Healthy Breakfast,2 Brown Bread + Peanut Butter + Milk,47,22,26,6,500,Medium
+M959,Egg Sandwich Meal,4 Brown Bread Slices + Omelette,58,24,14,8,480,Medium
+M960,Ragi Breakfast,2 Ragi Roti + Vegetable Curry,60,11,8,8,380,Low
+M961,Bajra Meal,2 Bajra Bhakri + Dal,84,17,6,17,480,Medium
+M962,Jowar Meal,2 Jowar Bhakri + Bhindi Sabzi,68,9,6,13,390,Medium
+M963,Tofu Rice Meal,1 Bowl Rice + Tofu + Salad,48,13,6,4,320,Medium
+M964,Soybean Roti Meal,2 Roti + Soybean Curry,54,22,10,10,430,Medium
+M965,Poha Banana Meal,1 Plate Poha + Banana,67,6,4,6,355,Medium
+M966,Upma Milk Meal,1 Bowl Upma + Milk,47,14,13,3,380,Medium
+M967,Dhokla Breakfast,6 Pieces Dhokla + Green Chutney,42,12,5,4,270,Medium
+M968,Uttapam Meal,1 Uttapam + Coconut Chutney + Sambar,56,14,10,6,410,Medium
+M969,Idli Breakfast,3 Idli + Sambar,51,13,5,6,340,Medium
+M970,Dosa Breakfast Deluxe,2 Plain Dosa + Sambar,75,17,10,7,520,High
+M971,Misal Combo,1 Plate Misal + Buttermilk,66,15,16,8,470,High
+M972,Pav Bhaji Combo,1 Plate Pav Bhaji + Salad,68,11,17,7,460,High
+M973,Chilla Breakfast,2 Moong Dal Chilla + Curd,32,19,13,5,330,Low
+M974,Fruit Yogurt Meal,Apple + Banana + Curd,60,9,8,7,320,Medium
+M975,Mixed Veg Lunch,2 Roti + Dal + Mixed Vegetable Curry,84,20,11,13,520,Medium
+M976,Roti Dal Curd Meal,2 Roti + 1 Bowl Dal + 1 Bowl Curd,74,22,12,11,530,Medium
+M977,Rice Chole Meal,1 Bowl Rice + 1 Bowl Chole + Salad,82,16,7,10,460,High
+M978,Paneer Bhakri Meal,2 Jowar Bhakri + 1 Bowl Paneer Curry,68,24,17,8,560,Medium
+M979,Chicken Roti Combo,3 Roti + 1 Bowl Chicken Curry,62,34,17,8,590,Medium
+M980,Fish Bhakri Meal,2 Bajra Bhakri + Grilled Fish,54,33,7,10,450,Low
+M981,Vegetable Oats Meal,1 Bowl Oats Porridge + Mixed Vegetable Curry,45,11,10,8,340,Low
+M982,Healthy Protein Meal,Sprouts Salad + 2 Boiled Eggs + Milk,31,29,15,8,390,Low
+M983,Idli Curd Breakfast,3 Idli + 1 Bowl Curd,44,16,10,3,360,Medium
+M984,Dosa Paneer Meal,1 Plain Dosa + Paneer Curry,42,23,19,4,480,Medium
+M985,Upma Buttermilk Meal,1 Bowl Upma + 1 Glass Buttermilk,41,9,7,4,275,Medium
+M986,Poha Curd Meal,1 Plate Poha + 1 Bowl Curd,48,12,12,3,370,Medium
+M987,Rajma Bhakri Meal,2 Jowar Bhakri + 1 Bowl Rajma,88,18,5,16,510,Medium
+M988,Dal Rice Curd Meal,1 Bowl Rice + Dal + Curd,83,21,11,9,520,High
+M989,Palak Paneer Roti,2 Roti + Palak Paneer + Salad,50,20,16,9,490,Medium
+M990,Soybean Rice Combo,1 Bowl Rice + Soybean Curry + Salad,65,21,9,9,430,Medium
+M991,Biryani Raita Meal,1 Bowl Veg Biryani + Raita,60,12,12,4,410,High
+M992,Khichdi Curd Meal,1 Bowl Khichdi + Curd + Salad,56,15,8,7,390,Medium
+M993,Moong Chilla Breakfast,3 Moong Dal Chilla + Buttermilk,42,21,10,7,360,Low
+M994,Fruit Oats Meal,Oats Porridge + Apple,52,7,4,8,275,Low
+M995,Makai Roti Meal,2 Makai Roti + Mixed Vegetable Curry,78,13,11,10,470,Medium
+M996,Ragi Paneer Meal,2 Ragi Roti + Paneer Curry,56,24,18,7,520,Low
+M997,Paneer Rice Bowl,Rice + Paneer Curry + Cucumber Salad,61,23,17,5,500,Medium
+M998,Chicken Rice Deluxe,Rice + Chicken Curry + Curd,61,36,22,3,620,Medium
+M999,Balanced Indian Thali,2 Roti + Dal + Rice + Mixed Vegetable Curry + Salad,112,27,13,16,720,High
+M1000,Complete Healthy Meal,2 Roti + Dal + Mixed Vegetable Curry + Curd + Salad,82,27,14,15,610,Medium
+M1001,Vegetable Quinoa Salad Bowl,Quinoa + Vegetables + Curd + Nuts,54,19,12,13,400,Medium
+M1002,Chicken Dal Rice Meal Pro,Rice + Chicken Curry + Dal,79,42,19,7,655,High
+M1003,Paneer Lentil Paratha Deluxe,2 Paneer Lentil Paratha + Salad,71,30,22,11,602,High
+M1004,Vegetable Sweet Potato Bowl Special,Sweet Potato + Dal + Vegetables + Curd,64,20,5,14,381,Medium
+M1005,Kodo Millet Khichdi Deluxe,Kodo Millet Khichdi + Curd,59,17,8,13,376,Medium
+M1006,Moong Chilla Breakfast Pro,2 Moong Dal Chilla + Green Chutney,23,13,6,5,198,Low
+M1007,Paneer Curd Millet Bowl Deluxe,Millet + Paneer + Curd + Vegetables,44,34,17,14,465,Medium
+M1008,Sabudana Vada Meal Deluxe,4 Sabudana Vada + Curd,73,10,23,4,539,High
+M1009,Rajma Quinoa Bowl Bowl,Quinoa + Rajma + Vegetables,57,22,7,19,379,Medium
+M1010,Chicken Rajma Bowl Supreme,Rajma + Chicken + Salad,48,43,13,16,481,Low
+M1011,Green Peas Pulao Meal Deluxe,Green Peas Pulao + Raita,72,14,10,7,434,High
+M1012,Rice Dal Meal Supreme,1 Bowl Rice + 1 Bowl Dal + Salad,79,15,4,8,412,High
+M1013,Chicken Flaxseed Bowl Pro,Chicken + Flaxseed + Salad,26,47,16,11,436,Low
+M1014,Pav Bhaji Combo Combo,1 Plate Pav Bhaji + Salad,62,11,17,6,445,High
+M1015,Chicken Dal Roti Lite,2 Roti + Chicken Curry + Dal,58,39,18,8,550,Medium
+M1016,Vegetable Cutlet Meal Combo,3 Vegetable Cutlet + Chutney,63,10,16,6,436,High
+M1017,Vegetable Fried Rice Lite Supreme,Brown Rice Veg Fried Rice,66,14,9,7,401,Medium
+M1018,Jowar Vegetable Meal Lite,2 Jowar Roti + Vegetable Curry,62,15,10,14,398,Medium
+M1019,Vegetable Palak Rice Meal Special,Rice + Palak Vegetable Curry + Curd,66,15,7,9,387,High
+M1020,Chicken Peanut Bowl Combo,Chicken + Peanuts + Salad,29,44,21,8,481,Low
+M1021,Healthy Breakfast Bowl,Oats Porridge + Banana,59,9,6,7,326,Medium
+M1022,Ragi Paneer Meal Lite,2 Ragi Roti + Paneer Curry,57,25,17,6,481,Low
+M1023,Chapati Dal Meal Deluxe,4 Chapati + Dal + Salad,82,24,8,15,496,Medium
+M1024,Vegetable Fenugreek Dal Bowl Combo,Methi Dal + Brown Rice + Salad,61,24,6,16,394,Low
+M1025,Uttapam Meal Bowl,1 Uttapam + Coconut Chutney + Sambar,59,15,9,6,377,Medium
+M1026,Moong Dal Soup Meal Pro,Moong Dal Soup + Multigrain Bread,48,22,6,12,334,Low
+M1027,Vegetable Almond Quinoa Bowl Pro,Quinoa + Vegetables + Almonds + Curd,45,23,11,17,371,Medium
+M1028,Chicken Sprouts Wrap Supreme,Chicken + Sprouts Whole Wheat Wrap,56,43,14,9,522,Medium
+M1029,Vegetable Millet Upma Lite,Millet Upma + Curd + Vegetables,60,15,9,12,381,Medium
+M1030,Vegetable Almond Bowl Deluxe,Brown Rice + Vegetables + Almonds + Dal,54,23,12,15,416,Medium
+M1031,Chicken Balanced Thali Bowl,2 Roti + Chicken + Dal + Vegetables + Salad,61,43,15,14,551,Medium
+M1032,Vegetable Almond Dal Meal Pro,Dal + Almonds + Roti + Salad,58,26,14,16,462,Medium
+M1033,Vegetable Stuffed Roti Pro,3 Stuffed Vegetable Roti + Curd,81,15,15,10,519,Medium
+M1034,Vegetable Beetroot Soup Meal Pro,Beetroot Soup + Multigrain Toast,46,16,5,12,293,Low
+M1035,Healthy Dal Roti Combo,3 Roti + Dal + Salad,72,20,6,13,422,Medium
+M1036,Vegetable Chickpea Salad Bowl Pro,Chickpeas + Vegetables + Lemon + Curd,42,18,8,15,312,Low
+M1037,Chicken Chickpea Protein Bowl Special,Chickpeas + Chicken + Vegetables,35,41,13,12,421,Low
+M1038,Paneer Palak Bowl Deluxe,Paneer + Palak + Multigrain Roti,56,32,20,13,532,Medium
+M1039,Dhokla Breakfast Special,6 Pieces Dhokla + Green Chutney,44,13,4,3,264,Medium
+M1040,Dosa Egg Meal Supreme,1 Plain Dosa + Omelette,29,15,14,2,302,Medium
+M1041,Vegetable Quinoa Dal Bowl Pro,Quinoa + Dal + Vegetables + Curd,54,23,8,15,380,Medium
+M1042,Green Peas Pulao Meal Bowl,Green Peas Pulao + Raita,71,12,10,7,422,High
+M1043,Chicken Chickpea Protein Bowl Supreme,Chickpeas + Chicken + Vegetables,40,44,14,13,462,Low
+M1044,Indian Balanced Meal Combo,2 Roti + Dal + Paneer + Salad + Curd,76,35,16,17,588,Medium
+M1045,Chicken Green Peas Bowl Pro,Chicken + Green Peas + Rice,68,36,16,10,560,High
+M1046,Set Dosa Meal Combo,3 Set Dosa + Sambar,68,15,7,6,395,Medium
+M1047,Poori Bhaji Pro,4 Poori + Potato Bhaji,86,13,24,7,612,High
+M1048,Vegetable Capsicum Millet Bowl Supreme,Millet + Capsicum + Dal + Salad,59,21,7,18,383,Medium
+M1049,Paneer Bajra Plate Pro,Bajra Roti + Paneer Curry + Salad,51,30,20,15,504,Medium
+M1050,Vegetable Healthy Thali Special,2 Roti + Dal + Sabzi + Salad + Buttermilk,60,24,8,16,408,Low
+M1051,Methi Paratha Meal Combo,2 Methi Paratha + Curd,59,13,17,9,441,Medium
+M1052,Chicken Stuffed Roti Meal Supreme,2 Chicken Stuffed Roti + Salad,73,32,18,10,582,High
+M1053,Chicken Wrap Healthy Special,Whole Wheat Chicken Wrap,51,38,11,8,455,Medium
+M1054,Paneer Rajma Protein Bowl Special,Rajma + Paneer + Salad,47,38,17,15,493,Low
+M1055,Chicken Buckwheat Bowl Special,Buckwheat + Chicken + Vegetables,51,40,15,12,499,Low
+M1056,Paneer Flaxseed Bowl Lite,Paneer + Flaxseed + Vegetables,36,35,20,14,464,Low
+M1057,Paneer Curd Millet Bowl Bowl,Millet + Paneer + Curd + Vegetables,45,31,16,13,448,Medium
+M1058,Chicken Ragi Protein Bowl Lite,Ragi Roti + Chicken Curry + Salad,50,36,14,14,470,Medium
+M1059,Chicken Sandwich Meal Combo,2 Chicken Sandwich + Salad,55,37,19,6,539,Medium
+M1060,Vegetable Khichdi Deluxe,1 Bowl Vegetable Khichdi + Salad,49,9,4,6,268,Medium
+M1061,Vegetable Porridge Dinner Pro,Savory Oats Porridge + Vegetables,44,15,8,8,308,Low
+M1062,Chicken Curd Millet Bowl Supreme,Millet + Chicken + Curd + Vegetables,42,43,13,12,457,Low
+M1063,Egg Sandwich Meal Lite,2 Egg Sandwich + Juice,60,26,16,5,488,Medium
+M1064,Paneer Broccoli Bowl Bowl,Paneer + Broccoli + Brown Rice,48,34,21,14,517,Medium
+M1065,Vegetable Beetroot Soup Meal Bowl,Beetroot Soup + Multigrain Toast,45,14,6,12,290,Low
+M1066,Paneer Tikka Bowl Deluxe,Paneer Tikka + Salad + Curd,25,32,20,7,408,Low
+M1067,Fish Tikka Rice Bowl Lite,Fish Tikka + Rice + Vegetables,69,32,11,6,503,High
+M1068,Vegetable Tofu Stir Fry Combo,Tofu + Vegetables + Brown Rice,62,27,11,13,455,Medium
+M1069,Vegetable Handi Meal Combo,2 Roti + Vegetable Handi + Salad,68,15,13,11,449,Medium
+M1070,Pasta Tomato Sauce Supreme,1 Bowl Tomato Pasta,69,14,11,5,431,Medium
+M1071,Soybean Rice Combo Combo,1 Bowl Rice + Soybean Curry + Salad,64,20,8,8,408,Medium
+M1072,Vegetable Brown Rice Khichdi Lite,Brown Rice + Dal + Vegetables,61,23,7,15,399,Medium
+M1073,Vegetable Millet Salad Bowl Pro,Millet + Vegetables + Sprouts + Curd,51,22,8,15,364,Low
+M1074,Vegetable Beetroot Soup Meal Combo,Beetroot Soup + Multigrain Toast,41,14,6,12,274,Low
+M1075,Chicken Dosa Plate Combo,Chicken Stuffed Dosa,60,31,16,6,508,High
+M1076,Chicken Millet Soup Special,Millet Soup + Chicken + Vegetables,37,37,9,9,377,Low
+M1077,Chicken Chana Bowl Bowl,Chicken + Chickpeas + Salad,38,45,14,14,458,Low
+M1078,Paneer Lentil Soup Deluxe,Lentil Soup + Paneer,38,29,13,9,385,Low
+M1079,High Protein Low Carb Bowl Pro,Paneer + Chicken + Sprouts + Salad,25,49,19,14,467,Low
+M1080,Chicken Oats Bowl Pro,Oats + Chicken + Vegetables,37,41,12,8,420,Low
+M1081,Chicken Stuffed Paratha Lite,2 Chicken Stuffed Paratha + Curd,72,38,21,8,629,High
+M1082,Vegetable Khichdi Lite,1 Bowl Vegetable Khichdi + Salad,55,9,4,6,292,Medium
+M1083,Little Millet Pongal Special,Millet Pongal + Sambar,54,15,9,10,357,Medium
+M1084,Vegetable Dal Dosa Pro,2 Vegetable Dosa + Sambar,74,14,10,6,442,Medium
+M1085,Chicken Quinoa Meal Pro,Quinoa + Chicken + Vegetables,46,39,13,10,457,Low
+M1086,Ragi Paneer Meal Supreme,2 Ragi Roti + Paneer Curry,59,21,19,6,491,Low
+M1087,Paneer Rice Bowl Healthy Deluxe,Brown Rice + Paneer + Vegetables,69,28,17,14,541,Medium
+M1088,Chicken Mushroom Quinoa Pro,Quinoa + Chicken + Mushroom Curry,44,42,15,11,479,Low
+M1089,Fish Tikka Rice Bowl Bowl,Fish Tikka + Rice + Vegetables,71,33,12,5,524,High
+M1090,Quinoa Indian Bowl Bowl,Quinoa + Dal + Vegetables,60,22,9,12,409,Medium
+M1091,Paneer Almond Roti Meal Special,2 Roti + Paneer Curry + Almonds,56,35,22,13,562,Medium
+M1092,Vegetable Barley Bowl Special,Barley + Vegetables + Dal,52,19,6,17,338,Low
+M1093,Vegetable Almond Bowl Lite,Brown Rice + Vegetables + Almonds + Dal,56,23,12,16,424,Medium
+M1094,Chickpea Sandwich Combo,Chickpea Sandwich + Curd,63,21,11,10,435,Medium
+M1095,Vegetable Frankie Meal Supreme,2 Vegetable Frankie Rolls,82,15,20,7,568,High
+M1096,Chole Bhature Bowl,2 Bhature + 1 Bowl Chole,88,18,27,12,667,High
+M1097,Fruit Bowl Combo,Apple + Papaya + Banana,59,4,2,7,270,Medium
+M1098,Prawn Curry Rice Bowl,Rice + Prawn Curry,74,32,10,4,514,High
+M1099,Rava Idli Meal Combo,3 Rava Idli + Sambar,60,11,8,5,356,Medium
+M1100,Upma Milk Meal Combo,1 Bowl Upma + Milk,42,13,13,3,337,Medium
+M1101,Chicken Almond Bowl Combo,Chicken + Almonds + Vegetables,22,48,18,9,442,Low
+M1102,Jowar Roti Dal Deluxe,3 Jowar Roti + Dal,64,23,7,15,411,Medium
+M1103,Paneer Capsicum Rice Bowl Deluxe,Rice + Capsicum Paneer Curry,74,30,21,9,605,High
+M1104,Paneer Tofu Protein Plate Special,Paneer + Tofu + Salad + Multigrain Roti,43,43,18,15,506,Low
+M1105,Chicken Millet Soup Supreme,Millet Soup + Chicken + Vegetables,34,37,9,9,365,Low
+M1106,Beetroot Dal Rice Special,Rice + Beetroot Dal + Salad,70,16,6,10,398,High
+M1107,Curd Rice Pro,1 Bowl Curd Rice,69,12,6,2,378,Medium
+M1108,Museli Breakfast Special,Muesli + Milk + Nuts,51,16,12,7,376,Medium
+M1109,Paneer Salad Wrap Special,2 Paneer Salad Wraps,62,28,17,10,513,Medium
+M1110,Chicken Rice Meal Pro,1 Bowl Rice + Chicken Curry,49,27,16,1,448,Medium
+M1111,Paneer Protein Millet Plate Bowl,Millet + Paneer + Sprouts + Salad,44,35,19,16,487,Low
+M1112,Punjabi Meal Pro,3 Roti + Dal Makhani + Salad,83,25,19,15,603,Medium
+M1113,Lemon Rice Pro,1 Bowl Lemon Rice,65,8,12,3,400,High
+M1114,Chicken Almond Bowl Pro,Chicken + Almonds + Vegetables,26,47,19,10,463,Low
+M1115,Chicken Shawarma Meal Pro,Chicken Wrap + Salad,69,40,18,6,598,High
+M1116,Healthy Breakfast Supreme,Oats Porridge + Banana,53,9,5,6,293,Medium
+M1117,Tofu Roti Meal Lite,2 Roti + 100 g Tofu,36,14,6,4,254,Low
+M1118,Chicken Mung Dal Bowl Combo,Chicken + Moong Dal + Salad,35,40,14,11,426,Low
+M1119,Vegetable Dalia Upma Combo,Dalia Upma + Curd,59,14,7,9,355,Medium
+M1120,Bajra Roti Meal Lite,2 Bajra Roti + Sabzi,58,15,10,15,382,Medium
+M1121,Chicken Spinach Rice Meal Combo,Brown Rice + Chicken Spinach Curry,66,37,13,9,529,Medium
+M1122,Vegetable Spinach Roti Meal Supreme,3 Roti + Spinach Dal + Salad,67,21,7,15,415,Medium
+M1123,Chicken Porridge Bowl Bowl,Chicken Vegetable Porridge,40,29,10,10,366,Low
+M1124,Veg Biryani Lite,1 Bowl Vegetable Biryani + Raita,60,14,16,6,440,High
+M1125,Vegetable Beetroot Roti Plate Combo,3 Roti + Beetroot Curry + Dal,68,21,7,16,419,Medium
+M1126,Chicken Beetroot Protein Meal Special,Chicken + Beetroot + Salad,37,44,15,12,459,Low
+M1127,Paneer Breakfast Wrap Bowl,Whole Wheat Wrap + Paneer + Vegetables,58,32,16,8,504,Medium
+M1128,Rajma Quinoa Bowl Special,Quinoa + Rajma + Vegetables,54,24,7,17,375,Medium
+M1129,Vegetable Corn Bowl Supreme,Corn + Beans + Vegetables + Curd,55,19,8,12,368,Medium
+M1130,Chicken Momos Meal Deluxe,8 Chicken Momos,53,20,11,3,391,Medium
+M1131,Curd Rice Pro,1 Bowl Curd Rice,59,12,5,2,329,Medium
+M1132,Balanced Protein Dinner Pro,2 Roti + Dal + Paneer + Green Vegetables,60,38,15,18,527,Medium
+M1133,Prawn Masala Roti Lite,3 Roti + Prawn Masala,62,32,15,7,511,Medium
+M1134,Chicken Pepper Rice Lite,Rice + Pepper Chicken Curry,72,37,18,4,598,High
+M1135,Vegetable Pumpkin Millet Bowl Combo,Millet + Pumpkin + Dal + Vegetables,58,22,7,17,383,Low
+M1136,Paneer Beetroot Roti Bowl Supreme,2 Roti + Paneer Beetroot Curry,56,32,20,12,532,Medium
+M1137,Vegetable Dal Tadka Meal Supreme,3 Roti + Dal Tadka + Green Salad,67,24,8,14,436,Medium
+M1138,Vegetable Barley Roti Meal Deluxe,Barley Roti + Dal + Vegetables,55,23,7,19,375,Low
+M1139,Paneer Spinach Khichdi Pro,Spinach Khichdi + Paneer,52,27,18,13,478,Medium
+M1140,Moong Dal Roti Meal Pro,3 Roti + Moong Dal + Vegetables,73,22,8,13,452,Medium
+M1141,Vegetable Carrot Dal Meal Combo,2 Roti + Carrot Dal + Salad,68,18,7,15,407,Medium
+M1142,Cheese Sandwich Meal Pro,2 Cheese Vegetable Sandwich,57,17,21,4,485,Medium
+M1143,Peas Paneer Meal Combo,2 Roti + Matar Paneer + Salad,64,27,21,9,553,Medium
+M1144,Paneer Mushroom Bowl Deluxe,Paneer + Mushroom + Vegetables,31,35,23,12,471,Low
+M1145,Chicken Cabbage Millet Bowl Lite,Millet + Chicken + Cabbage Curry,53,41,13,13,493,Medium
+M1146,Paneer Mushroom Quinoa Combo,Quinoa + Paneer + Mushroom Curry,46,31,18,13,470,Medium
+M1147,Cornflakes Meal Supreme,Cornflakes + Milk,59,11,8,2,352,High
+M1148,Chicken Oats Bowl Bowl,Oats + Chicken + Vegetables,41,37,11,8,411,Low
+M1149,Vegetable Lentil Soup Special,Mixed Lentil Soup + Whole Wheat Toast,48,24,5,12,333,Low
+M1150,Vegetable Green Peas Dal Meal Deluxe,3 Roti + Green Peas Dal + Salad,78,21,8,17,468,Medium
+M1151,Paneer Corn Rice Deluxe,Rice + Paneer Corn Curry,79,30,20,7,616,High
+M1152,Vegetable Rice Bowl Lite,Rice + Mixed Vegetables + Dal,87,19,8,10,496,High
+M1153,Rajma Roti Meal Supreme,3 Roti + Rajma Curry,82,22,10,16,506,Medium
+M1154,Complete Indian Nutrition Meal Supreme,Roti + Dal + Chicken/Paneer + Vegetables + Curd,71,41,16,16,592,Medium
+M1155,Dal Khichdi Meal Supreme,1 Bowl Dal Khichdi + Curd,53,14,8,6,340,Medium
+M1156,Vegetable Methi Dal Bowl Special,Methi Dal + Brown Rice + Salad,64,19,7,17,395,Medium
+M1157,Prawn Masala Roti Special,3 Roti + Prawn Masala,65,34,15,6,531,Medium
+M1158,Lentil Soup Meal Deluxe,Dal Soup + Bread + Salad,59,20,5,10,361,Medium
+M1159,Dosa Breakfast Deluxe Lite,2 Plain Dosa + Sambar,78,16,10,6,466,High
+M1160,Vegetable Dal Dosa Special,2 Vegetable Dosa + Sambar,67,16,10,7,422,Medium
+M1161,Chicken Barley Bowl Pro,Barley + Chicken + Vegetables,49,42,12,13,472,Low
+M1162,Chicken Salad Wrap Special,2 Whole Wheat Chicken Wraps,52,34,17,8,497,Medium
+M1163,South Indian Breakfast Supreme,2 Idli + 1 Bowl Sambar,37,9,4,5,220,Medium
+M1164,Vegetable Mediterranean Indian Bowl Combo,Quinoa + Chickpeas + Vegetables + Curd,49,21,9,15,361,Medium
+M1165,Upma Breakfast Lite,1 Bowl Upma + 1 Cup Curd,39,13,14,4,334,Medium
+M1166,Tofu Roti Meal Combo,3 Roti + Tofu Curry + Salad,66,30,11,13,483,Medium
+M1167,Chicken Pumpkin Roti Meal Pro,2 Roti + Chicken Pumpkin Curry,54,41,16,11,524,Medium
+M1168,Vegetable Quinoa Salad Lite,Quinoa + Vegetables + Curd + Nuts,54,20,13,14,413,Medium
+M1169,Vegetable Sprouts Paratha Lite,2 Sprouts Paratha + Curd,75,23,11,14,491,Medium
+M1170,Prawn Rice Meal Combo,Rice + Prawn Curry + Salad,72,28,12,5,508,High
+M1171,Chicken Pumpkin Roti Meal Bowl,2 Roti + Chicken Pumpkin Curry,60,40,14,9,526,Medium
+M1172,Vegetable Roti Dal Bowl Pro,2 Roti + Mixed Dal + Green Vegetables,57,24,7,16,387,Medium
+M1173,Vegetable Falooda Meal Deluxe,Fruit Falooda + Nuts,74,9,14,5,458,High
+M1174,Vegetable Broccoli Millet Bowl Bowl,Millet + Broccoli + Dal,53,23,7,18,367,Low
+M1175,Vegetable Dal Bowl Combo,1 Bowl Dal + Brown Rice + Vegetables,61,22,6,15,386,Medium
+M1176,Veg Pasta Meal Pro,1 Bowl Vegetable Pasta,74,13,14,6,474,High
+M1177,Paneer Khichdi Meal Special,Paneer Khichdi + Curd,63,25,15,13,487,Medium
+M1178,Paneer Rajgira Plate Pro,Rajgira Roti + Paneer Curry + Salad,63,32,18,14,542,Medium
+M1179,Paneer Rajgira Plate Supreme,Rajgira Roti + Paneer Curry + Salad,64,33,17,12,541,Medium
+M1180,Chicken Pulao Meal Deluxe,1 Bowl Chicken Pulao + Raita,52,24,11,3,403,Medium
+M1181,Vegetable Dal Fry Meal Combo,3 Roti + Dal Fry + Salad,70,21,9,15,445,Medium
+M1182,Chicken Roti Salad Meal Special,2 Roti + Chicken + Green Salad,46,39,15,10,475,Low
+M1183,Soybean Rice Meal Pro,1 Bowl Rice + Soybean Curry,59,21,8,8,392,Medium
+M1184,Chicken Tomato Bowl Pro,Tomato Rice + Chicken Curry,83,36,16,8,620,High
+M1185,Vegetable Protein Millet Plate Combo,Millet + Sprouts + Dal + Vegetables,49,32,7,20,387,Low
+M1186,Healthy Dal Roti Bowl,3 Roti + Dal + Salad,64,22,6,14,398,Medium
+M1187,Balanced Lunch Bowl Pro,2 Roti + Dal + Paneer + Vegetables,68,29,14,16,514,Medium
+M1188,Chicken Lentil Pasta Combo,Whole Wheat Pasta + Chicken + Lentils,70,41,15,9,579,Medium
+M1189,Vegetable Dalia Bowl Deluxe,Dalia + Vegetables + Curd,49,15,7,10,319,Medium
+M1190,Vegetable Dal Soup Dinner Special,Dal Soup + Roti + Salad,63,20,7,14,395,Low
+M1191,Egg Frankie Meal Pro,2 Egg Frankie Rolls,74,26,22,5,598,High
+M1192,Protein Oats Bowl Combo,Oats + Milk + Nuts + Seeds,47,18,15,8,395,Medium
+M1193,Multigrain Roti Meal Pro,3 Multigrain Roti + Dal,65,25,9,17,441,Medium
+M1194,Upma Buttermilk Meal Deluxe,1 Bowl Upma + 1 Glass Buttermilk,42,9,7,3,267,Medium
+M1195,Masala Khichdi Meal Bowl,Vegetable Masala Khichdi + Curd,57,18,9,9,381,Medium
+M1196,Chapati Dal Meal Deluxe,4 Chapati + Dal + Salad,81,23,8,12,488,Medium
+M1197,Healthy Chickpea Bowl Combo,Chickpeas + Vegetables + Curd,49,20,10,15,366,Low
+M1198,Paneer Broccoli Bowl Special,Paneer + Broccoli + Brown Rice,47,33,21,13,509,Medium
+M1199,Chicken Soya Meal Combo,Chicken + Soya Curry + Roti,58,46,16,14,560,Medium
+M1200,Vegetable Beetroot Roti Plate Bowl,3 Roti + Beetroot Curry + Dal,64,20,8,15,408,Medium
+M1201,Vegetable Seed Power Bowl Supreme,Seeds + Millet + Sprouts + Vegetables,46,25,13,20,401,Low
+M1202,Vegetable Burger Healthy Lite,Whole Wheat Veg Burger + Salad,74,16,15,9,495,Medium
+M1203,Rajma Salad Meal Bowl,1 Bowl Rajma + Cucumber Salad,32,10,2,9,186,Low
+M1204,Paneer Bhakri Meal Deluxe,2 Jowar Bhakri + 1 Bowl Paneer Curry,66,25,16,8,508,Medium
+M1205,Vegetable Dal Bowl Combo,1 Bowl Dal + Brown Rice + Vegetables,62,22,7,13,399,Medium
+M1206,Vegetable Dal Dosa Bowl,2 Vegetable Dosa + Sambar,64,15,10,7,406,Medium
+M1207,Chicken Garlic Millet Bowl Pro,Millet + Chicken + Vegetables,48,36,12,13,444,Low
+M1208,Vegetable Millet Salad Bowl Deluxe,Millet + Vegetables + Sprouts + Curd,50,20,7,16,343,Low
+M1209,Chapati Bhindi Meal Deluxe,2 Roti + Bhindi Sabzi,48,9,6,9,282,Medium
+M1210,Vegetable Brown Rice Khichdi Supreme,Brown Rice + Dal + Vegetables,64,20,7,14,399,Medium
+M1211,Chicken Curd Millet Bowl Lite,Millet + Chicken + Curd + Vegetables,48,42,13,12,477,Low
+M1212,Veg Manchurian Rice Bowl,Fried Rice + Veg Manchurian,93,11,23,5,623,High
+M1213,Fish Curry Millet Meal Supreme,Millet + Fish Curry + Vegetables,59,31,11,11,459,Medium
+M1214,Vegetable Biryani Bowl Deluxe,Vegetable Biryani + Curd,68,14,14,7,454,High
+M1215,Kadhi Rice Meal Supreme,Rice + Kadhi + Salad,81,15,7,4,447,High
+M1216,Ragi Porridge Meal Pro,Ragi Porridge + Milk + Nuts,52,12,11,8,355,Medium
+M1217,Chicken Millet Salad Lite,Millet + Chicken + Vegetables + Nuts,35,47,15,13,463,Low
+M1218,Vegetable Mung Bean Bowl Special,Moong Beans + Vegetables + Curd,41,23,7,15,319,Low
+M1219,Vegetable Curd Millet Meal Lite,Millet + Curd + Vegetables + Seeds,50,19,10,15,366,Low
+M1220,Vegetable Mung Bean Bowl Pro,Moong Beans + Vegetables + Curd,39,23,7,14,311,Low
+M1221,Paneer Bajra Bowl Supreme,Bajra Roti + Paneer Curry + Vegetables,62,30,20,15,548,Medium
+M1222,Chicken Rice Deluxe Lite,Rice + Chicken Curry + Curd,63,34,22,2,586,Medium
+M1223,Vegetable Dal Fry Meal Supreme,3 Roti + Dal Fry + Salad,75,20,8,13,452,Medium
+M1224,Chicken Lentil Rice Bowl Supreme,Brown Rice + Chicken + Lentils,71,45,16,11,608,Medium
+M1225,Chicken Dal Roti Lite,2 Roti + Chicken Curry + Dal,64,38,17,8,561,Medium
+M1226,Vegetable Almond Bowl Special,Brown Rice + Vegetables + Almonds + Dal,60,23,13,14,449,Medium
+M1227,Chicken Flaxseed Bowl Lite,Chicken + Flaxseed + Vegetables,32,45,16,10,452,Low
+M1228,Vegetable Cutlet Meal Bowl,3 Vegetable Cutlet + Chutney,65,9,17,6,449,High
+M1229,Vegetable Spinach Dal Meal Lite,2 Roti + Spinach Dal + Salad,58,23,7,16,387,Medium
+M1230,Vegetable Uttapam Meal Pro,3 Vegetable Uttapam + Sambar,70,16,9,7,425,Medium
+M1231,Moong Dal Roti Meal Special,3 Roti + Moong Dal + Vegetables,67,26,8,14,444,Medium
+M1232,Vegetable Porridge Deluxe,Dalia Vegetable Porridge,46,12,5,9,277,Medium
+M1233,Chicken Rice Meal Special,1 Bowl Rice + Chicken Curry,53,31,15,1,471,Medium
+M1234,Vegetable Rajma Quinoa Special,Rajma + Quinoa + Vegetables + Curd,65,23,7,19,415,Medium
+M1235,Paneer Vegetable Soup Meal Special,Paneer Soup + Multigrain Toast,34,27,12,8,352,Low
+M1236,Vegetable Soya Roti Meal Supreme,2 Roti + Soya Curry + Salad,57,28,9,15,421,Medium
+M1237,Fish Curry Roti Special,3 Roti + Fish Curry,64,31,12,6,488,Medium
+M1238,High Protein Indian Plate Deluxe,Paneer + Dal + Roti + Salad,55,39,19,15,547,Medium
+M1239,Poori Bhaji Combo,4 Poori + Potato Bhaji,87,10,24,7,604,High
+M1240,Makai Roti Meal Special,2 Makai Roti + Mixed Vegetable Curry,70,13,11,10,431,Medium
+M1241,Chicken Flaxseed Bowl Combo,Chicken + Flaxseed + Salad,23,43,17,10,417,Low
+M1242,Chicken Capsicum Roti Meal Deluxe,2 Roti + Capsicum Chicken Curry,55,37,15,10,503,Medium
+M1243,Vegetable Masala Dalia Combo,Dalia + Vegetables + Curd,52,16,7,10,335,Medium
+M1244,Paneer Brown Rice Meal Lite,Brown Rice + Paneer Curry + Salad,68,27,15,14,515,Medium
+M1245,Veg Frankie Roll Special,2 Vegetable Frankie Rolls,75,12,23,6,555,High
+M1246,Vegetable Chia Breakfast Supreme,Chia Seeds + Oats + Milk + Fruits,51,16,10,9,358,Low
+M1247,Biryani Meal Special,1 Bowl Chicken Biryani + Raita,56,24,16,3,464,High
+M1248,Curd Rice Deluxe,1 Bowl Rice + 1 Bowl Curd,52,11,8,1,324,Medium
+M1249,Avial Rice Meal Bowl,Rice + Avial + Curd,64,16,12,9,428,High
+M1250,Thepla Meal Combo,3 Thepla + Curd,61,17,15,9,447,Medium
+M1251,Dal Khichdi Meal Lite,1 Bowl Dal Khichdi + Curd,57,17,7,6,359,Medium
+M1252,Vegetable Chickpea Bowl Bowl,Chickpeas + Vegetables + Curd,47,20,8,14,340,Low
+M1253,Chicken Rajma Protein Bowl Deluxe,Rajma + Chicken + Vegetables,41,43,15,13,471,Low
+M1254,Vegetable Almond Roti Meal Special,2 Roti + Vegetable Curry + Almonds,69,18,14,14,474,Medium
+M1255,Vegetable Millet Soup Bowl,Millet Soup + Vegetables + Toast,46,17,6,11,306,Low
+M1256,Bhakri Vegetable Meal Lite,2 Bajra Bhakri + Mixed Vegetable Curry,76,12,9,12,433,Medium
+M1257,Masala Khichdi Meal Combo,Vegetable Masala Khichdi + Curd,52,16,8,10,344,Medium
+M1258,Paneer Moong Rice Bowl Supreme,Moong Rice + Paneer + Vegetables,64,33,14,13,514,Medium
+M1259,Paneer Moong Bowl Supreme,Moong Dal + Paneer + Vegetables,49,34,15,14,467,Low
+M1260,Chicken Roti Meal Deluxe,2 Roti + Chicken Curry,47,35,19,5,499,Medium
+M1261,Vegetable Seed Protein Bowl Bowl,Millet + Seeds + Sprouts + Vegetables,49,28,11,16,407,Low
+M1262,Indian Diabetes Friendly Plate Lite,2 Multigrain Roti + Dal + Green Vegetables + Curd,50,26,7,21,367,Low
+M1263,Dosa Paneer Meal Lite,1 Plain Dosa + Paneer Curry,39,24,20,3,432,Medium
+M1264,Idli Curd Meal Lite,2 Idli + 1 Bowl Curd,30,11,9,1,245,Medium
+M1265,Chicken Tofu Protein Bowl Supreme,Chicken + Tofu + Vegetables,32,48,17,12,473,Low
+M1266,Masoor Dal Khichdi Lite,Masoor Dal Khichdi + Curd,55,20,6,12,354,Medium
+M1267,Masala Dosa Meal Bowl,1 Masala Dosa + Sambar + Chutney,75,13,16,6,496,High
+M1268,High Protein Low Carb Bowl Lite,Paneer + Chicken + Sprouts + Salad,25,45,19,14,451,Low
+M1269,Kadhi Khichdi Bowl,1 Bowl Khichdi + Kadhi,57,17,10,8,386,Medium
+M1270,Dhokla Breakfast Combo,4 Pieces Dhokla + Green Chutney,27,8,2,3,158,Medium
+M1271,Vegetable Tomato Dal Meal Bowl,3 Roti + Tomato Dal + Salad,71,21,8,15,440,Medium
+M1272,Vegetable Soya Roti Meal Deluxe,2 Roti + Soya Curry + Salad,61,31,10,15,458,Medium
+M1273,Curd Rice Lite,1 Bowl Curd Rice,60,12,6,2,342,Medium
+M1274,Paneer Lentil Bowl Special,Lentils + Paneer + Green Vegetables,37,32,17,16,429,Low
+M1275,Idiyappam Meal Deluxe,3 Idiyappam + Vegetable Curry,64,12,10,4,394,High
+M1276,Vegetable Seed Protein Bowl Special,Millet + Seeds + Sprouts + Vegetables,43,25,12,18,380,Low
+M1277,Vegetable Handvo Breakfast Pro,2 Handvo Pieces + Curd,47,14,13,8,361,Medium
+M1278,Egg Quinoa Bowl Lite,Quinoa + Eggs + Vegetables,50,32,17,10,481,Low
+M1279,Chicken Makhana Bowl Supreme,Chicken + Makhana + Salad,28,39,11,10,367,Low
+M1280,Vegetable Millet Khichdi Pro,Millet Khichdi + Curd,63,16,7,14,379,Medium
+M1281,Vegetable Fenugreek Quinoa Supreme,Quinoa + Methi + Vegetables + Dal,53,22,8,17,372,Low
+M1282,Baingan Bharta Meal Pro,3 Roti + Baingan Bharta,71,15,11,12,443,Medium
+M1283,Lemon Rice Curd Bowl,1 Bowl Lemon Rice + Curd,53,10,10,2,342,Medium
+M1284,Chicken Brown Rice Bowl Bowl,Brown Rice + Chicken + Vegetables,64,44,13,13,549,Medium
+M1285,Paneer Salad Wrap Combo,2 Paneer Salad Wraps,62,32,18,10,538,Medium
+M1286,Paneer Flaxseed Bowl Combo,Paneer + Flaxseed + Vegetables + Curd,31,36,20,14,448,Low
+M1287,Paneer Rice Bowl Pro,Rice + Paneer Curry + Cucumber Salad,64,23,18,5,510,Medium
+M1288,Paneer Pumpkin Bowl Pro,Pumpkin + Paneer + Vegetables,41,29,18,12,442,Low
+M1289,Balanced Indian Thali Combo,2 Roti + Dal + Rice + Mixed Vegetable Curry + Salad,117,25,11,15,667,High
+M1290,Vegetable Chickpea Dal Meal Deluxe,2 Roti + Chickpea Dal + Salad,72,21,10,14,462,Medium
+M1291,Egg Toast Meal Bowl,2 Brown Bread + 2 Boiled Eggs,27,16,12,5,280,Medium
+M1292,Paneer Quinoa Dal Bowl Pro,Quinoa + Paneer + Dal + Salad,52,34,18,15,506,Low
+M1293,Prawn Masala Roti Supreme,3 Roti + Prawn Masala,70,30,13,7,517,Medium
+M1294,Chicken Beetroot Bowl Supreme,Chicken + Beetroot + Vegetables,32,41,15,10,427,Low
+M1295,Vegetable Rice Sambar Bowl Pro,Rice + Sambar + Vegetables + Curd,75,17,6,10,422,High
+M1296,Vegetable Porridge Dinner Deluxe,Savory Oats Porridge + Vegetables,42,15,8,8,300,Low
+M1297,Chicken Beetroot Soup Meal Deluxe,Chicken Beetroot Soup + Bread,37,35,9,9,369,Low
+M1298,Vegetable Ultimate Nutrition Bowl Bowl,Millet + Dal + Paneer + Vegetables + Curd,53,33,12,19,452,Low
+M1299,Ragi Breakfast Bowl,2 Ragi Roti + 1 Bowl Curd,49,13,9,7,329,Low
+M1300,Complete Indian Diabetic Meal Pro,Multigrain Roti + Dal + Chicken/Paneer + Green Vegetables + Salad,52,39,12,21,472,Low
+M1301,Chana Salad Meal Special,Chana Salad + Curd,43,16,8,12,308,Low
+M1302,Paneer Tawa Meal Pro,2 Roti + Tawa Paneer + Salad,54,29,20,9,512,Medium
+M1303,Vegetable Sprouts Bowl Combo,Sprouts + Corn + Vegetables + Curd,48,20,7,15,335,Low
+M1304,Brown Rice Dal Meal Combo,Brown Rice + Dal + Salad,70,20,5,14,405,Medium
+M1305,Protein Makhana Bowl Combo,Makhana + Paneer + Vegetables,32,31,13,12,369,Low
+M1306,Vegetable Almond Quinoa Bowl Lite,Quinoa + Vegetables + Almonds + Curd,53,20,12,15,400,Medium
+M1307,Chicken Amaranth Bowl Pro,Rajgira + Chicken + Vegetables,55,39,13,13,493,Low
+M1308,Tofu Rice Meal Pro,1 Bowl Rice + Tofu + Salad,50,12,6,3,302,Medium
+M1309,Chicken Brown Rice Meal Pro,Brown Rice + Chicken Curry + Salad,72,37,13,11,553,Medium
+M1310,Egg Curry Roti Meal Lite,3 Roti + Egg Curry,73,29,17,6,561,Medium
+M1311,Rice Fish Curry Bowl,1 Bowl Rice + 1 Bowl Fish Curry,47,25,12,2,396,Medium
+M1312,Tomato Rice Meal Deluxe,1 Bowl Tomato Rice + Raita,80,11,9,4,445,High
+M1313,Paneer Spinach Bowl Pro,Paneer + Spinach + Brown Rice + Salad,60,31,16,15,508,Medium
+M1314,Chicken Vegetable Thali Lite,2 Roti + Chicken Curry + Salad,56,43,14,8,522,Medium
+M1315,Chicken Roti Combo Deluxe,3 Roti + 1 Bowl Chicken Curry,67,30,17,7,541,Medium
+M1316,Besan Chilla Plate Bowl,4 Besan Chilla + Chutney,51,22,10,11,382,Low
+M1317,Chicken Sprouts Bowl Lite,Chicken + Sprouts + Salad,29,39,10,12,362,Low
+M1318,Paneer Capsicum Roti Meal Lite,2 Roti + Capsicum Paneer Curry,63,31,19,11,547,Medium
+M1319,Corn Chaat Meal Combo,Corn Chaat + Sprouts + Lemon,47,12,5,7,281,Medium
+M1320,Vegetable Fried Rice Lite Deluxe,Brown Rice Veg Fried Rice,65,15,9,7,401,Medium
+M1321,Paneer Breakfast Wrap Combo,Whole Wheat Wrap + Paneer + Vegetables,62,27,17,8,509,Medium
+M1322,Chicken Rice Bowl Healthy Lite,Brown Rice + Chicken + Vegetables,65,41,13,13,541,Medium
+M1323,Vegetable Cauliflower Rice Bowl Bowl,Cauliflower Rice + Dal + Vegetables,31,18,7,19,259,Low
+M1324,Paneer Dosa Meal Lite,1 Paneer Dosa + Sambar,65,24,18,5,518,High
+M1325,Green Peas Pulao Meal Lite,Green Peas Pulao + Raita,73,14,10,8,438,High
+M1326,Vegetable Ragi Meal Special,Ragi Roti + Dal + Vegetables,66,23,6,16,410,Medium
+M1327,Little Millet Pongal Deluxe,Millet Pongal + Sambar,52,17,8,9,348,Medium
+M1328,Traditional Maharashtra Healthy Meal Deluxe,2 Bhakri + Usal + Vegetables + Curd,68,24,9,18,449,Medium
+M1329,Chana Salad Meal Special,Chana Salad + Curd,42,17,8,12,308,Low
+M1330,Paneer Barley Soup Supreme,Barley + Paneer + Vegetables,41,30,16,13,428,Low
+M1331,Paneer Brown Rice Plate Lite,Brown Rice + Paneer Curry,67,32,18,10,558,Medium
+M1332,Chicken Vegetable Dal Bowl Pro,Chicken + Dal + Mixed Vegetables,49,41,12,11,468,Low
+M1333,Chicken Drumstick Millet Bowl Deluxe,Millet + Chicken + Drumstick Curry,54,41,14,11,506,Medium
+M1334,Vegetable Falooda Meal Bowl,Fruit Falooda + Nuts,78,9,15,5,483,High
+M1335,Egg Frankie Meal Deluxe,2 Egg Frankie Rolls,74,29,21,6,601,High
+M1336,Chicken Brown Rice Plate Pro,Brown Rice + Chicken Curry,63,38,14,8,530,Medium
+M1337,Coconut Rice Combo,1 Bowl Coconut Rice,67,9,17,3,457,High
+M1338,Vegetable Corn Bowl Supreme,Corn + Beans + Vegetables + Curd,55,16,8,13,356,Medium
+M1339,Hakka Noodles Veg Combo,1 Plate Veg Hakka Noodles,74,12,17,4,497,High
+M1340,Paneer Almond Protein Bowl Deluxe,Paneer + Almonds + Vegetables,27,35,25,13,473,Low
+M1341,Chicken Oats Protein Bowl Pro,Oats + Chicken + Vegetables,42,41,11,9,431,Low
+M1342,Foxtail Millet Meal Supreme,Millet Rice + Dal + Vegetables,65,19,7,14,399,Medium
+M1343,Paneer Tofu Bowl Supreme,Paneer + Tofu + Vegetables,31,39,21,12,469,Low
+M1344,Chicken Handi Meal Bowl,2 Roti + Chicken Handi,54,37,20,5,544,Medium
+M1345,Vegetable Beetroot Khichdi Lite,Beetroot + Dal + Rice Khichdi + Curd,64,19,6,14,386,Medium
+M1346,Paneer Chickpea Protein Bowl Pro,Chickpeas + Paneer + Salad,40,34,17,15,449,Low
+M1347,Chicken Spinach Quinoa Lite,Quinoa + Chicken Spinach Curry,41,45,15,12,479,Low
+M1348,Chicken Almond Bowl Deluxe,Chicken + Almonds + Vegetables,26,46,18,9,450,Low
+M1349,Paneer Tikka Rice Bowl Supreme,Rice + Paneer Tikka + Vegetables,77,31,20,7,612,High
+M1350,Peas Paneer Meal Combo,2 Roti + Matar Paneer + Salad,59,27,23,8,551,Medium
+M1351,Paneer Pumpkin Quinoa Combo,Quinoa + Paneer + Pumpkin Vegetables,47,34,16,12,468,Low
+M1352,Chicken Millet Salad Bowl Bowl,Millet + Chicken + Vegetables + Nuts,38,41,15,13,451,Low
+M1353,Veg Frankie Roll Lite,2 Vegetable Frankie Rolls,79,13,22,7,566,High
+M1354,Chicken Garlic Millet Bowl Bowl,Millet + Chicken + Vegetables,48,40,13,14,469,Low
+M1355,Chicken Cauliflower Protein Bowl Special,Chicken + Cauliflower + Vegetables,25,45,15,12,415,Low
+M1356,Vegetable Kuttu Meal Pro,Kuttu Roti + Vegetable Curry + Curd,54,16,10,15,370,Medium
+M1357,Paneer Dal Combo Combo,2 Roti + Dal + Paneer Curry,68,36,17,15,569,Medium
+M1358,Chicken Almond Bowl Combo,Chicken + Almonds + Vegetables,23,41,21,9,445,Low
+M1359,Pumpkin Vegetable Curry Meal Special,2 Roti + Pumpkin Curry + Dal,63,18,7,12,387,Medium
+M1360,Paneer Peas Curry Meal Bowl,2 Roti + Matar Paneer,63,29,22,9,566,Medium
+M1361,Paneer Mushroom Bowl Special,Paneer + Mushroom + Vegetables,37,34,20,12,464,Low
+M1362,Paneer Green Peas Bowl Bowl,Paneer + Green Peas + Brown Rice,62,31,19,13,543,Medium
+M1363,Paneer Khichdi Meal Pro,Paneer Khichdi + Curd,54,25,16,11,460,Medium
+M1364,Paneer Paratha Meal Deluxe,2 Paneer Paratha + Curd,83,26,26,8,670,High
+M1365,Curd Millet Bowl Special,Millet + Curd + Nuts,54,17,14,10,410,Medium
+M1366,Oats Meal Bowl,Oats + Milk + Nuts,53,18,14,8,410,Medium
+M1367,Chicken Mung Bean Bowl Bowl,Chicken + Moong Beans + Salad,34,39,12,14,400,Low
+M1368,Vegetable Ultimate Fiber Bowl Bowl,Millet + Dal + Vegetables + Sprouts + Curd,53,29,8,20,400,Low
+M1369,Dosa Breakfast Deluxe Bowl,2 Plain Dosa + Sambar,73,16,10,7,446,High
+M1370,Chicken Cauliflower Protein Bowl Lite,Chicken + Cauliflower + Vegetables,23,42,15,12,395,Low
+M1371,Chicken Coconut Curry Bowl Supreme,Rice + Coconut Chicken Curry,77,37,22,7,654,High
+M1372,Chicken Millet Bowl Special,Millet + Chicken Curry + Vegetables,56,42,15,13,527,Medium
+M1373,Jowar Vegetable Meal Special,2 Jowar Roti + Vegetable Curry,59,13,9,12,369,Medium
+M1374,Vegetable Tomato Rice Bowl Lite,Tomato Rice + Dal + Salad,80,17,8,9,460,High
+M1375,Chicken Sandwich Meal Special,2 Chicken Sandwich + Salad,56,35,19,5,535,Medium
+M1376,Chicken Cauliflower Meal Pro,Chicken + Cauliflower Curry + Roti,48,43,15,10,499,Medium
+M1377,Paneer Lentil Soup Deluxe,Lentil Soup + Paneer,33,31,15,10,391,Low
+M1378,Vegetable Spinach Roti Meal Lite,3 Roti + Spinach Dal + Salad,76,24,7,16,463,Medium
+M1379,Vegetable Ultimate Fiber Bowl Supreme,Millet + Dal + Vegetables + Sprouts + Curd,48,30,8,23,384,Low
+M1380,Paneer Wrap Meal Lite,2 Paneer Wraps,68,26,23,7,583,High
+M1381,Chicken Chickpea Wrap Combo,Chicken + Chickpea Whole Wheat Wrap,66,36,17,11,561,Medium
+M1382,Vegetable Millet Khichdi Bowl,Millet + Dal + Vegetables,50,17,7,13,331,Medium
+M1383,Chicken Beetroot Khichdi Bowl,Chicken + Beetroot Rice Khichdi,60,36,13,9,501,Medium
+M1384,Amti Rice Meal Bowl,Rice + Maharashtrian Amti Dal,71,14,6,7,394,High
+M1385,Paneer Barley Roti Meal Lite,Barley Roti + Paneer Curry,50,35,17,15,493,Low
+M1386,Chicken Pumpkin Roti Meal Deluxe,2 Roti + Chicken Pumpkin Curry,58,36,16,11,520,Medium
+M1387,Paneer Lababdar Meal Lite,2 Roti + Paneer Lababdar + Salad,57,31,24,7,568,Medium
+M1388,Protein Meal Combo,Paneer + Roti + Salad,48,34,19,7,499,Medium
+M1389,Palak Paneer Meal Bowl,2 Roti + Palak Paneer,48,18,16,6,408,Medium
+M1390,Vegetable Dal Thali Special,2 Roti + Dal + Mixed Vegetable + Salad,62,21,8,14,404,Medium
+M1391,Vegetable Cutlet Meal Special,3 Vegetable Cutlet + Chutney,57,9,17,7,417,High
+M1392,Chicken Beetroot Meal Pro,Chicken + Beetroot + Vegetables,41,43,15,12,471,Low
+M1393,Soya Rice Protein Meal Special,Soya Curry + Rice + Vegetables,72,34,12,13,532,High
+M1394,Fish Fry Meal Supreme,Fish Fry + Rice + Salad,77,32,20,3,616,High
+M1395,Chicken Beetroot Khichdi Special,Chicken + Beetroot Rice Khichdi,55,34,12,9,464,Medium
+M1396,Paneer Broccoli Millet Bowl Bowl,Millet + Paneer + Broccoli,48,35,19,14,503,Medium
+M1397,Palak Dal Rice Bowl,Rice + Spinach Dal + Salad,82,21,6,11,466,High
+M1398,Paneer Barley Bowl Lite,Barley + Paneer + Vegetables,57,27,14,12,462,Medium
+M1399,Complete Indian Nutrition Meal Lite,Roti + Dal + Chicken/Paneer + Vegetables + Curd,76,38,18,17,618,Medium
+M1400,Paneer Ragi Protein Bowl Lite,Ragi Roti + Paneer + Salad,55,34,17,14,509,Medium
+M1401,Vegetable Soya Bowl Special,Soya Chunks + Vegetables + Brown Rice,69,32,9,13,485,Medium
+M1402,Paneer Vegetable Rice Bowl Deluxe,Rice + Paneer Curry + Vegetables,80,32,18,8,610,High
+M1403,Rajma Roti Meal Combo,2 Roti + 1 Bowl Rajma,72,14,4,11,380,Medium
+M1404,Vegetable Drumstick Millet Meal Deluxe,Millet + Drumstick Curry + Dal,59,19,6,15,366,Medium
+M1405,Paneer Pumpkin Quinoa Pro,Quinoa + Paneer + Pumpkin Vegetables,48,33,18,13,486,Low
+M1406,Paneer Rajgira Plate Bowl,Rajgira Roti + Paneer Curry + Salad,57,33,16,14,504,Medium
+M1407,Amti Rice Meal Combo,Rice + Maharashtrian Amti Dal,74,15,6,6,410,High
+M1408,Kadhi Rice Meal Bowl,Rice + Kadhi + Salad,75,15,8,4,432,High
+M1409,Vegetable Chickpea Wrap Lite,2 Chickpea Whole Wheat Wraps,72,21,11,15,471,Medium
+M1410,Vegetable Oats Meal Deluxe,1 Bowl Oats Porridge + Mixed Vegetable Curry,48,11,10,7,326,Low
+M1411,Peanut Butter Toast Supreme,2 Bread + Peanut Butter,46,14,17,4,393,Medium
+M1412,Vegetable Lentil Soup Deluxe,Mixed Lentil Soup + Whole Wheat Toast,43,24,6,12,322,Low
+M1413,Paneer Wrap Healthy Lite,Whole Wheat Paneer Wrap,57,27,16,9,480,Medium
+M1414,Veg Frankie Roll Supreme,2 Vegetable Frankie Rolls,87,14,21,7,593,High
+M1415,Vegetable Rajma Bowl Bowl,Rajma + Brown Rice + Vegetables,72,22,7,19,439,Medium
+M1416,Paneer Oats Bowl Deluxe,Oats + Paneer + Vegetables,47,29,14,10,430,Medium
+M1417,Kerala Rice Meal Lite,Rice + Vegetable Curry + Dal,83,17,10,12,490,High
+M1418,Paneer Fenugreek Quinoa Lite,Quinoa + Methi Paneer + Salad,48,35,16,14,476,Low
+M1419,Gobi Paratha Meal Combo,2 Gobi Paratha + Pickle + Curd,69,14,16,8,476,Medium
+M1420,Paneer Barley Soup Deluxe,Barley + Paneer + Vegetables,39,29,13,14,389,Low
+M1421,Dosa Paneer Meal Deluxe,1 Plain Dosa + Paneer Curry,38,23,17,4,397,Medium
+M1422,Paneer Spinach Quinoa Combo,Quinoa + Spinach Paneer Curry,52,39,21,14,553,Medium
+M1423,Chicken Saag Meal Deluxe,2 Roti + Chicken Saag,47,36,17,10,485,Medium
+M1424,Amti Rice Meal Lite,Rice + Maharashtrian Amti Dal,79,16,6,7,434,High
+M1425,Vegetable Sprouts Chaat Pro,Sprouts + Vegetables + Peanuts + Lemon,37,19,10,11,314,Low
+M1426,Vegetable Mung Bean Bowl Supreme,Moong Beans + Vegetables + Curd,40,25,8,14,332,Low
+M1427,Rajma Roti Meal Combo,3 Roti + Rajma Curry,72,24,9,16,465,Medium
+M1428,Paneer Rajma Bowl Deluxe,Rajma + Paneer + Salad + Brown Rice,56,36,16,16,512,Medium
+M1429,Chicken Lentil Bowl Bowl,Lentils + Chicken + Vegetables,39,39,14,14,438,Low
+M1430,Vegetable Oats Khichdi Bowl,Oats Khichdi + Curd,40,19,8,11,308,Low
+M1431,Vegetable Kofta Meal Lite,2 Roti + Vegetable Kofta Curry,62,16,16,8,456,Medium
+M1432,Chicken Soya Bowl Deluxe,Chicken + Soya + Salad,38,43,14,14,450,Low
+M1433,Vegetable Beetroot Roti Plate Pro,3 Roti + Beetroot Curry + Dal,73,23,8,17,456,Medium
+M1434,Paneer Broccoli Bowl Bowl,Paneer + Broccoli + Brown Rice,46,34,21,16,509,Medium
+M1435,Paneer Lentil Soup Bowl Supreme,Lentil Soup + Paneer + Vegetables,42,31,14,11,418,Low
+M1436,Vegetable Drumstick Millet Meal Bowl,Millet + Drumstick Curry + Dal,54,20,6,15,350,Medium
+M1437,Dal Tadka Rice Supreme,1 Bowl Rice + Dal Tadka + Salad,77,15,7,8,431,High
+M1438,Idli Curd Breakfast Combo,3 Idli + 1 Bowl Curd,44,16,9,3,321,Medium
+M1439,Spinach Paneer Meal Special,2 Roti + Palak Paneer + Curd,54,27,19,10,495,Medium
+M1440,Paneer Quinoa Salad Supreme,Quinoa + Paneer + Vegetables + Seeds,46,31,17,15,461,Low
+M1441,Paneer Quinoa Salad Deluxe,Quinoa + Paneer + Vegetables,43,30,17,12,445,Medium
+M1442,Vegetable Sambar Rice Lite,Rice + Vegetable Sambar + Curd,78,15,7,9,435,High
+M1443,Vegetable Dal Tadka Meal Lite,3 Roti + Dal Tadka + Green Salad,75,20,9,16,461,Medium
+M1444,Paneer Beetroot Bowl Bowl,Paneer + Beetroot + Vegetables,32,30,17,12,401,Low
+M1445,Paneer Mung Dal Bowl Deluxe,Moong Dal + Paneer + Vegetables,37,33,17,14,433,Low
+M1446,Chicken Tomato Rice Bowl Lite,Rice + Tomato Chicken Curry + Vegetables,72,36,17,6,585,High
+M1447,Paneer Sweet Potato Bowl Deluxe,Sweet Potato + Paneer + Salad,49,33,17,11,481,Medium
+M1448,Vegetable Sprouts Paratha Bowl,2 Sprouts Paratha + Curd,75,23,12,15,500,Medium
+M1449,Pasta Veg Pro,1 Bowl White Sauce Pasta,67,15,19,5,499,High
+M1450,Vegetable Soup Roti Special,Vegetable Soup + 2 Roti + Salad,55,18,7,15,355,Low
+M1451,Paneer Vegetable Thali Pro,2 Roti + Paneer Curry + Salad,61,32,17,9,525,Medium
+M1452,Coconut Rice Combo,1 Bowl Coconut Rice,65,10,17,4,453,High
+M1453,Traditional South Meal Special,Rice + Sambar + Rasam + Vegetables,88,15,7,13,475,High
+M1454,Vegetable Ragi Bowl Pro,Ragi + Vegetables + Dal + Curd,61,18,6,13,370,Medium
+M1455,Maharashtrian Meal Special,2 Bhakri + Pithla + Salad,61,17,8,11,384,Medium
+M1456,Paneer Green Peas Bowl Bowl,Paneer + Green Peas + Brown Rice,71,32,18,13,574,Medium
+M1457,Egg Protein Breakfast Pro,3 Boiled Eggs + Multigrain Toast + Milk,41,32,21,6,481,Low
+M1458,Paneer Almond Roti Meal Combo,2 Roti + Paneer Curry + Almonds,56,35,23,13,571,Medium
+M1459,Chicken Chilla Meal Combo,3 Chicken Stuffed Chilla,47,33,13,7,437,Low
+M1460,Vegetable Noodles Healthy Pro,Whole Wheat Noodles + Vegetables,63,16,10,7,406,Medium
+M1461,Paneer Brown Rice Plate Bowl,Brown Rice + Paneer Curry,60,29,18,10,518,Medium
+M1462,Curd Rice Bowl,1 Bowl Curd Rice,64,10,5,2,341,Medium
+M1463,Vegetable Broccoli Millet Bowl Pro,Millet + Broccoli + Dal,54,23,6,18,362,Low
+M1464,Indian Balanced Meal Lite,2 Roti + Dal + Paneer + Salad + Curd,76,35,18,19,606,Medium
+M1465,Oats Vegetable Khichdi Supreme,Oats + Moong Dal + Vegetables,44,19,6,10,306,Low
+M1466,Khichdi Curd Meal Lite,1 Bowl Khichdi + Curd + Salad,59,13,7,7,351,Medium
+M1467,Khichdi Curd Meal Supreme,1 Bowl Khichdi + Curd + Salad,52,14,7,6,327,Medium
+M1468,Vegetable Wrap Healthy Lite,Whole Wheat Vegetable Wrap,51,17,9,8,353,Medium
+M1469,Chicken Fenugreek Bowl Lite,Chicken Methi + Roti + Salad,50,42,16,11,512,Medium
+M1470,Paneer Lentil Bowl Supreme,Lentils + Paneer + Green Vegetables,43,31,19,14,467,Low
+M1471,Paneer Quinoa Bowl Deluxe,Quinoa + Paneer + Vegetables,56,33,14,13,482,Medium
+M1472,Vegetable Rajma Bowl Bowl,Rajma + Brown Rice + Salad,66,21,6,15,402,Medium
+M1473,Vegetable Sattu Meal Lite,Sattu Paratha + Curd + Salad,65,25,12,14,468,Medium
+M1474,Chicken Barley Soup Bowl,Barley + Chicken + Vegetables,37,36,12,13,400,Low
+M1475,Paneer Butter Masala Meal Special,2 Roti + Paneer Butter Masala,67,31,29,6,653,Medium
+M1476,Chicken Porridge Bowl Pro,Chicken Vegetable Porridge,42,32,9,9,377,Low
+M1477,Misal Combo Bowl,1 Plate Misal + Buttermilk,67,14,16,8,468,High
+M1478,Chicken Millet Khichdi Bowl,Millet + Chicken,48,35,13,10,449,Low
+M1479,Vegetable Quinoa Salad Bowl,Quinoa + Vegetables + Curd + Nuts,49,18,11,13,367,Medium
+M1480,Paneer Quinoa Bowl Lite,Quinoa + Paneer + Vegetables,50,31,16,13,468,Medium
+M1481,Paneer Pumpkin Khichdi Combo,Pumpkin Khichdi + Paneer + Salad,47,28,15,12,435,Low
+M1482,Full Indian Dinner Bowl,3 Roti + Dal + Sabzi + Curd,88,29,15,14,603,Medium
+M1483,Chickpea Sandwich Special,Chickpea Sandwich + Curd,65,23,11,9,451,Medium
+M1484,Moong Dal Roti Meal Lite,3 Roti + Moong Dal + Vegetables,64,25,7,15,419,Medium
+M1485,Paneer Sprouts Bowl Deluxe,Sprouts + Paneer + Vegetables,39,29,19,12,443,Low
+M1486,Vegetable Pumpkin Quinoa Bowl Special,Pumpkin + Quinoa + Dal + Vegetables,57,20,8,16,380,Medium
+M1487,Paneer Methi Rice Meal Supreme,Rice + Methi Paneer Curry,71,30,19,10,575,High
+M1488,Vegetable Dal Bowl Lite,Dal + Brown Rice + Vegetables,68,20,6,15,406,Medium
+M1489,Vegetable Coconut Dal Meal Special,2 Roti + Coconut Dal + Salad,60,20,10,14,410,Medium
+M1490,Vegetable Thali Healthy Bowl,2 Roti + Dal + Sabzi + Salad + Curd,68,26,10,18,466,Low
+M1491,Vegetable Soya Chunks Bowl Combo,Soya Chunks + Brown Rice + Vegetables,65,33,10,17,482,Medium
+M1492,Chicken Green Salad Bowl Special,Chicken + Vegetables + Nuts + Salad,23,43,14,10,390,Low
+M1493,Korma Roti Meal Supreme,2 Roti + Vegetable Korma,57,14,21,7,473,Medium
+M1494,Vegetable Dalia Khichdi Bowl,Dalia + Mixed Vegetables + Dal,53,19,7,11,351,Medium
+M1495,Moong Dal Roti Meal Supreme,3 Roti + Moong Dal + Vegetables,70,24,8,15,448,Medium
+M1496,Paneer Soya Bowl Deluxe,Soya + Paneer + Vegetables,37,41,19,16,483,Low
+M1497,Vegetable Garlic Rice Meal Bowl,Garlic Rice + Vegetables + Raita,80,15,10,6,470,High
+M1498,Egg Breakfast Lite,2 Boiled Eggs + 2 Bread Slices + Milk,39,24,18,4,414,Medium
+M1499,Chicken Beetroot Meal Supreme,Chicken + Beetroot + Vegetables,39,42,13,11,441,Low
+M1500,Chicken Tomato Bowl Special,Tomato Rice + Chicken Curry,74,38,16,7,592,High
+M1501,Paneer Mung Bean Bowl Deluxe,Paneer + Moong Beans + Vegetables,40,31,15,13,419,Low
+M1502,Vegetable Soya Pulao Supreme,Soya Chunks + Rice + Vegetables,68,31,9,13,477,High
+M1503,Paneer Sprouts Roti Meal Pro,2 Roti + Paneer + Sprouts Salad,54,40,16,13,520,Low
+M1504,Chicken Rajma Millet Bowl Pro,Rajma + Chicken + Millet,54,42,13,15,501,Medium
+M1505,Dhokla Breakfast Deluxe,4 Pieces Dhokla + Green Chutney,28,7,3,3,167,Medium
+M1506,Vegetable Soup Meal Supreme,Soup + Sandwich,54,14,10,8,362,Medium
+M1507,Vegetable Corn Bowl Bowl,Corn + Beans + Vegetables + Curd,52,19,7,12,347,Medium
+M1508,Besan Chilla Meal Lite,3 Besan Chilla + Curd,49,19,10,9,362,Medium
+M1509,Chicken Beetroot Protein Meal Supreme,Chicken + Beetroot + Salad,33,40,15,11,427,Low
+M1510,Vegetable Lentil Roti Bowl Lite,3 Roti + Mixed Lentils + Vegetables,71,24,7,17,443,Medium
+M1511,Egg Frankie Meal Bowl,2 Egg Frankie Rolls,68,30,23,5,599,High
+M1512,Fruit Breakfast Lite,Apple + Banana + Milk,65,9,8,7,368,Medium
+M1513,Vegetable Corn Bowl Bowl,Corn + Beans + Vegetables + Curd,49,19,7,10,335,Medium
+M1514,Healthy Egg Plate Supreme,3 Boiled Eggs + 2 Multigrain Bread + Salad,33,26,18,6,398,Low
+M1515,Paneer Cabbage Meal Pro,2 Roti + Paneer Cabbage Curry,54,31,19,11,511,Medium
+M1516,Chicken Lentil Bowl Supreme,Lentils + Chicken + Vegetables,39,38,13,15,425,Low
+M1517,Egg Bhurji Rice Special,Rice + Egg Bhurji + Salad,78,25,16,5,556,High
+M1518,Paneer Fenugreek Bowl Combo,Methi Paneer + Multigrain Roti,56,33,21,15,545,Medium
+M1519,Poha Breakfast Deluxe,1 Plate Poha + 1 Glass Buttermilk,42,7,5,2,241,Medium
+M1520,Burger Meal Special,1 Veg Burger + Fries,84,12,29,5,645,High
+M1521,Vegetable Lentil Bowl Pro,Mixed Lentils + Vegetables + Brown Rice,60,24,6,17,390,Medium
+M1522,Paneer Mushroom Quinoa Combo,Quinoa + Paneer + Mushroom Curry,50,31,18,14,486,Medium
+M1523,Paneer Tomato Curry Meal Supreme,2 Roti + Tomato Paneer Curry,60,32,20,10,548,Medium
+M1524,Vegetable Beetroot Soup Meal Bowl,Beetroot Soup + Multigrain Toast,44,17,5,13,289,Low
+M1525,Vegetable Millet Dosa Deluxe,2 Millet Dosa + Sambar + Chutney,58,15,7,10,355,Medium
+M1526,Paneer Bhurji Rice Lite,Rice + Paneer Bhurji + Salad,72,30,16,6,552,High
+M1527,Paneer Flaxseed Bowl Combo,Paneer + Flaxseed + Vegetables + Curd,32,39,23,13,491,Low
+M1528,Chicken Broccoli Millet Bowl Deluxe,Millet + Chicken + Broccoli,46,41,13,13,465,Low
+M1529,Paneer Naan Meal Bowl,2 Naan + Paneer Curry,109,33,24,8,784,High
+M1530,Paneer Drumstick Bowl Combo,Paneer + Drumstick Vegetables + Millet,51,30,16,16,468,Medium
+M1531,Chicken Soya Protein Bowl Supreme,Chicken + Soya + Vegetables,34,41,13,13,417,Low
+M1532,Chickpea Rice Bowl Lite,Chickpeas + Rice + Vegetables,90,24,8,16,528,High
+M1533,Chicken Barley Soup Supreme,Barley + Chicken + Vegetables,33,37,12,13,388,Low
+M1534,Paneer Moong Rice Bowl Pro,Moong Rice + Paneer + Vegetables,65,32,14,14,514,Medium
+M1535,Paneer Moong Rice Bowl Special,Moong Rice + Paneer + Vegetables,56,37,14,14,498,Medium
+M1536,Vegetable Spinach Roti Meal Bowl,3 Roti + Spinach Dal + Salad,64,21,7,17,403,Medium
+M1537,Vegetable Lentil Soup Supreme,Lentil Soup + Toast,43,16,4,11,272,Low
+M1538,Vegetable Dal Soup Meal Lite,Dal Soup + Multigrain Toast,46,21,7,10,331,Low
+M1539,Veg Wrap Meal Special,2 Vegetable Wraps,73,14,19,7,519,High
+M1540,Vegetable Bajra Roti Meal Lite,2 Bajra Roti + Dal + Vegetable Curry,58,22,8,18,392,Medium
+M1541,Palak Dal Rice Deluxe,Rice + Spinach Dal + Salad,81,20,6,12,458,High
+M1542,Tomato Rice Meal Pro,1 Bowl Tomato Rice + Raita,80,12,10,4,458,High
+M1543,Healthy Breakfast Special,Oats Porridge + Banana,50,9,5,6,281,Medium
+M1544,Chicken Amaranth Bowl Special,Amaranth + Chicken + Vegetables,45,45,13,14,477,Low
+M1545,Paneer Curd Millet Bowl Pro,Millet + Paneer + Curd + Vegetables,48,31,19,12,487,Medium
+M1546,Paneer Millet Soup Combo,Millet Soup + Paneer + Vegetables,38,30,11,10,371,Low
+M1547,Vegetable Capsicum Millet Bowl Bowl,Millet + Capsicum + Dal + Salad,59,22,7,16,387,Medium
+M1548,Vegetable Amaranth Bowl Combo,Amaranth Grain + Dal + Vegetables,55,24,7,17,379,Medium
+M1549,Vegetable Naan Meal Special,2 Naan + Vegetable Curry,92,16,18,8,594,High
+M1550,Biryani Meal Special,1 Bowl Chicken Biryani + Raita,54,23,17,4,461,High
+M1551,Low Carb Indian Meal Special,Paneer + Vegetables + Salad + Curd,26,37,19,12,423,Low
+M1552,Vegetable Dalia Upma Special,Dalia Upma + Curd,52,13,8,9,332,Medium
+M1553,Paneer Bajra Bowl Special,Bajra Roti + Paneer Curry + Vegetables,65,36,18,17,566,Medium
+M1554,Paneer Quinoa Bowl Special,Quinoa + Paneer + Vegetables,52,32,14,12,462,Medium
+M1555,Fish Tikka Rice Bowl Combo,Fish Tikka + Rice + Vegetables,71,33,11,5,515,High
+M1556,Vegetable Soybean Meal Lite,Soya Bean Curry + 2 Roti + Salad,58,30,10,15,442,Medium
+M1557,Vegetable Dal Soup Dinner Special,Dal Soup + Roti + Salad,64,21,6,14,394,Low
+M1558,Vegetable Khichdi Special,1 Bowl Vegetable Khichdi + Salad,50,10,4,6,276,Medium
+M1559,Paneer Millet Khichdi Supreme,Millet + Paneer,49,29,18,12,474,Medium
+M1560,Lobia Rice Meal Special,Rice + Lobia Curry,71,18,8,13,428,High
+M1561,Paneer Chickpea Bowl Combo,Chickpeas + Paneer + Vegetables,43,31,15,13,431,Low
+M1562,Chicken Quinoa Salad Protein Bowl,Quinoa + Chicken + Vegetables + Nuts,32,44,17,13,457,Low
+M1563,Vegetable Ragi Meal Deluxe,Ragi Roti + Dal + Vegetables,63,21,7,16,399,Medium
+M1564,Chicken Vegetable Dal Bowl Combo,Chicken + Dal + Mixed Vegetables,49,42,12,12,472,Low
+M1565,Dosa Breakfast Combo,1 Dosa + 1 Bowl Sambar + Chutney,45,12,7,6,291,Medium
+M1566,Vegetable Lentil Paratha Meal Special,2 Lentil Paratha + Curd,71,21,11,12,467,Medium
+M1567,Paneer Spinach Bowl Pro,Paneer + Spinach + Brown Rice + Salad,58,35,18,12,534,Medium
+M1568,Vegetable Seed Protein Bowl Combo,Millet + Seeds + Sprouts + Vegetables,41,28,11,17,375,Low
+M1569,Vegetable Rajma Millet Bowl Combo,Millet + Rajma + Vegetables,55,23,7,18,375,Medium
+M1570,Vegetable Dal Millet Bowl Bowl,Millet + Dal + Mixed Vegetables + Curd,62,21,8,16,404,Medium
+M1571,Pumpkin Dal Meal Pro,2 Roti + Pumpkin Dal + Salad,60,20,5,14,365,Low
+M1572,Vegetable Masala Dalia Bowl,Dalia + Vegetables + Curd,49,16,7,10,323,Medium
+M1573,Vegetable Ultimate Fiber Bowl Bowl,Millet + Dal + Vegetables + Sprouts + Curd,53,29,8,22,400,Low
+M1574,Egg Bhurji Rice Special,Rice + Egg Bhurji + Salad,78,24,16,5,552,High
+M1575,Traditional Protein Meal Supreme,Roti + Dal + Egg Curry + Salad,62,38,17,14,553,Medium
+M1576,Vegetable Capsicum Rice Meal Bowl,Rice + Capsicum Curry + Dal,83,17,8,11,472,High
+M1577,Kadhi Rice Meal Deluxe,Rice + Kadhi + Salad,74,15,7,5,419,High
+M1578,Vegetable Spinach Dal Meal Bowl,2 Roti + Spinach Dal + Salad,64,23,7,15,411,Medium
+M1579,Chicken Capsicum Millet Bowl Lite,Millet + Chicken + Capsicum Curry,46,43,15,12,491,Medium
+M1580,Moong Sprouts Meal Bowl,Sprouts + Paneer + Vegetables,34,26,12,11,348,Low
+M1581,Vegetable Curd Rice Healthy Bowl,Brown Rice + Curd + Vegetables,60,17,7,9,371,Medium
+M1582,Black Chana Roti Meal Pro,3 Roti + Black Chana Curry,84,21,8,16,492,Medium
+M1583,Vegetable Ultimate Fiber Bowl Combo,Millet + Dal + Vegetables + Sprouts + Curd,54,29,9,20,413,Low
+M1584,Pongal Meal Bowl,1 Bowl Ven Pongal + Sambar,56,14,11,6,379,Medium
+M1585,Chicken Fenugreek Quinoa Supreme,Quinoa + Chicken Methi Curry,39,45,14,14,462,Low
+M1586,Paneer Tofu Bowl Lite,Paneer + Tofu + Vegetables,30,40,24,11,496,Low
+M1587,Chicken Lentil Soup Lite,Chicken Lentil Soup,35,34,9,9,357,Low
+M1588,Vegetable Roti Sabzi Meal Combo,3 Roti + Seasonal Vegetable Curry,68,15,9,13,413,Medium
+M1589,Vegetable Soup Bowl Deluxe,Vegetable Soup + Paneer Toast,38,21,12,8,344,Low
+M1590,Paneer Beetroot Rice Bowl Supreme,Rice + Paneer + Beetroot Vegetables,64,32,17,11,537,Medium
+M1591,Vegetable Quinoa Khichdi Supreme,Quinoa + Dal + Vegetables,53,22,7,13,363,Medium
+M1592,Masala Rice Meal Special,1 Bowl Masala Rice + Raita,76,11,12,4,456,High
+M1593,Moong Dal Chilla Meal Lite,4 Moong Dal Chilla + Curd,47,25,10,13,378,Low
+M1594,Dhokla Breakfast Supreme,6 Pieces Dhokla + Chutney,44,14,8,4,304,Medium
+M1595,Chicken Lentil Soup Deluxe,Chicken + Lentil Soup + Bread,41,36,10,9,398,Low
+M1596,Vegetable Dal Thali Combo,2 Roti + Dal + Mixed Vegetable + Salad,68,22,8,14,432,Medium
+M1597,Rice Dal Vegetable Meal Deluxe,Rice + Dal + Mixed Vegetables,88,21,6,11,490,High
+M1598,Chicken Seekh Meal Special,Chicken Seekh Kebab + 2 Roti + Salad,44,44,15,6,487,Low
+M1599,Paneer Tofu Bowl Supreme,Paneer + Tofu + Vegetables,28,41,23,11,483,Low
+M1600,Roti Dal Curd Meal Supreme,2 Roti + 1 Bowl Dal + 1 Bowl Curd,68,22,11,10,459,Medium
+M1601,Chicken Cabbage Meal Lite,2 Roti + Chicken Cabbage Curry,52,38,15,11,495,Medium
+M1602,Kachori Meal Supreme,2 Kachori + Chole,80,19,30,9,666,High
+M1603,Paneer Pumpkin Bowl Bowl,Pumpkin + Paneer + Vegetables,41,31,19,11,459,Low
+M1604,Veg Momos Meal Lite,8 Veg Momos + Sauce,52,12,10,4,346,Medium
+M1605,Dhokla Breakfast Pro,6 Pieces Dhokla + Green Chutney,43,11,5,3,261,Medium
+M1606,Moong Dal Roti Meal Supreme,3 Roti + Moong Dal + Vegetables,72,21,8,15,444,Medium
+M1607,Vegetable Soup Bowl Bowl,Vegetable Soup + Paneer Toast,41,20,13,9,361,Low
+M1608,Balanced Lunch Bowl Bowl,2 Roti + Dal + Paneer + Vegetables,58,30,14,17,478,Medium
+M1609,Vegetable Dalia Upma Combo,Dalia Upma + Curd,51,16,8,9,340,Medium
+M1610,Medu Vada Breakfast Pro,3 Medu Vada + Sambar,60,15,20,6,480,High
+M1611,Kadhi Khichdi Supreme,1 Bowl Khichdi + Kadhi,58,19,10,8,398,Medium
+M1612,Chickpea Rice Bowl Special,Chickpeas + Rice + Vegetables,77,22,8,16,468,High
+M1613,Vegetable Pumpkin Meal Supreme,2 Roti + Pumpkin Curry + Dal,61,18,7,14,379,Medium
+M1614,Handvo Meal Bowl,2 Pieces Handvo + Chutney,45,11,13,8,341,Medium
+M1615,Lemon Rice Deluxe,1 Bowl Lemon Rice,67,7,11,2,395,High
+M1616,Mushroom Rice Meal Deluxe,Rice + Mushroom Curry + Salad,71,17,12,6,460,High
+M1617,Ragi Breakfast Special,2 Ragi Roti + Vegetable Curry,56,11,7,8,331,Low
+M1618,Paneer Masala Dalia Bowl,Dalia + Paneer + Vegetables,45,27,14,10,414,Low
+M1619,Drumstick Dal Rice Special,Rice + Drumstick Dal + Salad,69,16,7,10,403,High
+M1620,Chinese Noodles Chicken Combo,Chicken Hakka Noodles,83,28,19,5,615,High
+M1621,Chicken Pumpkin Roti Meal Lite,2 Roti + Chicken Pumpkin Curry,53,43,15,11,519,Medium
+M1622,Vegetable Ragi Meal Combo,Ragi Roti + Dal + Vegetables,67,21,6,14,406,Medium
+M1623,Vegetable Roti Salad Meal Bowl,2 Roti + Vegetable Salad + Dal,59,23,6,17,382,Medium
+M1624,Dosa Paneer Meal Supreme,1 Plain Dosa + Paneer Curry,45,23,18,4,434,Medium
+M1625,Vegetable Brown Rice Bowl Bowl,Brown Rice + Vegetables + Lentils,64,18,6,16,382,Medium
+M1626,Idiyappam Meal Bowl,3 Idiyappam + Vegetable Curry,73,11,9,4,417,High
+M1627,Paneer Brown Rice Meal Pro,Brown Rice + Paneer Curry + Salad,66,28,17,15,529,Medium
+M1628,Healthy Chickpea Bowl Supreme,Chickpeas + Vegetables + Curd,46,23,10,15,366,Low
+M1629,Chicken Tomato Rice Bowl Combo,Rice + Tomato Chicken Curry + Vegetables,78,38,16,6,608,High
+M1630,Idli Curd Meal Supreme,2 Idli + 1 Bowl Curd,31,10,8,1,236,Medium
+M1631,Veg Frankie Roll Combo,2 Vegetable Frankie Rolls,78,14,21,7,557,High
+M1632,Vegetable Rajma Quinoa Special,Rajma + Quinoa + Vegetables + Curd,65,21,8,16,416,Medium
+M1633,Tomato Rice Meal Supreme,1 Bowl Tomato Rice + Raita,82,13,9,4,461,High
+M1634,Paneer Ragi Meal Special,Ragi Roti + Paneer Curry + Salad,66,29,16,14,524,Medium
+M1635,Aloo Roti Lunch Special,2 Roti + Aloo Sabzi,68,9,7,8,371,Medium
+M1636,Healthy Dal Roti Bowl,3 Roti + Dal + Salad,72,21,7,13,435,Medium
+M1637,Vegetable Buckwheat Meal Combo,Buckwheat Roti + Vegetable Curry + Curd,61,19,9,13,401,Medium
+M1638,Ragi Porridge Meal Combo,Ragi Porridge + Milk + Nuts,52,13,11,7,359,Medium
+M1639,Cabbage Roti Meal Special,2 Roti + Cabbage Sabzi,45,9,5,8,261,Medium
+M1640,Vegetable Rice Sambar Bowl Pro,Rice + Sambar + Vegetables + Curd,84,16,6,10,454,High
+M1641,Chicken Dal Meal Pro,2 Roti + Chicken Curry + Dal,63,39,16,7,552,Medium
+M1642,Chicken Almond Roti Meal Supreme,2 Roti + Chicken Curry + Almonds,60,39,18,11,558,Medium
+M1643,Paneer Breakfast Wrap Lite,Whole Wheat Wrap + Paneer + Vegetables,55,30,17,8,493,Medium
+M1644,Dosa Breakfast Deluxe Pro,2 Plain Dosa + Sambar,70,18,10,7,442,High
+M1645,Traditional Protein Meal Supreme,Roti + Dal + Egg Curry + Salad,66,32,17,13,545,Medium
+M1646,Uttapam Meal Deluxe,1 Uttapam + Coconut Chutney + Sambar,59,12,9,6,365,Medium
+M1647,Chicken Fenugreek Meal Deluxe,Methi Roti + Chicken Methi Curry,61,40,18,12,566,Medium
+M1648,Chicken Capsicum Rice Bowl Combo,Rice + Capsicum Chicken Curry,80,42,15,8,623,High
+M1649,Paneer Lentil Rice Bowl Lite,Brown Rice + Paneer + Lentils + Salad,63,33,16,13,528,Medium
+M1650,Vegetable Flaxseed Roti Meal Supreme,2 Roti + Flaxseed Dal + Vegetables,61,22,9,16,413,Low
+M1651,Egg Paratha Meal Bowl,2 Egg Paratha + Curd,67,23,22,5,558,High
+M1652,Chicken Mung Dal Bowl Combo,Chicken + Moong Dal + Salad,40,41,14,11,450,Low
+M1653,Paneer Barley Roti Meal Pro,Barley Roti + Paneer Curry,49,31,18,17,482,Low
+M1654,Ragi Dal Meal Bowl,Ragi Roti + Dal + Salad,57,23,8,15,392,Medium
+M1655,Chicken Brown Rice Bowl Bowl,Brown Rice + Chicken + Vegetables,64,38,13,12,525,Medium
+M1656,Chicken Beetroot Roti Bowl Combo,2 Roti + Chicken Beetroot Curry,60,43,13,11,529,Medium
+M1657,Vegetable Healthy Thali Special,2 Roti + Dal + Sabzi + Salad + Curd,74,26,9,18,481,Low
+M1658,Paneer Roti Dal Bowl Special,2 Roti + Dal + Paneer Curry,63,33,16,13,528,Medium
+M1659,Paneer Cauliflower Protein Bowl Bowl,Paneer + Cauliflower + Salad,32,33,18,15,422,Low
+M1660,Gobi Paratha Meal Lite,2 Gobi Paratha + Pickle + Curd,75,13,16,8,496,Medium
+M1661,Vegetable Oats Meal Bowl,1 Bowl Oats Porridge + Mixed Vegetable Curry,42,12,9,8,297,Low
+M1662,Vegetable Beetroot Bowl Special,Beetroot + Dal + Brown Rice + Salad,65,21,7,16,407,Medium
+M1663,Chicken Lentil Bowl Lite,Lentils + Chicken + Vegetables,34,38,13,13,405,Low
+M1664,Paneer Mushroom Bowl Deluxe,Paneer + Mushroom + Vegetables,34,32,24,12,480,Low
+M1665,Mushroom Curry Meal Supreme,2 Roti + Mushroom Curry,58,16,16,9,440,Medium
+M1666,Chicken Rice Meal Lite,1 Bowl Rice + Chicken Curry,52,29,16,2,468,Medium
+M1667,Diabetic Friendly Bowl Combo,Brown Rice + Dal + Vegetables + Salad,59,22,7,17,387,Low
+M1668,Vegetable Chickpea Salad Bowl Deluxe,Chickpeas + Vegetables + Lemon + Curd,44,18,8,16,320,Low
+M1669,Dosa Sambar Meal Combo,1 Plain Dosa + 1 Bowl Sambar,46,10,5,5,269,Medium
+M1670,Vegetable Lentil Paratha Meal Special,2 Lentil Paratha + Curd,69,23,12,11,476,Medium
+M1671,Chicken Rice Deluxe Pro,Rice + Chicken Curry + Curd,67,39,23,3,631,Medium
+M1672,Chicken Curry Millet Bowl Pro,Millet + Chicken Curry + Vegetables,55,36,14,11,490,Medium
+M1673,Curd Roti Meal Bowl,3 Roti + Curd + Pickle,63,17,9,7,401,Medium
+M1674,Chicken Soya Bowl Special,Chicken + Soya + Salad,38,41,14,15,442,Low
+M1675,White Rice Sambar Supreme,Rice + Sambar + Coconut Chutney,79,14,10,7,462,High
+M1676,Falafel Indian Bowl Combo,Falafel + Salad + Curd,47,18,12,11,368,Medium
+M1677,Idiyappam Meal Lite,3 Idiyappam + Vegetable Curry,63,12,10,5,390,High
+M1678,Chicken Millet Soup Pro,Millet Soup + Chicken + Vegetables,36,32,9,8,353,Low
+M1679,Chicken Amaranth Bowl Pro,Amaranth + Chicken + Vegetables,45,45,15,12,495,Low
+M1680,Vegetable Ragi Meal Supreme,Ragi Roti + Dal + Vegetables,67,21,7,15,415,Medium
+M1681,Chicken Peanut Bowl Pro,Chicken + Peanuts + Salad,30,39,18,8,438,Low
+M1682,Paneer Brown Rice Meal Special,Brown Rice + Paneer Curry + Salad,62,29,17,15,517,Medium
+M1683,Paneer Cabbage Millet Bowl Supreme,Millet + Paneer + Cabbage Vegetables,54,29,19,13,503,Medium
+M1684,Vegetable Beetroot Bowl Special,Beetroot + Dal + Brown Rice + Salad,58,22,7,16,383,Medium
+M1685,Chicken Capsicum Millet Bowl Special,Millet + Chicken + Capsicum Curry,54,41,15,12,515,Medium
+M1686,Roti Paneer Meal Combo,3 Roti + 1 Bowl Paneer Curry,60,29,17,7,509,Medium
+M1687,Veg Momos Meal Combo,8 Veg Momos + Sauce,52,11,9,3,333,Medium
+M1688,Vegetable Korma Rice Deluxe,Rice + Vegetable Korma + Salad,78,13,17,8,517,High
+M1689,Chicken Cabbage Millet Bowl Lite,Millet + Chicken + Cabbage Curry,50,37,15,12,483,Medium
+M1690,Fish Fry Meal Lite,Fish Fry + Rice + Salad,67,31,20,4,572,High
+M1691,Paneer Lentil Rice Bowl Bowl,Brown Rice + Paneer + Lentils + Salad,62,31,17,13,525,Medium
+M1692,Carrot Peas Pulao Pro,1 Bowl Carrot Peas Pulao + Raita,67,11,9,7,393,High
+M1693,Vegetable Barley Bowl Lite,Barley + Vegetables + Dal,55,18,6,15,346,Low
+M1694,Paneer Quinoa Salad Combo,Quinoa + Paneer + Vegetables,47,31,17,12,465,Medium
+M1695,Veg Frankie Roll Lite,2 Vegetable Frankie Rolls,85,13,20,6,572,High
+M1696,Rice Dal Vegetable Meal Combo,Rice + Dal + Mixed Vegetables,79,18,7,11,451,High
+M1697,Paneer Garlic Rice Bowl Pro,Garlic Rice + Paneer + Vegetables,73,28,19,9,575,High
+M1698,Tofu Rice Meal Supreme,Rice + Tofu Curry,77,24,11,5,503,High
+M1699,Paneer Quinoa Bowl Lite,Quinoa + Paneer + Vegetables,50,32,17,10,481,Low
+M1700,Vegetable Rajma Millet Bowl Supreme,Millet + Rajma + Vegetables + Curd,55,22,8,16,380,Medium
+M1701,Paneer Mung Dal Bowl Combo,Moong Dal + Paneer + Vegetables,38,37,16,14,444,Low
+M1702,Vegetable Rajma Bowl Deluxe,Rajma + Brown Rice + Salad,76,18,6,15,430,Medium
+M1703,Paneer Rajma Millet Bowl Deluxe,Rajma + Paneer + Millet,55,33,19,15,523,Medium
+M1704,Vegetable Mung Bean Bowl Combo,Moong Beans + Vegetables + Curd,40,26,8,14,336,Low
+M1705,Jowar Meal Deluxe,2 Jowar Bhakri + Bhindi Sabzi,67,9,5,13,349,Medium
+M1706,Idli Curd Breakfast Combo,3 Idli + 1 Bowl Curd,40,16,10,3,314,Medium
+M1707,Egg Sandwich Meal Special,2 Egg Sandwich + Juice,62,23,16,5,484,Medium
+M1708,Chicken Peanut Bowl Lite,Chicken + Peanuts + Salad,28,38,19,8,435,Low
+M1709,Vegetable Rice Bowl Special,Rice + Mixed Vegetables + Dal,82,17,8,10,468,High
+M1710,Protein Meal Special,Paneer + Roti + Salad,42,35,18,8,470,Medium
+M1711,Complete Indian Nutrition Meal Lite,Roti + Dal + Chicken/Paneer + Vegetables + Curd,67,42,16,19,580,Medium
+M1712,Healthy Protein Meal Pro,Sprouts Salad + 2 Boiled Eggs + Milk,29,29,13,8,349,Low
+M1713,Chicken Capsicum Rice Bowl Lite,Rice + Capsicum Chicken Curry,79,37,15,7,599,High
+M1714,Chicken Vegetable Rice Bowl Pro,Rice + Chicken Curry + Vegetables,76,34,17,7,593,High
+M1715,Paneer Paratha Meal Special,2 Paneer Paratha + Curd,87,25,24,7,664,High
+M1716,Vegetable Chickpea Salad Bowl Deluxe,Chickpeas + Vegetables + Lemon + Curd,48,18,8,13,336,Low
+M1717,Chicken Pumpkin Meal Deluxe,2 Roti + Chicken Pumpkin Curry,59,34,14,10,498,Medium
+M1718,Upma Breakfast Lite,1 Bowl Upma + 1 Cup Curd,41,14,13,3,337,Medium
+M1719,Biryani Meal Deluxe,1 Bowl Chicken Biryani + Raita,51,23,17,3,449,High
+M1720,Vegetable Mushroom Roti Meal Lite,2 Roti + Mushroom Curry + Dal,59,21,9,13,401,Medium
+M1721,High Protein Low Carb Bowl Special,Paneer + Chicken + Sprouts + Salad,23,47,19,14,451,Low
+M1722,Vegetable Rajma Millet Bowl Combo,Millet + Rajma + Vegetables + Curd,62,25,8,16,420,Medium
+M1723,Paneer Roti Dal Bowl Supreme,2 Roti + Dal + Paneer Curry,60,33,17,16,525,Medium
+M1724,Corn Chaat Meal Supreme,Corn Chaat + Sprouts + Lemon,45,12,6,7,282,Medium
+M1725,Methi Dal Roti Pro,3 Roti + Methi Dal,67,20,9,13,429,Medium
+M1726,Traditional South Meal Supreme,Rice + Sambar + Rasam + Vegetables,91,16,8,12,500,High
+M1727,Chicken Roll Meal Supreme,2 Chicken Rolls,63,33,21,5,573,High
+M1728,Vegetable Millet Salad Lite,Millet + Sprouts + Vegetables + Curd,46,21,7,17,331,Low
+M1729,Chicken Keema Rice Combo,Rice + Chicken Keema Curry,87,42,20,4,696,High
+M1730,Paneer Moong Rice Bowl Lite,Moong Rice + Paneer + Vegetables,61,33,14,12,502,Medium
+M1731,Quinoa Indian Bowl Lite,Quinoa + Dal + Vegetables,59,20,10,11,406,Medium
+M1732,Punjabi Meal Special,3 Roti + Dal Makhani + Salad,79,26,16,13,564,Medium
+M1733,Thalipeeth Meal Bowl,2 Thalipeeth + Curd,54,17,16,9,428,Medium
+M1734,Vegetable Dalia Khichdi Special,Dalia + Mixed Vegetables + Dal,50,16,7,12,327,Medium
+M1735,Traditional Indian Combo Supreme,2 Roti + Dal + Sabzi + Rice + Curd,101,28,15,13,651,High
+M1736,Chickpea Rice Bowl Supreme,Chickpeas + Rice + Vegetables,83,21,8,15,488,High
+M1737,Chicken Tikka Rice Bowl Lite,Chicken Tikka + Rice + Vegetables,80,37,16,6,612,High
+M1738,Paneer Spinach Roti Meal Pro,2 Roti + Spinach Paneer + Salad,55,34,18,14,518,Medium
+M1739,Chicken Brown Rice Meal Combo,Brown Rice + Chicken Curry + Salad,69,43,13,11,565,Medium
+M1740,Paneer Stuffed Paratha Bowl,2 Paneer Stuffed Paratha + Curd,71,25,27,7,627,High
+M1741,Paneer Lababdar Meal Bowl,2 Roti + Paneer Lababdar + Salad,57,32,22,7,554,Medium
+M1742,Amti Rice Meal Combo,Rice + Maharashtrian Amti Dal,71,16,6,7,402,High
+M1743,Vegetable Pesarattu Meal Bowl,2 Vegetable Pesarattu + Chutney,52,18,9,10,361,Medium
+M1744,Paneer Bajra Bowl Lite,Bajra Roti + Paneer Curry + Vegetables,63,35,19,14,563,Medium
+M1745,High Protein Veg Meal Lite,Paneer + Dal + Salad,31,39,17,14,433,Low
+M1746,Vegetable Fenugreek Bowl Pro,Methi + Dal + Millet + Curd,57,23,7,16,383,Low
+M1747,Vegetable Roti Dal Bowl Special,2 Roti + Mixed Dal + Green Vegetables,62,25,8,17,420,Medium
+M1748,Healthy Breakfast Deluxe,2 Brown Bread + Peanut Butter + Milk,48,21,28,5,528,Medium
+M1749,High Protein Indian Plate Deluxe,Paneer + Dal + Roti + Salad,55,35,19,15,531,Medium
+M1750,Paneer Garlic Millet Bowl Combo,Millet + Paneer + Vegetables,52,31,17,14,485,Medium
+M1751,Grilled Paneer Sandwich Special,2 Grilled Paneer Sandwich,48,29,20,6,488,Medium
+M1752,Ragi Breakfast Deluxe,2 Ragi Roti + 1 Bowl Curd,52,11,9,7,333,Low
+M1753,Chicken Pumpkin Quinoa Special,Quinoa + Chicken + Pumpkin + Salad,48,40,15,12,487,Low
+M1754,Vegetable Khichdi Meal Deluxe,1 Bowl Khichdi + Mixed Vegetable Curry,56,12,9,7,353,Medium
+M1755,Paneer Millet Dosa Pro,2 Millet Dosa + Paneer Filling,63,26,16,9,500,Medium
+M1756,Paneer Pumpkin Khichdi Special,Pumpkin Khichdi + Paneer + Salad,56,29,17,13,493,Low
+M1757,Curd Millet Bowl Bowl,Millet + Curd + Nuts,55,16,12,9,392,Medium
+M1758,Vegetable Dal Pulao Bowl,Vegetable Pulao + Dal + Salad,73,21,8,11,448,High
+M1759,Paneer Millet Protein Bowl Lite,Millet + Paneer + Vegetables,48,34,16,16,472,Low
+M1760,Bhakri Vegetable Meal Deluxe,2 Bajra Bhakri + Mixed Vegetable Curry,78,14,9,11,449,Medium
+M1761,Vegetable Sevai Bowl,1 Bowl Vegetable Sevai,64,12,9,5,385,Medium
+M1762,Chicken Almond Protein Plate Lite,Chicken + Almonds + Salad + Roti,46,48,21,11,565,Low
+M1763,Egg Toast Meal Lite,2 Brown Bread + 2 Boiled Eggs,27,16,11,5,271,Medium
+M1764,Paneer Chickpea Bowl Combo,Chickpeas + Paneer + Vegetables,46,32,14,12,438,Low
+M1765,Vegetable Millet Khichdi Deluxe,Millet + Dal + Vegetables,58,18,8,12,376,Medium
+M1766,Vegetable Dal Tadka Meal Combo,3 Roti + Dal Tadka + Green Salad,69,23,9,13,449,Medium
+M1767,Vegetable Methi Khichdi Bowl,Methi Khichdi + Curd + Salad,53,16,7,10,339,Medium
+M1768,Paneer Vegetable Bowl Lite,Paneer + Mixed Vegetables + Brown Rice,63,30,16,9,516,Medium
+M1769,Khichdi Meal Supreme,1 Bowl Khichdi + 1 Bowl Curd,52,14,7,5,327,Medium
+M1770,Vegetable Idli Meal Bowl,4 Vegetable Idli + Sambar,64,15,6,6,370,Medium
+M1771,Vegetable Millet Roti Lite,2 Millet Roti + Dal + Green Vegetables,65,22,7,18,411,Medium
+M1772,Vegetable Roti Dal Bowl Combo,2 Roti + Mixed Dal + Green Vegetables,63,24,8,17,420,Medium
+M1773,Paneer Rice Meal Pro,1 Bowl Rice + 1 Bowl Paneer Curry,62,22,15,3,471,Medium
+M1774,Chicken Quinoa Bowl Combo,Quinoa + Chicken + Vegetables,41,43,14,11,462,Low
+M1775,Tofu Vegetable Bowl Special,Tofu + Vegetables + Brown Rice,60,30,12,12,468,Medium
+M1776,Vegetable Sprouts Bowl Combo,Sprouts + Corn + Vegetables + Curd,40,20,7,15,303,Low
+M1777,Vegetable Upma Meal Special,Vegetable Upma + Curd,54,13,9,6,349,Medium
+M1778,Chicken Spinach Dal Bowl Pro,Chicken + Spinach Dal + Roti,49,40,14,13,482,Medium
+M1779,Ultimate High Fiber Meal Lite,Multigrain Roti + Dal + Vegetables + Sprouts + Curd,60,34,10,21,466,Low
+M1780,Jeera Rice Dal Special,1 Bowl Jeera Rice + 1 Bowl Dal,67,12,7,7,379,High
+M1781,Chicken Quinoa Meal Bowl,Quinoa + Chicken + Vegetables,51,40,14,10,490,Low
+M1782,Sattu Drink Breakfast Bowl,Sattu Drink + Sprouts + Fruit,41,20,6,10,298,Low
+M1783,Khichdi Meal Lite,1 Bowl Khichdi + 1 Bowl Curd,52,15,7,6,331,Medium
+M1784,Vegetable Ultimate Nutrition Bowl Lite,Millet + Dal + Paneer + Vegetables + Curd,49,38,12,23,456,Low
+M1785,Sabudana Meal Combo,1 Bowl Sabudana Khichdi + Curd,54,7,13,4,361,High
+M1786,Chicken Pepper Rice Deluxe,Rice + Pepper Chicken Curry,85,38,16,4,636,High
+M1787,Paneer Tomato Curry Meal Pro,2 Roti + Tomato Paneer Curry,59,31,18,9,522,Medium
+M1788,Tofu Vegetable Bowl Deluxe,Tofu + Vegetables + Brown Rice,58,28,11,12,443,Medium
+M1789,Balanced Indian Thali Bowl,2 Roti + Dal + Rice + Mixed Vegetable Curry + Salad,113,27,13,15,677,High
+M1790,Chicken Tawa Rice Pro,Rice + Tawa Chicken + Salad,78,36,16,5,600,High
+M1791,Chicken Dal Rice Meal Bowl,Rice + Chicken Curry + Dal,80,41,18,7,646,High
+M1792,Chicken Green Salad Bowl Special,Chicken + Vegetables + Nuts + Salad,26,47,14,9,418,Low
+M1793,Paneer Pumpkin Khichdi Special,Pumpkin Khichdi + Paneer + Salad,56,30,14,12,470,Low
+M1794,Vegetable Sprouts Roti Meal Lite,2 Roti + Sprouts Curry + Salad,59,23,6,17,382,Medium
+M1795,Traditional Protein Meal Bowl,Roti + Dal + Egg Curry + Salad,59,34,17,14,525,Medium
+M1796,Jowar Meal Pro,2 Jowar Bhakri + Bhindi Sabzi,61,9,6,12,334,Medium
+M1797,Chicken Almond Protein Plate Lite,Chicken + Almonds + Salad + Roti,42,43,20,10,520,Low
+M1798,Vegetable Dalia Protein Meal Deluxe,Dalia + Dal + Vegetables + Curd,51,19,8,14,352,Low
+M1799,Paneer Roti Salad Meal Deluxe,2 Roti + Paneer + Green Salad,45,31,18,12,466,Medium
+M1800,Indian Superfood Bowl Supreme,Millet + Dal + Sprouts + Vegetables + Curd,50,30,10,19,410,Low
+M1801,Chicken Curd Rice Bowl Deluxe,Brown Rice + Chicken + Curd,69,36,14,9,546,Medium
+M1802,Veg Manchurian Rice Lite,Fried Rice + Veg Manchurian,90,11,23,4,611,High
+M1803,Sprouts Breakfast Bowl,Sprouts Salad + Milk,36,19,7,10,283,Low
+M1804,Vegetable Broccoli Bowl Supreme,Brown Rice + Broccoli + Dal + Salad,56,23,7,15,379,Medium
+M1805,Balanced Diabetic Meal Combo,2 Roti + Dal + Green Vegetables + Salad,56,22,8,16,384,Low
+M1806,Paneer Tomato Bowl Supreme,Tomato Rice + Paneer Curry,83,28,18,9,606,High
+M1807,Vegetable Buckwheat Meal Bowl,Buckwheat Roti + Vegetable Curry + Curd,52,16,10,15,362,Medium
+M1808,Mutton Curry Meal Supreme,2 Roti + Mutton Curry,47,30,24,5,524,Medium
+M1809,Lobia Rice Meal Deluxe,Rice + Lobia Curry,79,19,7,13,455,High
+M1810,Vegetable Sevai Meal Combo,Vegetable Sevai + Curd + Salad,63,16,10,7,406,Medium
+M1811,Vegetable Millet Salad Bowl Deluxe,Millet + Vegetables + Sprouts + Curd,44,21,7,15,323,Low
+M1812,Vegetable Biryani Protein Special,Vegetable Biryani + Dal,86,18,12,9,524,High
+M1813,Vegetable Cauliflower Meal Deluxe,2 Roti + Cauliflower Curry + Dal,64,21,8,13,412,Medium
+M1814,Vegetable Sattu Paratha Pro,2 Sattu Paratha + Curd,74,24,11,13,491,Medium
+M1815,Chicken Beetroot Protein Meal Special,Chicken + Beetroot + Salad,34,41,14,12,426,Low
+M1816,Chicken Chickpea Protein Bowl Bowl,Chickpeas + Chicken + Vegetables,40,40,13,12,437,Low
+M1817,Vegetable Lentil Bowl Deluxe,Mixed Lentils + Vegetables + Curd,46,24,8,17,352,Low
+M1818,Chicken Rajma Millet Bowl Deluxe,Rajma + Chicken + Millet,57,38,14,14,506,Medium
+M1819,Brown Rice Dal Meal Combo,Brown Rice + Dal + Salad,66,21,5,12,393,Medium
+M1820,Chicken Methi Rice Meal Special,Rice + Chicken Methi Curry,71,36,14,8,554,High
+M1821,Chicken Almond Bowl Combo,Chicken + Almonds + Vegetables,23,46,18,10,438,Low
+M1822,Vegetable Peanut Poha Lite,Poha + Peanuts + Vegetables,62,16,13,8,429,Medium
+M1823,Paneer Peas Curry Meal Combo,2 Roti + Matar Paneer,57,29,21,8,533,Medium
+M1824,Chicken Bajra Meal Pro,Bajra Roti + Chicken Curry + Salad,55,42,14,12,514,Medium
+M1825,Vegetable Litti Chokha Combo,3 Litti + Chokha,86,16,19,10,579,High
+M1826,Vegetable Spinach Roti Meal Bowl,3 Roti + Spinach Dal + Salad,66,25,7,17,427,Medium
+M1827,Moong Sprouts Meal Lite,Sprouts + Paneer + Vegetables,38,24,11,12,347,Low
+M1828,Paneer Lentil Roti Meal Lite,2 Roti + Paneer Lentil Curry,58,36,19,13,547,Medium
+M1829,Veg Pulao Meal Supreme,1 Bowl Vegetable Pulao + Curd,50,11,12,5,352,Medium
+M1830,Traditional Protein Meal Combo,Roti + Dal + Egg Curry + Salad,67,37,16,13,560,Medium
+M1831,Uttapam Meal Deluxe,1 Uttapam + Coconut Chutney + Sambar,53,14,10,5,358,Medium
+M1832,Vegetable Spinach Roti Meal Pro,3 Roti + Spinach Dal + Salad,71,25,8,17,456,Medium
+M1833,Upma Milk Meal Bowl,1 Bowl Upma + Milk,45,13,13,2,349,Medium
+M1834,Vegetable Mushroom Roti Meal Bowl,2 Roti + Mushroom Curry + Dal,56,22,8,16,384,Medium
+M1835,Chicken Almond Protein Plate Lite,Chicken + Almonds + Salad + Roti,49,40,20,10,536,Low
+M1836,Vegetable Oats Meal Lite,1 Bowl Oats Porridge + Mixed Vegetable Curry,42,10,9,8,289,Low
+M1837,Lemon Rice Combo Special,1 Bowl Lemon Rice + Salad,42,6,6,4,246,Medium
+M1838,Paneer Naan Meal Special,2 Naan + Paneer Curry,98,31,25,8,741,High
+M1839,Paneer Frankie Roll Deluxe,2 Paneer Frankie Rolls,79,26,22,8,618,High
+M1840,Bajra Roti Meal Pro,2 Bajra Roti + Sabzi,57,16,9,14,373,Medium
+M1841,Vegetable Millet Dosa Lite,2 Millet Dosa + Sambar + Chutney,53,15,7,10,335,Medium
+M1842,Paneer Lentil Soup Pro,Dal Soup + Paneer + Salad,32,29,14,10,370,Low
+M1843,Avial Rice Meal Pro,Rice + Avial + Curd,68,16,12,8,444,High
+M1844,Paneer Green Salad Meal Lite,Paneer + Sprouts + Green Salad + Curd,30,35,16,11,404,Low
+M1845,Vegetable Millet Dal Bowl Deluxe,Millet + Dal + Vegetables + Curd,55,20,8,17,372,Medium
+M1846,Chicken Lentil Bowl Pro,Lentils + Chicken + Vegetables,37,43,12,13,428,Low
+M1847,Paneer Dal Combo Supreme,2 Roti + Dal + Paneer Curry,59,38,16,16,532,Medium
+M1848,Vegetable Tofu Roti Meal Combo,2 Roti + Tofu Curry + Salad,56,30,11,15,443,Medium
+M1849,Paneer Chilla Meal Deluxe,3 Paneer Besan Chilla + Curd,50,28,15,12,447,Low
+M1850,Paneer Soya Bowl Bowl,Soya + Paneer + Vegetables,43,36,19,15,487,Low
+M1851,Vegetable Seed Protein Bowl Pro,Millet + Seeds + Sprouts + Vegetables,42,28,12,19,388,Low
+M1852,Chicken Barley Bowl Bowl,Barley + Chicken + Vegetables,46,39,12,12,448,Low
+M1853,Paneer Beetroot Rice Bowl Supreme,Rice + Paneer + Beetroot Vegetables,60,31,18,12,526,Medium
+M1854,Vegetable Barley Roti Meal Bowl,Barley Roti + Dal + Vegetables,54,23,7,17,371,Low
+M1855,Vegetable Rice Bowl Supreme,Rice + Mixed Vegetables + Dal,86,19,8,9,492,High
+M1856,Vegetable Korma Rice Deluxe,Rice + Vegetable Korma + Salad,75,13,17,7,505,High
+M1857,Chicken Millet Khichdi Special,Millet + Chicken,50,39,13,9,473,Low
+M1858,Chicken Spinach Roti Meal Supreme,2 Roti + Spinach Chicken Curry,50,39,15,11,491,Medium
+M1859,Fish Curry Millet Meal Combo,Millet + Fish Curry + Vegetables,64,33,12,11,496,Medium
+M1860,Paneer Brown Rice Bowl Pro,Brown Rice + Paneer Curry + Salad,65,28,17,14,525,Medium
+M1861,Chicken Flaxseed Bowl Bowl,Chicken + Flaxseed + Vegetables,32,42,16,12,440,Low
+M1862,Vegetable Soup Meal Special,Soup + Sandwich,53,15,9,7,353,Medium
+M1863,Paneer Quinoa Bowl Pro,Quinoa + Paneer + Vegetables,50,29,19,12,487,Low
+M1864,Vegetable Rice Dal Combo Bowl,Rice + Dal + Mixed Vegetables,74,19,6,11,426,High
+M1865,Chicken Rice Bowl Healthy Special,Brown Rice + Chicken + Vegetables,67,42,12,12,544,Medium
+M1866,Vegetable Beetroot Roti Plate Bowl,3 Roti + Beetroot Curry + Dal,61,20,7,15,387,Medium
+M1867,Paneer Oats Bowl Deluxe,Oats + Paneer + Vegetables,48,26,15,9,431,Medium
+M1868,Chicken Roti Salad Meal Deluxe,2 Roti + Chicken Curry + Salad,51,38,15,8,491,Medium
+M1869,Chicken Stuffed Roti Meal Pro,2 Chicken Stuffed Roti + Salad,76,33,18,10,598,High
+M1870,Chapati Bhindi Meal Pro,2 Roti + Bhindi Sabzi,44,8,7,8,271,Medium
+M1871,Chicken Millet Soup Lite,Millet Soup + Chicken + Vegetables,35,38,9,8,373,Low
+M1872,Paneer Cauliflower Bowl Special,Cauliflower Rice + Paneer + Salad,24,31,18,12,382,Low
+M1873,Vegetable Chickpea Bowl Combo,Chickpeas + Vegetables + Curd,47,23,7,15,343,Low
+M1874,Biryani Raita Meal Pro,1 Bowl Veg Biryani + Raita,55,11,12,3,372,High
+M1875,Tofu Rice Meal Deluxe,1 Bowl Rice + Tofu + Salad,52,13,6,3,314,Medium
+M1876,Fish Tikka Meal Pro,Fish Tikka + 2 Roti + Salad,49,36,10,6,430,Low
+M1877,Chicken Brown Rice Meal Lite,Brown Rice + Chicken Curry + Salad,68,43,12,12,552,Medium
+M1878,Vegetable Chana Bowl Bowl,Chana + Vegetables + Curd,48,21,8,14,348,Low
+M1879,Paneer Rice Bowl Healthy Supreme,Brown Rice + Paneer + Vegetables,68,29,16,13,532,Medium
+M1880,Veg Biryani Special,1 Bowl Vegetable Biryani + Raita,60,13,14,5,418,High
+M1881,Vegetable Chana Dal Meal Combo,3 Roti + Chana Dal + Salad,75,24,9,16,477,Medium
+M1882,Vegetable Lentil Soup Lite,Lentil Soup + Toast,44,17,5,11,289,Low
+M1883,Vegetable Korma Rice Special,Rice + Vegetable Korma + Salad,84,14,18,7,554,High
+M1884,Vegetable Peanut Poha Lite,Poha + Peanuts + Vegetables,62,15,14,8,434,Medium
+M1885,Chicken Pumpkin Khichdi Supreme,Chicken Pumpkin Khichdi + Vegetables,54,41,12,11,488,Medium
+M1886,Paneer Protein Khichdi Supreme,Khichdi + Paneer + Salad,60,30,15,15,495,Medium
+M1887,Chicken Stew Meal Bowl,Chicken Stew + Appam,71,38,19,5,607,Medium
+M1888,Vegetable Ultimate Fiber Bowl Special,Millet + Dal + Vegetables + Sprouts + Curd,52,31,8,23,404,Low
+M1889,Falafel Indian Bowl Supreme,Falafel + Salad + Curd,42,19,13,11,361,Medium
+M1890,Fruit Oats Meal Supreme,Oats Porridge + Apple,54,7,3,8,271,Low
+M1891,Moong Chilla Meal Pro,3 Moong Dal Chilla + Mint Chutney,34,16,8,5,272,Low
+M1892,Chicken Millet Bowl Deluxe,Millet + Chicken Curry + Vegetables,56,37,12,12,480,Medium
+M1893,Fish Tikka Rice Bowl Special,Fish Tikka + Rice + Vegetables,69,35,10,6,506,High
+M1894,Chicken Brown Rice Plate Lite,Brown Rice + Chicken Curry,54,36,15,9,495,Medium
+M1895,Vegetable Omelette Meal Special,3 Egg Vegetable Omelette + Bread,41,30,18,3,446,Medium
+M1896,Protein Makhana Bowl Special,Makhana + Paneer + Vegetables,37,32,13,11,393,Low
+M1897,Chicken Oats Bowl Deluxe,Oats + Chicken + Vegetables,49,32,12,8,432,Low
+M1898,Low Carb Indian Meal Supreme,Paneer + Vegetables + Salad + Curd,27,32,19,11,407,Low
+M1899,Fiber Rich Indian Meal Lite,Jowar Roti + Dal + Green Vegetables,66,22,7,17,415,Low
+M1900,Palak Roti Meal Pro,3 Roti + Palak Sabzi + Dal,74,23,8,15,460,Medium
+M1901,Vegetable Quinoa Dal Bowl Special,Quinoa + Dal + Vegetables + Curd,63,21,8,16,408,Medium
+M1902,Chicken Rice Deluxe Combo,Rice + Chicken Curry + Curd,59,37,22,3,582,Medium
+M1903,Masala Dosa Meal Pro,1 Masala Dosa + Sambar + Chutney,69,13,18,5,490,High
+M1904,Vegetable Seed Power Bowl Supreme,Seeds + Millet + Sprouts + Vegetables,45,28,11,18,391,Low
+M1905,Egg Sandwich Meal Supreme,4 Brown Bread Slices + Omelette,57,25,14,7,454,Medium
+M1906,Paneer Flaxseed Bowl Pro,Paneer + Flaxseed + Vegetables,38,38,21,13,493,Low
+M1907,Vegetable Rajma Bowl Deluxe,Rajma + Brown Rice + Vegetables,64,23,6,19,402,Medium
+M1908,Upma Buttermilk Meal Special,1 Bowl Upma + 1 Glass Buttermilk,44,8,6,4,262,Medium
+M1909,Lemon Rice Curd Pro,1 Bowl Lemon Rice + Curd,51,12,9,2,333,Medium
+M1910,Rajma Chapati Meal Pro,3 Roti + 1 Bowl Rajma,93,20,5,13,497,Medium
+M1911,Pizza Meal Pro,2 Pizza Slices,72,19,25,3,589,High
+M1912,Vegetable Chickpea Wrap Special,2 Chickpea Whole Wheat Wraps,76,19,11,13,479,Medium
+M1913,Chicken Beetroot Soup Meal Bowl,Chicken Beetroot Soup + Bread,36,39,10,9,390,Low
+M1914,Vegetable Besan Roti Supreme,3 Besan Roti + Vegetable Curry,67,24,12,13,472,Medium
+M1915,Paneer Naan Meal Pro,2 Naan + Paneer Curry,97,30,25,8,733,High
+M1916,Vegetable Kuttu Meal Deluxe,Kuttu Roti + Vegetable Curry + Curd,60,19,12,14,424,Medium
+M1917,Paneer Barley Bowl Lite,Barley + Paneer + Salad,51,32,15,13,467,Medium
+M1918,Chicken Brown Rice Bowl Supreme,Brown Rice + Chicken Curry + Vegetables,66,39,14,12,546,Medium
+M1919,Jowar Vegetable Meal Lite,2 Jowar Roti + Vegetable Curry,66,13,9,14,397,Medium
+M1920,Bajra Chicken Meal Deluxe,Bajra Roti + Chicken Curry,48,38,15,9,479,Medium
+M1921,Paneer Bhurji Healthy Meal Special,2 Multigrain Roti + Paneer Bhurji + Salad,51,30,17,11,477,Medium
+M1922,Paneer Khichdi Meal Lite,Paneer Khichdi + Curd,61,27,15,11,487,Medium
+M1923,Egg Bhurji Rice Combo,Rice + Egg Bhurji + Salad,81,26,15,4,563,High
+M1924,Chicken Garlic Rice Bowl Lite,Garlic Rice + Chicken + Vegetables,78,35,14,8,578,High
+M1925,Rice Rajma Lunch Bowl,1 Bowl Rice + 1 Bowl Rajma,69,16,4,10,376,High
+M1926,Vegetable Appam Meal Bowl,3 Appam + Vegetable Curry,78,14,12,5,476,High
+M1927,Chicken Egg Rice Meal Bowl,Rice + Chicken + Egg Curry,77,35,18,4,610,High
+M1928,Vegetable Rice Meal Lite,1 Bowl Rice + Mixed Vegetable Curry,66,9,7,5,363,Medium
+M1929,Chicken Dal Combo Combo,2 Roti + Chicken Curry + Dal,54,39,14,9,498,Medium
+M1930,Paneer Balanced Thali Deluxe,2 Roti + Paneer + Dal + Vegetables + Curd,62,36,17,15,545,Medium
+M1931,Paneer Vegetable Curry Meal Bowl,2 Roti + Paneer Vegetable Curry + Salad,62,31,23,9,579,Medium
+M1932,Chicken Mung Bean Bowl Combo,Chicken + Moong Beans + Salad,36,39,12,14,408,Low
+M1933,Ragi Breakfast Lite,2 Ragi Roti + 1 Bowl Curd,51,11,9,8,329,Low
+M1934,Vegetable Dalia Upma Pro,Dalia Upma + Curd,58,15,7,10,355,Medium
+M1935,Chicken Millet Upma Special,Millet Upma + Chicken + Vegetables,50,36,13,10,461,Medium
+M1936,Vegetable Idli Sambar Lite,5 Idli + Sambar + Chutney,69,17,6,7,398,Medium
+M1937,Vegetable Dal Soup Dinner Supreme,Dal Soup + Roti + Salad,55,23,6,15,366,Low
+M1938,Paneer Pumpkin Roti Meal Supreme,2 Roti + Pumpkin Paneer Curry,57,30,21,11,537,Medium
+M1939,Vegetable Cabbage Millet Meal Lite,Millet + Cabbage Curry + Dal,62,22,7,16,399,Medium
+M1940,Rice Chole Meal Combo,1 Bowl Rice + 1 Bowl Chole + Salad,81,17,6,10,446,High
+M1941,Chicken Saag Meal Pro,2 Roti + Chicken Saag,52,40,17,10,521,Medium
+M1942,Paneer Paratha Meal Lite,2 Paneer Paratha + Curd,78,23,26,7,638,High
+M1943,Paneer Flaxseed Bowl Combo,Paneer + Flaxseed + Vegetables + Curd,34,35,20,13,456,Low
+M1944,Vegetable Handi Meal Lite,2 Roti + Vegetable Handi + Salad,62,16,12,11,420,Medium
+M1945,Chicken Brown Rice Plate Bowl,Brown Rice + Chicken Curry,60,39,13,8,513,Medium
+M1946,Drumstick Dal Rice Supreme,Rice + Drumstick Dal + Salad,69,18,7,10,411,High
+M1947,Lauki Dal Meal Supreme,2 Roti + Lauki Dal + Salad,54,18,7,13,351,Medium
+M1948,Vegetable Naan Meal Bowl,2 Naan + Vegetable Curry,96,15,17,8,597,High
+M1949,Vegetable Almond Roti Meal Special,2 Roti + Vegetable Curry + Almonds,62,20,13,14,445,Medium
+M1950,Masoor Dal Rice Supreme,Rice + Masoor Dal + Vegetables,78,21,6,12,450,High
+M1951,Paneer Mushroom Quinoa Deluxe,Quinoa + Paneer + Mushroom Curry,45,33,19,13,483,Medium
+M1952,Pav Bhaji Combo Deluxe,1 Plate Pav Bhaji + Salad,71,11,18,7,490,High
+M1953,Fiber Rich Indian Meal Lite,Jowar Roti + Dal + Green Vegetables,59,22,7,17,387,Low
+M1954,Dosa Sambar Meal Pro,1 Plain Dosa + 1 Bowl Sambar,41,9,5,5,245,Medium
+M1955,Prawn Rice Meal Combo,Rice + Prawn Curry + Salad,71,30,12,4,512,High
+M1956,Chicken Cauliflower Bowl Bowl,Cauliflower Rice + Chicken + Vegetables,20,42,14,10,374,Low
+M1957,Paneer Peanut Bowl Bowl,Paneer + Peanuts + Vegetables,37,30,22,10,466,Low
+M1958,Paneer Millet Dosa Lite,2 Millet Dosa + Paneer Filling,57,30,15,8,483,Medium
+M1959,Paneer Paratha Meal Supreme,2 Paneer Paratha + Curd,85,23,23,8,639,High
+M1960,Paneer Methi Rice Meal Lite,Rice + Methi Paneer Curry,78,27,20,10,600,High
+M1961,Vegetable Almond Roti Meal Lite,2 Roti + Vegetable Curry + Almonds,69,21,14,13,486,Medium
+M1962,Vegetable Fenugreek Meal Pro,Methi Roti + Dal + Curd,68,21,9,15,437,Medium
+M1963,Soybean Rice Combo Pro,1 Bowl Rice + Soybean Curry + Salad,64,22,9,9,425,Medium
+M1964,Fruit Oats Meal Pro,Oats Porridge + Apple,56,7,3,8,279,Low
+M1965,Rice Dal Vegetable Meal Combo,Rice + Dal + Mixed Vegetables,86,19,7,12,483,High
+M1966,Paneer Tomato Bowl Supreme,Tomato Rice + Paneer Curry,83,28,21,8,633,High
+M1967,Vegetable Protein Khichdi Special,Dal + Rice + Vegetables + Sprouts,61,25,7,17,407,Medium
+M1968,Chicken Fenugreek Quinoa Deluxe,Quinoa + Chicken Methi Curry,42,41,13,12,449,Low
+M1969,Vegetable Rajma Millet Bowl Special,Millet + Rajma + Vegetables,56,22,8,19,384,Medium
+M1970,Paneer Lentil Paratha Pro,2 Paneer Lentil Paratha + Salad,81,32,21,12,641,High
+M1971,Vegetable Korma Rice Lite,Rice + Vegetable Korma + Salad,72,14,19,8,515,High
+M1972,Protein Meal Special,Paneer + Roti + Salad,41,33,21,7,485,Medium
+M1973,Complete Balanced Indian Plate Deluxe,2 Multigrain Roti + Dal + Paneer + Vegetables + Salad,56,34,14,16,486,Low
+M1974,Aloo Roti Lunch Pro,2 Roti + Aloo Sabzi,64,8,7,8,351,Medium
+M1975,Paneer Seed Protein Bowl Bowl,Paneer + Seeds + Sprouts + Salad,27,41,20,12,452,Low
+M1976,Chicken Seekh Meal Deluxe,Chicken Seekh Kebab + 2 Roti + Salad,44,44,16,6,496,Low
+M1977,Vegetable Lentil Bowl Lite,Mixed Lentils + Vegetables + Curd,47,22,7,14,339,Low
+M1978,Paneer Bhurji Roti Bowl,3 Roti + Paneer Bhurji,64,31,20,7,560,Medium
+M1979,Jowar Roti Dal Deluxe,3 Jowar Roti + Dal,76,24,7,14,463,Medium
+M1980,Paneer Rajma Protein Bowl Deluxe,Rajma + Paneer + Salad,47,37,19,15,507,Low
+M1981,Chicken Cauliflower Protein Bowl Special,Chicken + Cauliflower + Vegetables,24,44,14,11,398,Low
+M1982,Healthy Chickpea Bowl Lite,Chickpeas + Vegetables + Curd,46,24,10,13,370,Low
+M1983,Paneer Corn Rice Deluxe,Rice + Paneer Corn Curry,79,27,18,6,586,High
+M1984,Paneer Vegetable Rice Bowl Special,Rice + Paneer Curry + Vegetables,74,31,19,8,591,High
+M1985,Paneer Quinoa Salad Bowl,Quinoa + Paneer + Vegetables + Seeds,47,37,16,13,480,Low
+M1986,Vegetable Thali Combo,2 Roti + Dal + Sabzi + Curd,77,23,13,14,517,Medium
+M1987,Vegetable Roti Salad Meal Deluxe,2 Roti + Vegetable Salad + Dal,59,22,7,16,387,Medium
+M1988,Chicken Ragi Protein Bowl Supreme,Ragi Roti + Chicken Curry + Salad,53,42,14,13,506,Medium
+M1989,Dal Rice Lunch Lite,1 Bowl Rice + 1 Bowl Dal + Salad,81,14,3,9,407,High
+M1990,Paneer Pumpkin Quinoa Combo,Quinoa + Paneer + Pumpkin Vegetables,54,34,19,13,523,Low
+M1991,Chole Roti Meal Lite,2 Roti + 1 Bowl Chole,77,17,7,10,439,Medium
+M1992,Moong Dal Chilla Meal Pro,4 Moong Dal Chilla + Curd,53,27,10,12,410,Low
+M1993,Egg Frankie Meal Special,2 Egg Frankie Rolls,67,30,21,5,577,High
+M1994,Vegetable Fenugreek Quinoa Deluxe,Quinoa + Methi + Vegetables + Dal,47,25,7,16,351,Low
+M1995,Chicken Moong Rice Bowl Bowl,Moong Rice + Chicken + Salad,56,43,14,12,522,Medium
+M1996,Vegetable Tofu Roti Bowl Special,2 Roti + Tofu Curry + Salad,64,27,13,14,481,Medium
+M1997,Vegetable Sev Tameta Meal Special,2 Roti + Sev Tameta Curry,58,16,15,8,431,Medium
+M1998,Poha Breakfast Special,1 Plate Poha + 1 Glass Buttermilk,44,7,5,2,249,Medium
+M1999,Moong Dal Chilla Meal Bowl,4 Moong Dal Chilla + Curd,48,28,9,13,385,Low
+M2000,Vegetable Rajma Bowl Pro,Rajma + Brown Rice + Vegetables,72,23,6,16,434,Medium
