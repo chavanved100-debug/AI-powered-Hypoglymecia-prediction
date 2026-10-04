@@ -1,9 +1,12 @@
+import 'dart:io';
 import 'package:flutter/material.dart';
+import 'package:image_picker/image_picker.dart';
 
 import '../models/clinical_features.dart';
 import '../models/food_item.dart';
 import '../models/meal.dart';
 import '../services/feature_service.dart';
+import '../services/food_classifier_service.dart';
 import '../services/nutrition_service.dart';
 import '../services/prediction_service.dart';
 import '../services/storage_service.dart';
@@ -30,9 +33,13 @@ class _AddMealScreenState extends State<AddMealScreen> {
   final NutritionService _nutritionService = NutritionService();
   final PredictionService _predictionService = PredictionService();
   final StorageService _storage = StorageService();
+  final FoodClassifierService _classifier = FoodClassifierService.instance;
+  final ImagePicker _picker = ImagePicker();
 
   final List<SelectedFoodEntry> _entries = [];
   bool _calculating = false;
+  bool _scanning = false;
+  bool _pickingFromGallery = false;
 
   NutritionTotals get _totals => _nutritionService.calculateTotals(_entries);
 
@@ -83,6 +90,156 @@ class _AddMealScreenState extends State<AddMealScreen> {
       onFoodAdded: _addFoodEntry,
       currentQuantities: _quantities,
     );
+  }
+
+  Future<void> _scanFoodWithCamera() async {
+    setState(() => _scanning = true);
+    try {
+      final XFile? photo = await _picker.pickImage(
+        source: ImageSource.camera,
+        imageQuality: 80,
+        maxWidth: 640,
+        maxHeight: 640,
+      );
+      if (photo == null) {
+        setState(() => _scanning = false);
+        return;
+      }
+      final result = await _classifier.classifyImage(File(photo.path));
+      if (!mounted) return;
+      setState(() => _scanning = false);
+
+      if (result == null) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: const Text('Could not identify food. Try again.'),
+            behavior: SnackBarBehavior.floating,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(AppTheme.borderRadius),
+            ),
+          ),
+        );
+        return;
+      }
+
+      final food = _classifier.matchToFoodDatabase(result.label);
+      if (food == null) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Found ${result.label.foodName} but not in database.'),
+            behavior: SnackBarBehavior.floating,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(AppTheme.borderRadius),
+            ),
+          ),
+        );
+        return;
+      }
+
+      _addFood(food);
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text(
+              'Added ${food.name} (${(result.confidence * 100).round()}% confident)',
+            ),
+            behavior: SnackBarBehavior.floating,
+            duration: const Duration(seconds: 2),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(AppTheme.borderRadius),
+            ),
+          ),
+        );
+      }
+    } catch (e) {
+      if (mounted) {
+        setState(() => _scanning = false);
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Camera error: $e'),
+            behavior: SnackBarBehavior.floating,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(AppTheme.borderRadius),
+            ),
+          ),
+        );
+      }
+    }
+  }
+
+  Future<void> _pickImageFromGallery() async {
+    setState(() => _pickingFromGallery = true);
+    try {
+      final XFile? photo = await _picker.pickImage(
+        source: ImageSource.gallery,
+        imageQuality: 80,
+        maxWidth: 640,
+        maxHeight: 640,
+      );
+      if (photo == null) {
+        setState(() => _pickingFromGallery = false);
+        return;
+      }
+      final result = await _classifier.classifyImage(File(photo.path));
+      if (!mounted) return;
+      setState(() => _pickingFromGallery = false);
+
+      if (result == null) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: const Text('Could not identify food. Try again.'),
+            behavior: SnackBarBehavior.floating,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(AppTheme.borderRadius),
+            ),
+          ),
+        );
+        return;
+      }
+
+      final food = _classifier.matchToFoodDatabase(result.label);
+      if (food == null) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Found ${result.label.foodName} but not in database.'),
+            behavior: SnackBarBehavior.floating,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(AppTheme.borderRadius),
+            ),
+          ),
+        );
+        return;
+      }
+
+      _addFood(food);
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text(
+              'Added ${food.name} (${(result.confidence * 100).round()}% confident)',
+            ),
+            behavior: SnackBarBehavior.floating,
+            duration: const Duration(seconds: 2),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(AppTheme.borderRadius),
+            ),
+          ),
+        );
+      }
+    } catch (e) {
+      if (mounted) {
+        setState(() => _pickingFromGallery = false);
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Gallery error: $e'),
+            behavior: SnackBarBehavior.floating,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(AppTheme.borderRadius),
+            ),
+          ),
+        );
+      }
+    }
   }
 
   Future<void> _calculateRisk() async {
@@ -173,6 +330,49 @@ class _AddMealScreenState extends State<AddMealScreen> {
                       onPressed: _openFoodPicker,
                       icon: const Icon(Icons.search, size: 18),
                       label: const Text('Browse all foods'),
+                    ),
+                  ),
+                  const SizedBox(height: 8),
+                  Align(
+                    alignment: Alignment.centerLeft,
+                    child: FilledButton.icon(
+                      onPressed: _scanning ? null : _scanFoodWithCamera,
+                      icon: _scanning
+                          ? const SizedBox(
+                              height: 18,
+                              width: 18,
+                              child: CircularProgressIndicator(
+                                strokeWidth: 2,
+                                color: Colors.white,
+                              ),
+                            )
+                          : const Icon(Icons.camera_alt_outlined, size: 18),
+                      label: Text(_scanning ? 'Scanning...' : 'Scan food with camera'),
+                      style: FilledButton.styleFrom(
+                        backgroundColor: AppColors.primary,
+                        foregroundColor: Colors.white,
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 8),
+                  Align(
+                    alignment: Alignment.centerLeft,
+                    child: OutlinedButton.icon(
+                      onPressed: _pickingFromGallery ? null : _pickImageFromGallery,
+                      icon: _pickingFromGallery
+                          ? const SizedBox(
+                              height: 18,
+                              width: 18,
+                              child: CircularProgressIndicator(
+                                strokeWidth: 2,
+                                color: Colors.white,
+                              ),
+                            )
+                          : const Icon(Icons.image_outlined, size: 18),
+                      label: Text(_pickingFromGallery ? 'Selecting...' : 'Choose from gallery'),
+                      style: OutlinedButton.styleFrom(
+                        foregroundColor: AppColors.primary,
+                      ),
                     ),
                   ),
                   TextButton.icon(

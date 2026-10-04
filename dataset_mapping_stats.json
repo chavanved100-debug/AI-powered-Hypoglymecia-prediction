@@ -1,0 +1,11 @@
+{
+  "total_image_classes": 239,
+  "total_images_all": 156502,
+  "usable_classes": 58,
+  "usable_images": 67417,
+  "matched_to_nutrition": 58,
+  "matched_to_quantity": 0,
+  "matched_to_indian_meal": 0,
+  "unmatched_classes": 181,
+  "ambiguous_classes": 0
+}

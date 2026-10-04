@@ -1,0 +1,350 @@
+[
+  {
+    "index": 0,
+    "image_class": "aloo paratha",
+    "food_id": "F071",
+    "food_name": "Aloo Paratha"
+  },
+  {
+    "index": 1,
+    "image_class": "amritsari kulcha",
+    "food_id": "F184",
+    "food_name": "Amritsari Kulcha"
+  },
+  {
+    "index": 2,
+    "image_class": "appam",
+    "food_id": "F194",
+    "food_name": "Appam"
+  },
+  {
+    "index": 3,
+    "image_class": "apple",
+    "food_id": "F014",
+    "food_name": "Apple"
+  },
+  {
+    "index": 4,
+    "image_class": "baingan bharta",
+    "food_id": "F314",
+    "food_name": "Baingan Bharta"
+  },
+  {
+    "index": 5,
+    "image_class": "banana",
+    "food_id": "F013",
+    "food_name": "Banana"
+  },
+  {
+    "index": 6,
+    "image_class": "basundi",
+    "food_id": "F200",
+    "food_name": "Basundi"
+  },
+  {
+    "index": 7,
+    "image_class": "bhel puri",
+    "food_id": "F051",
+    "food_name": "Bhel Puri"
+  },
+  {
+    "index": 8,
+    "image_class": "butter chicken",
+    "food_id": "F126",
+    "food_name": "Butter Chicken"
+  },
+  {
+    "index": 9,
+    "image_class": "chana masala",
+    "food_id": "F088",
+    "food_name": "Chana Masala"
+  },
+  {
+    "index": 10,
+    "image_class": "chicken tikka",
+    "food_id": "F090",
+    "food_name": "Chicken Tikka"
+  },
+  {
+    "index": 11,
+    "image_class": "chicken tikka masala",
+    "food_id": "F232",
+    "food_name": "Chicken Tikka Masala"
+  },
+  {
+    "index": 12,
+    "image_class": "chole bhature",
+    "food_id": "F185",
+    "food_name": "Chole Bhature"
+  },
+  {
+    "index": 13,
+    "image_class": "dal makhani",
+    "food_id": "F157",
+    "food_name": "Dal Makhani"
+  },
+  {
+    "index": 14,
+    "image_class": "dhokla",
+    "food_id": "F055",
+    "food_name": "Dhokla"
+  },
+  {
+    "index": 15,
+    "image_class": "fish curry",
+    "food_id": "F028",
+    "food_name": "Fish Curry"
+  },
+  {
+    "index": 16,
+    "image_class": "garlic naan",
+    "food_id": "F218",
+    "food_name": "Garlic Naan"
+  },
+  {
+    "index": 17,
+    "image_class": "gobi manchurian",
+    "food_id": "F259",
+    "food_name": "Gobi Manchurian"
+  },
+  {
+    "index": 18,
+    "image_class": "gulab jamun",
+    "food_id": "F096",
+    "food_name": "Gulab Jamun"
+  },
+  {
+    "index": 19,
+    "image_class": "idiyappam",
+    "food_id": "F193",
+    "food_name": "Idiyappam"
+  },
+  {
+    "index": 20,
+    "image_class": "idli",
+    "food_id": "F010",
+    "food_name": "Idli"
+  },
+  {
+    "index": 21,
+    "image_class": "jalebi",
+    "food_id": "F098",
+    "food_name": "Jalebi"
+  },
+  {
+    "index": 22,
+    "image_class": "kachori",
+    "food_id": "F050",
+    "food_name": "Kachori"
+  },
+  {
+    "index": 23,
+    "image_class": "kaju katli",
+    "food_id": "F347",
+    "food_name": "Kaju Katli"
+  },
+  {
+    "index": 24,
+    "image_class": "khakhra",
+    "food_id": "F327",
+    "food_name": "Khakhra"
+  },
+  {
+    "index": 25,
+    "image_class": "kheer",
+    "food_id": "F099",
+    "food_name": "Kheer"
+  },
+  {
+    "index": 26,
+    "image_class": "khichdi",
+    "food_id": "F041",
+    "food_name": "Khichdi"
+  },
+  {
+    "index": 27,
+    "image_class": "kuzhi paniyaram",
+    "food_id": "F250",
+    "food_name": "Kuzhi Paniyaram"
+  },
+  {
+    "index": 28,
+    "image_class": "mango",
+    "food_id": "F079",
+    "food_name": "Mango"
+  },
+  {
+    "index": 29,
+    "image_class": "masala dosa",
+    "food_id": "F066",
+    "food_name": "Masala Dosa"
+  },
+  {
+    "index": 30,
+    "image_class": "medu vada",
+    "food_id": "F068",
+    "food_name": "Medu Vada"
+  },
+  {
+    "index": 31,
+    "image_class": "misal pav",
+    "food_id": "F059",
+    "food_name": "Misal Pav"
+  },
+  {
+    "index": 32,
+    "image_class": "missi roti",
+    "food_id": "F204",
+    "food_name": "Missi Roti"
+  },
+  {
+    "index": 33,
+    "image_class": "modak",
+    "food_id": "F198",
+    "food_name": "Modak"
+  },
+  {
+    "index": 34,
+    "image_class": "moong dal halwa",
+    "food_id": "F280",
+    "food_name": "Moong Dal Halwa"
+  },
+  {
+    "index": 35,
+    "image_class": "mysore pak",
+    "food_id": "F197",
+    "food_name": "Mysore Pak"
+  },
+  {
+    "index": 36,
+    "image_class": "naan",
+    "food_id": "F086",
+    "food_name": "Naan"
+  },
+  {
+    "index": 37,
+    "image_class": "navratan korma",
+    "food_id": "F170",
+    "food_name": "Navratan Korma"
+  },
+  {
+    "index": 38,
+    "image_class": "neer dosa",
+    "food_id": "F196",
+    "food_name": "Neer Dosa"
+  },
+  {
+    "index": 39,
+    "image_class": "omelette",
+    "food_id": "F025",
+    "food_name": "Omelette"
+  },
+  {
+    "index": 40,
+    "image_class": "orange",
+    "food_id": "F080",
+    "food_name": "Orange"
+  },
+  {
+    "index": 41,
+    "image_class": "palak paneer",
+    "food_id": "F039",
+    "food_name": "Palak Paneer"
+  },
+  {
+    "index": 42,
+    "image_class": "paneer butter masala",
+    "food_id": "F152",
+    "food_name": "Paneer Butter Masala"
+  },
+  {
+    "index": 43,
+    "image_class": "pani puri",
+    "food_id": "F053",
+    "food_name": "Pani Puri"
+  },
+  {
+    "index": 44,
+    "image_class": "pav bhaji",
+    "food_id": "F047",
+    "food_name": "Pav Bhaji"
+  },
+  {
+    "index": 45,
+    "image_class": "peanut chikki",
+    "food_id": "F344",
+    "food_name": "Peanut Chikki"
+  },
+  {
+    "index": 46,
+    "image_class": "poha",
+    "food_id": "F008",
+    "food_name": "Poha"
+  },
+  {
+    "index": 47,
+    "image_class": "pomegranate",
+    "food_id": "F180",
+    "food_name": "Pomegranate"
+  },
+  {
+    "index": 48,
+    "image_class": "rajma",
+    "food_id": "F006",
+    "food_name": "Rajma"
+  },
+  {
+    "index": 49,
+    "image_class": "rasgulla",
+    "food_id": "F097",
+    "food_name": "Rasgulla"
+  },
+  {
+    "index": 50,
+    "image_class": "rava dosa",
+    "food_id": "F285",
+    "food_name": "Rava Dosa"
+  },
+  {
+    "index": 51,
+    "image_class": "sabudana khichdi",
+    "food_id": "F058",
+    "food_name": "Sabudana Khichdi"
+  },
+  {
+    "index": 52,
+    "image_class": "sabudana vada",
+    "food_id": "F254",
+    "food_name": "Sabudana Vada"
+  },
+  {
+    "index": 53,
+    "image_class": "samosa",
+    "food_id": "F049",
+    "food_name": "Samosa"
+  },
+  {
+    "index": 54,
+    "image_class": "sev puri",
+    "food_id": "F052",
+    "food_name": "Sev Puri"
+  },
+  {
+    "index": 55,
+    "image_class": "shrikhand",
+    "food_id": "F100",
+    "food_name": "Shrikhand"
+  },
+  {
+    "index": 56,
+    "image_class": "uttapam",
+    "food_id": "F065",
+    "food_name": "Uttapam"
+  },
+  {
+    "index": 57,
+    "image_class": "vada pav",
+    "food_id": "F048",
+    "food_name": "Vada Pav"
+  }
+]

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import '../models/clinical_features.dart';
-import '../models/meal.dart';
 import '../services/feature_service.dart';
 import '../services/storage_service.dart';
 import '../theme/app_theme.dart';

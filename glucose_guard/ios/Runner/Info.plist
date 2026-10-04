@@ -66,5 +66,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Gluco Guide AI needs camera access to scan food items for hypoglycemia risk prediction.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Gluco Guide AI needs photo library access to select food images for scanning.</string>
 </dict>
 </plist>
