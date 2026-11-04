@@ -122,20 +122,7 @@ class _AddMealScreenState extends State<AddMealScreen> {
         return;
       }
 
-      final food = _classifier.matchToFoodDatabase(result.label);
-      if (food == null) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text('Found ${result.label.foodName} but not in database.'),
-            behavior: SnackBarBehavior.floating,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(AppTheme.borderRadius),
-            ),
-          ),
-        );
-        return;
-      }
-
+      final food = result.matchedFood;
       _addFood(food);
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
@@ -197,20 +184,7 @@ class _AddMealScreenState extends State<AddMealScreen> {
         return;
       }
 
-      final food = _classifier.matchToFoodDatabase(result.label);
-      if (food == null) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text('Found ${result.label.foodName} but not in database.'),
-            behavior: SnackBarBehavior.floating,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(AppTheme.borderRadius),
-            ),
-          ),
-        );
-        return;
-      }
-
+      final food = result.matchedFood;
       _addFood(food);
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(

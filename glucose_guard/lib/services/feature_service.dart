@@ -85,14 +85,14 @@ class FeatureService {
     FeatureOverrides overrides,
     DateTime now,
   ) {
+    // Glucose and insulin are only carried over when the user supplied them,
+    // so the estimator's provenance flags stay truthful.
     return const FeatureEstimator().estimate(
       now: now,
       overrides: FeatureOverrides(
-        currentGlucose: overrides.currentGlucose ?? base.currentGlucose,
-        bolusInsulinUnits:
-            overrides.bolusInsulinUnits ?? base.bolusInsulinLast60min,
-        timeSinceLastInsulinMinutes: overrides.timeSinceLastInsulinMinutes ??
-            base.timeSinceLastInsulin,
+        currentGlucose: overrides.currentGlucose,
+        bolusInsulinUnits: overrides.bolusInsulinUnits,
+        timeSinceLastInsulinMinutes: overrides.timeSinceLastInsulinMinutes,
         exerciseDurationMinutes:
             overrides.exerciseDurationMinutes ?? base.exerciseDuration,
         exerciseIntensity: overrides.exerciseIntensity ?? base.exerciseIntensity,

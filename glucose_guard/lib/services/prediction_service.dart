@@ -57,7 +57,6 @@ class PredictionService {
 
     final riskScore = score.round().clamp(0, 100);
     final riskLevel = RiskLevelX.fromScore(riskScore);
-    final closest = neighbors.isEmpty ? null : neighbors.first;
 
     return PredictionResult(
       riskScore: riskScore,
@@ -65,14 +64,28 @@ class PredictionService {
       features: features,
       riskFactors: [
         if (features != null) ...[
+          // Glucose only appears once the user has entered their own reading.
+          if (features.hasUserGlucose)
+            RiskFactor(
+              name: 'Current Glucose',
+              value: '${features.currentGlucose.round()} mg/dL',
+            ),
+          if (features.hasUserGlucose)
+            RiskFactor(name: 'Glucose Trend', value: features.trendLabel),
+          // Insulin dose and timing mirror exactly what the user typed.
+          RiskFactor(name: 'Insulin Dose', value: features.insulinDoseLabel),
+          RiskFactor(name: 'Insulin Time', value: features.insulinTimeLabel),
           RiskFactor(
-            name: 'Current Glucose',
-            value: '${features.currentGlucose.round()} mg/dL',
+            name: 'Insulin On Board (45m)',
+            value: _insulinWindowLabel(features.insulinLast45min),
           ),
-          RiskFactor(name: 'Glucose Trend', value: features.trendLabel),
           RiskFactor(
-            name: 'Insulin (2h)',
-            value: '${features.totalInsulinLast2Hours.toStringAsFixed(1)} U',
+            name: 'Insulin On Board (60m)',
+            value: _insulinWindowLabel(features.insulinLast60min),
+          ),
+          RiskFactor(
+            name: 'Insulin On Board (2h)',
+            value: _insulinWindowLabel(features.insulinLast120min),
           ),
           RiskFactor(
             name: 'Sleep cycle',
@@ -89,19 +102,21 @@ class PredictionService {
           name: 'Meal Composition',
           value: _compositionLabel(proteinFiber, nutrition.carbohydrates),
         ),
-        if (closest != null)
-          RiskFactor(
-            name: 'Closest Dataset Meal',
-            value: closest.name,
-          ),
       ],
       recommendation: _recommendation(riskLevel, glLabel, features),
     );
   }
 
+  String _insulinWindowLabel(double units) {
+    if (units <= 0) return 'None logged';
+    return '${units.toStringAsFixed(1)} U';
+  }
+
   double _clinicalScore(ClinicalFeatures f) {
     var score = 0.0;
 
+    // Glucose contributes only when the user supplied a reading.
+    if (f.hasUserGlucose) {
     if (f.currentGlucose < 70) {
       score += 48;
     } else if (f.currentGlucose < 90) {
@@ -123,14 +138,18 @@ class PredictionService {
     } else if (f.glucoseRateChange15min >= 1.5) {
       score += 10;
     }
+    }
 
-    score += (f.totalInsulinLast2Hours * 3.5).clamp(0, 16);
+    // Recent insulin on board raises stacking risk, using the user's dose.
+    if (f.hasUserInsulin) {
+      score += (f.insulinLast120min * 1.8).clamp(0, 14);
+    }
 
     if (f.exerciseDuration > 10 && f.timeSinceExercise <= 90) {
       score += 8 + (f.exerciseIntensity * 3);
     }
 
-    if (f.carbsLast2Hours < 15 && f.insulinLast60min >= 2) {
+    if (f.carbsLast2Hours < 15) {
       score += 10;
     }
 
@@ -181,21 +200,29 @@ class PredictionService {
     String glycemicLoad,
     ClinicalFeatures? features,
   ) {
-    final glucoseNote = features == null
+    final glucoseNote = (features == null || !features.hasUserGlucose)
         ? ''
-        : ' Current glucose is estimated at ${features.currentGlucose.round()} mg/dL (${features.trendLabel.toLowerCase()}).';
+        : ' Current glucose is ${features.currentGlucose.round()} mg/dL (${features.trendLabel.toLowerCase()}).';
+
+    // Advice is built around the user's own logged insulin when available.
+    final insulinNote = (features == null || !features.hasUserInsulin)
+        ? ''
+        : ' You logged ${features.insulinDoseLabel} '
+            '${features.insulinTimeLabel}, so '
+            '${features.insulinLast120min.toStringAsFixed(1)} U is still on '
+            'board within 2 hours. ';
 
     switch (level) {
       case RiskLevel.low:
-        return 'Similar meals in the Dataset have a $glycemicLoad glycemic load.$glucoseNote '
+        return 'Similar meals in the Dataset have a $glycemicLoad glycemic load.$glucoseNote$insulinNote'
             'This meal appears relatively balanced. Continue your usual '
             'diabetes-management routine and stay hydrated.';
       case RiskLevel.moderate:
-        return 'Similar meals in the Dataset have a $glycemicLoad glycemic load.$glucoseNote '
+        return 'Similar meals in the Dataset have a $glycemicLoad glycemic load.$glucoseNote$insulinNote'
             'Monitor glucose levels after the meal and maintain your usual '
             'diabetes-management routine.';
       case RiskLevel.high:
-        return 'Similar meals in the Dataset have a $glycemicLoad glycemic load.$glucoseNote '
+        return 'Similar meals in the Dataset have a $glycemicLoad glycemic load.$glucoseNote$insulinNote'
             'Consider pairing with protein or fiber-rich foods and monitor '
             'glucose closely. Consult your care team for personalized guidance.';
     }

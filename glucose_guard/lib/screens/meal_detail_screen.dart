@@ -90,7 +90,8 @@ class _HealthSummary extends StatelessWidget {
             const SizedBox(width: 12),
             Expanded(
               child: Text(
-                '${features.currentGlucose.round()} mg/dL · ${features.trendLabel}\n'
+                '${features.hasUserGlucose ? '${features.currentGlucose.round()} mg/dL · ${features.trendLabel}' : 'Glucose not entered'}\n'
+                '${features.hasUserInsulin ? 'Insulin ${features.insulinDoseLabel} · ${features.insulinTimeLabel}' : 'No insulin logged'}\n'
                 '${features.sleepHours.toStringAsFixed(1)}h ${features.sleepCycleLabel} · ${features.sleepQualityLabel}',
                 style: Theme.of(context).textTheme.titleMedium,
               ),

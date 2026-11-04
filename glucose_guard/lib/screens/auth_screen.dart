@@ -36,7 +36,7 @@ class _AuthScreenState extends State<AuthScreen> {
       _error = null;
     });
     final error = _isSignUp
-        ? await AuthService.instance.signUp(
+        ? await AuthService.instance.register(
             name: _nameController.text,
             email: _emailController.text,
             password: _passwordController.text,
@@ -51,16 +51,18 @@ class _AuthScreenState extends State<AuthScreen> {
       _error = error;
     });
     if (error != null) return;
-    
+
     if (mounted) {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: Text(_isSignUp ? 'Welcome to Gluco Guide AI!' : 'Welcome back!'),
+          content: Text(
+            _isSignUp ? 'Welcome to Gluco Guide AI!' : 'Welcome back!',
+          ),
           behavior: SnackBarBehavior.floating,
         ),
       );
     }
-    
+
     Navigator.of(context).pushReplacement(
       MaterialPageRoute<void>(builder: (_) => const MainShell()),
     );

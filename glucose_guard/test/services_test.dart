@@ -65,11 +65,134 @@ void main() {
       first.riskFactors.any((f) => f.name == 'Glycemic Load'),
       isTrue,
     );
+    expect(first.features?.toCsvMap().keys, ClinicalFeatures.csvHeaders);
+  });
+
+  test('glucose stays blank until the user enters a reading', () {
+    final now = DateTime(2026, 8, 19, 18, 30);
+    final entries = [entry('F001', 2)];
+    final totals = nutritionService.calculateTotals(entries);
+
+    final without = const FeatureEstimator().estimate(now: now);
+    expect(without.hasUserGlucose, isFalse);
+
+    final noReading = predictionService.predict(
+      entries: entries,
+      nutrition: totals,
+      features: without,
+    );
     expect(
-      first.riskFactors.any((f) => f.name == 'Current Glucose'),
+      noReading.riskFactors.any((f) => f.name == 'Current Glucose'),
+      isFalse,
+    );
+    expect(
+      noReading.riskFactors.any((f) => f.name == 'Glucose Trend'),
+      isFalse,
+    );
+    expect(noReading.recommendation, isNot(contains('Current glucose is')));
+
+    final entered = const FeatureEstimator().estimate(
+      now: now,
+      overrides: const FeatureOverrides(currentGlucose: 120),
+    );
+    expect(entered.hasUserGlucose, isTrue);
+    expect(entered.currentGlucose, 120);
+
+    final reading = predictionService.predict(
+      entries: entries,
+      nutrition: totals,
+      features: entered,
+    );
+    expect(
+      reading.riskFactors.any((f) => f.name == 'Current Glucose'),
       isTrue,
     );
-    expect(first.features?.toCsvMap().keys, ClinicalFeatures.csvHeaders);
+    expect(reading.recommendation, contains('120 mg/dL'));
+  });
+
+  test('insulin factors mirror the dose and time entered by the user', () {
+    final now = DateTime(2026, 8, 19, 18, 30);
+    final entries = [entry('F001', 2)];
+    final totals = nutritionService.calculateTotals(entries);
+
+    final none = const FeatureEstimator().estimate(now: now);
+    expect(none.hasUserInsulin, isFalse);
+    expect(none.insulinDoseLabel, 'Not logged');
+    expect(none.insulinTimeLabel, 'Not logged');
+    expect(none.insulinLast120min, 0);
+    expect(none.totalInsulinLast2Hours, 0);
+
+    final result = predictionService.predict(
+      entries: entries,
+      nutrition: totals,
+      features: none,
+    );
+    String factor(String name) =>
+        result.riskFactors.firstWhere((f) => f.name == name).value;
+    expect(factor('Insulin Dose'), 'Not logged');
+    expect(factor('Insulin Time'), 'Not logged');
+    expect(factor('Insulin On Board (2h)'), 'None logged');
+    expect(result.recommendation, isNot(contains('on board')));
+
+    final logged = const FeatureEstimator().estimate(
+      now: now,
+      overrides: const FeatureOverrides(
+        bolusInsulinUnits: 6,
+        timeSinceLastInsulinMinutes: 30,
+      ),
+    );
+    expect(logged.hasUserInsulin, isTrue);
+    expect(logged.insulinDoseLabel, '6.0 U');
+    expect(logged.insulinTimeLabel, '30 min ago');
+    expect(logged.totalInsulinLast2Hours, 6);
+
+    final withInsulin = predictionService.predict(
+      entries: entries,
+      nutrition: totals,
+      features: logged,
+    );
+    String insulinFactor(String name) =>
+        withInsulin.riskFactors.firstWhere((f) => f.name == name).value;
+    expect(insulinFactor('Insulin Dose'), '6.0 U');
+    expect(insulinFactor('Insulin Time'), '30 min ago');
+    expect(insulinFactor('Insulin On Board (45m)'), '6.0 U');
+    expect(insulinFactor('Insulin On Board (60m)'), '6.0 U');
+    expect(insulinFactor('Insulin On Board (2h)'), '6.0 U');
+    expect(withInsulin.recommendation, contains('6.0 U'));
+  });
+
+  test('insulin on board windows are cumulative and drop out over time', () {
+    final now = DateTime(2026, 8, 19, 18, 30);
+
+    ClinicalFeatures withDose(double units, double minutes) =>
+        const FeatureEstimator().estimate(
+          now: now,
+          overrides: FeatureOverrides(
+            bolusInsulinUnits: units,
+            timeSinceLastInsulinMinutes: minutes,
+          ),
+        );
+
+    // 6 U taken 30 min ago sits inside every window up to 2h.
+    final recent = withDose(6, 30);
+    expect(recent.insulinLast45min, 6);
+    expect(recent.insulinLast60min, 6);
+    expect(recent.insulinLast120min, 6);
+    expect(recent.insulinLast240min, 6);
+
+    // 6 U taken 90 min ago has left the 45m and 60m windows only.
+    final older = withDose(6, 90);
+    expect(older.insulinLast45min, 0);
+    expect(older.insulinLast60min, 0);
+    expect(older.insulinLast120min, 6);
+    expect(older.insulinLast240min, 6);
+
+    // 6 U taken 5h ago is outside every tracked window.
+    final stale = withDose(6, 300);
+    expect(stale.insulinLast120min, 0);
+    expect(stale.insulinLast240min, 0);
+    expect(stale.totalInsulinLast2Hours, 0);
+    expect(stale.totalInsulinLast4Hours, 0);
   });
 
   test('feature estimator fills every clinical column', () {

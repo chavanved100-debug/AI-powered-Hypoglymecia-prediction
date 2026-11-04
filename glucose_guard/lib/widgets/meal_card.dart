@@ -81,12 +81,14 @@ class MealCard extends StatelessWidget {
 
   String _subtitle(Meal meal) {
     final carbs = '${meal.nutrition.carbohydrates.round()}g carbs';
-    final glucose = meal.prediction.features?.currentGlucose;
-    final sleep = meal.prediction.features?.sleepHours;
+    final features = meal.prediction.features;
     final parts = [carbs];
-    if (glucose != null) parts.add('${glucose.round()} mg/dL');
-    if (sleep != null) {
-      parts.add('${sleep.toStringAsFixed(1)}h sleep');
+    // Glucose only shows when the user had entered a reading for this meal.
+    if (features != null && features.hasUserGlucose) {
+      parts.add('${features.currentGlucose.round()} mg/dL');
+    }
+    if (features != null) {
+      parts.add('${features.sleepHours.toStringAsFixed(1)}h sleep');
     }
     return parts.join(' · ');
   }

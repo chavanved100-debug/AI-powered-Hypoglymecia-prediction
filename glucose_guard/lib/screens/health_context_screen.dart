@@ -58,6 +58,7 @@ class _HealthContextScreenState extends State<HealthContextScreen> {
         FeatureService.instance.resolve(
           now: DateTime.now(),
           priorMeals: meals,
+          overrides: saved?.overrides ?? const FeatureOverrides(),
         );
     if (!mounted) return;
     final overrides = saved?.overrides ?? const FeatureOverrides();
@@ -198,8 +199,15 @@ class _GlucoseHero extends StatelessWidget {
 
   final ClinicalFeatures features;
 
+  String _insulinWindow(double units) =>
+      units > 0 ? '${units.toStringAsFixed(1)} U' : 'None logged';
+
   @override
   Widget build(BuildContext context) {
+    // Glucose stays blank until the user fills in their own reading.
+    final hasGlucose = features.hasUserGlucose;
+    final hasInsulin = features.hasUserInsulin;
+
     return Container(
       padding: const EdgeInsets.all(24),
       decoration: BoxDecoration(
@@ -207,6 +215,7 @@ class _GlucoseHero extends StatelessWidget {
         borderRadius: BorderRadius.circular(AppTheme.borderRadius),
       ),
       child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Expanded(
             child: Column(
@@ -221,7 +230,7 @@ class _GlucoseHero extends StatelessWidget {
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  '${features.currentGlucose.round()}',
+                  hasGlucose ? '${features.currentGlucose.round()}' : '--',
                   style: const TextStyle(
                     color: Colors.white,
                     fontSize: 40,
@@ -229,10 +238,23 @@ class _GlucoseHero extends StatelessWidget {
                     height: 1.1,
                   ),
                 ),
-                const Text(
-                  'mg/dL',
-                  style: TextStyle(color: Colors.white, fontSize: 14),
+                Text(
+                  hasGlucose ? 'mg/dL' : 'Not entered yet',
+                  style: TextStyle(
+                    color: Colors.white.withValues(alpha: 0.85),
+                    fontSize: 14,
+                  ),
                 ),
+                if (!hasGlucose) ...[
+                  const SizedBox(height: 8),
+                  Text(
+                    'Add your reading below to use it in risk analysis.',
+                    style: TextStyle(
+                      color: Colors.white.withValues(alpha: 0.8),
+                      fontSize: 12,
+                    ),
+                  ),
+                ],
               ],
             ),
           ),
@@ -240,7 +262,7 @@ class _GlucoseHero extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.end,
             children: [
               Text(
-                features.trendLabel,
+                hasGlucose ? features.trendLabel : 'No reading',
                 style: const TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.w700,
@@ -248,10 +270,25 @@ class _GlucoseHero extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 8),
+              // Dose and timing mirror the user's own entries.
               Text(
-                '${features.totalInsulinLast2Hours.toStringAsFixed(1)} U · 2h',
+                hasInsulin
+                    ? '${features.insulinDoseLabel} · ${features.insulinTimeLabel}'
+                    : 'No insulin logged',
+                textAlign: TextAlign.end,
                 style: TextStyle(
                   color: Colors.white.withValues(alpha: 0.85),
+                ),
+              ),
+              const SizedBox(height: 4),
+              Text(
+                'On board 45m: ${_insulinWindow(features.insulinLast45min)}\n'
+                'On board 60m: ${_insulinWindow(features.insulinLast60min)}\n'
+                'On board 2h: ${_insulinWindow(features.insulinLast120min)}',
+                textAlign: TextAlign.end,
+                style: TextStyle(
+                  color: Colors.white.withValues(alpha: 0.85),
+                  fontSize: 12,
                 ),
               ),
             ],

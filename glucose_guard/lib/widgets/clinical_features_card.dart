@@ -12,7 +12,12 @@ class ClinicalFeaturesCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final groups = <String, List<MapEntry<String, String>>>{
       'Glucose history': [
-        _e('Current_Glucose', '${features.currentGlucose} mg/dL'),
+        _e(
+          'Current_Glucose',
+          features.hasUserGlucose
+              ? '${features.currentGlucose.round()} mg/dL'
+              : 'Not entered',
+        ),
         _e('Glucose_5min_ago', '${features.glucose5minAgo}'),
         _e('Glucose_10min_ago', '${features.glucose10minAgo}'),
         _e('Glucose_15min_ago', '${features.glucose15minAgo}'),
@@ -43,18 +48,13 @@ class ClinicalFeaturesCard extends StatelessWidget {
         _e('Glucose_Std_30min', '${features.glucoseStd30min}'),
         _e('Glucose_Std_60min', '${features.glucoseStd60min}'),
       ],
-      'Insulin': [
-        _e('Insulin_Last_15min', '${features.insulinLast15min} U'),
-        _e('Insulin_Last_30min', '${features.insulinLast30min} U'),
-        _e('Insulin_Last_60min', '${features.insulinLast60min} U'),
-        _e('Insulin_Last_120min', '${features.insulinLast120min} U'),
-        _e('Total_Insulin_Last_2Hours', '${features.totalInsulinLast2Hours} U'),
-        _e('Total_Insulin_Last_4Hours', '${features.totalInsulinLast4Hours} U'),
-        _e('Basal_Insulin_Last_30min', '${features.basalInsulinLast30min} U'),
-        _e('Basal_Insulin_Last_60min', '${features.basalInsulinLast60min} U'),
-        _e('Bolus_Insulin_Last_30min', '${features.bolusInsulinLast30min} U'),
-        _e('Bolus_Insulin_Last_60min', '${features.bolusInsulinLast60min} U'),
-        _e('Time_Since_Last_Insulin', '${features.timeSinceLastInsulin} min'),
+      'Insulin (from your input)': [
+        _e('Bolus_Insulin_Units', features.insulinDoseLabel),
+        _e('Time_Since_Last_Insulin', features.insulinTimeLabel),
+        _e('On_Board_45min', _units(features.insulinLast45min)),
+        _e('On_Board_60min', _units(features.insulinLast60min)),
+        _e('Total_Insulin_Last_2Hours', _units(features.insulinLast120min)),
+        _e('Total_Insulin_Last_4Hours', _units(features.insulinLast240min)),
       ],
       'Carbs & time': [
         _e('Carbs_Last_Meal', '${features.carbsLastMeal} g'),
@@ -131,4 +131,7 @@ class ClinicalFeaturesCard extends StatelessWidget {
 
   MapEntry<String, String> _e(String name, String value) =>
       MapEntry(name, value);
+
+  String _units(double value) =>
+      value > 0 ? '${value.toStringAsFixed(1)} U' : 'None logged';
 }

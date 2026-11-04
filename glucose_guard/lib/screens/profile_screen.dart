@@ -43,7 +43,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
     setState(() => _loading = true);
     final goal = await _storage.getCarbGoal();
     final meals = await _storage.getMeals();
-    final user = await AuthService.instance.currentUser();
+    final userEmail = await AuthService.instance.currentUser();
     final now = DateTime.now();
     final todayMeals = meals.where((m) {
       return m.dateTime.year == now.year &&
@@ -59,8 +59,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
         _carbGoal = goal;
         _goalController.text = goal.round().toString();
         _todayTotals = totals;
-        _userName = user?.name ?? 'User';
-        _userEmail = user?.email ?? '';
+        _userName = 'User';
+        _userEmail = userEmail ?? '';
         _loading = false;
       });
     }

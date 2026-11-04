@@ -40,17 +40,15 @@ class FeatureEstimator {
     final hour = now.hour.toDouble();
     final weekday = now.weekday.toDouble();
 
-    final basalPerHour = 0.85;
-    final timeSinceInsulin = overrides.timeSinceLastInsulinMinutes ??
-        (timeSinceLastMeal < 150 ? timeSinceLastMeal + 5 : 165);
-    final bolus = overrides.bolusInsulinUnits ??
-        _estimatedBolus(carbsLastMeal, timeSinceInsulin);
-
-    final insulinTimeline = _insulinProfile(
-      basalPerHour: basalPerHour,
-      bolusUnits: bolus,
-      minutesSinceBolus: timeSinceInsulin,
-    );
+    // Insulin is only ever the value the user typed. Nothing is inferred, so a
+    // blank field means "no insulin logged" rather than a guessed dose.
+    final userBolus = overrides.bolusInsulinUnits ?? 0;
+    final userInsulinTime = overrides.timeSinceLastInsulinMinutes;
+    final hasInsulin = userBolus > 0;
+    final bolus = hasInsulin ? userBolus : 0.0;
+    final timeSinceInsulin = hasInsulin
+        ? (userInsulinTime ?? 0).clamp(0, 1440).toDouble()
+        : 0.0;
 
     final exerciseDuration = overrides.exerciseDurationMinutes ?? 0;
     final exerciseIntensity = overrides.exerciseIntensity ?? 0;
@@ -66,6 +64,8 @@ class FeatureEstimator {
     final timeSinceWake = now.hour >= 6
         ? ((now.hour - 6) * 60 + now.minute).toDouble()
         : 30.0;
+
+    final hasUserGlucose = overrides.currentGlucose != null;
 
     final series = _glucoseSeries(
       now: now,
@@ -87,7 +87,7 @@ class FeatureEstimator {
       }
     }
 
-    double at(int minutesAgo) => _atMinutes(series, minutesAgo);
+double at(int minutesAgo) => _atMinutes(series, minutesAgo);
     List<double> window(int minutes) => _window(series, minutes);
 
     final current = at(0);
@@ -131,17 +131,15 @@ class FeatureEstimator {
       glucoseMax60min: _r(w60.reduce(math.max)),
       glucoseStd30min: _r(_std(w30)),
       glucoseStd60min: _r(_std(w60)),
-      insulinLast15min: _r(insulinTimeline.last15),
-      insulinLast30min: _r(insulinTimeline.last30),
-      insulinLast60min: _r(insulinTimeline.last60),
-      insulinLast120min: _r(insulinTimeline.last120),
-      totalInsulinLast2Hours: _r(insulinTimeline.last120),
-      totalInsulinLast4Hours: _r(insulinTimeline.last240),
-      basalInsulinLast30min: _r(basalPerHour * 0.5),
-      basalInsulinLast60min: _r(basalPerHour),
-      bolusInsulinLast30min: _r(timeSinceInsulin <= 30 ? bolus : 0),
-      bolusInsulinLast60min: _r(timeSinceInsulin <= 60 ? bolus : 0),
+      // Cumulative insulin straight from the user's logged dose. A dose counts
+      // toward every window that still contains it, and nothing is counted if
+      // the user did not log insulin.
+      totalInsulinLast2Hours: bolus > 0 && timeSinceInsulin <= 120 ? bolus : 0,
+      totalInsulinLast4Hours: bolus > 0 && timeSinceInsulin <= 240 ? bolus : 0,
       timeSinceLastInsulin: _r(timeSinceInsulin),
+      bolusInsulinUnits: bolus,
+      glucoseFromUser: hasUserGlucose,
+      insulinFromUser: hasInsulin,
       carbsLastMeal: _r(carbsLastMeal),
       carbsLast2Hours: _r(carbsLast2Hours),
       carbsLast4Hours: _r(carbsLast4Hours),
@@ -160,30 +158,7 @@ class FeatureEstimator {
     );
   }
 
-  double _estimatedBolus(double carbs, double minutesSince) {
-    if (minutesSince > 240) return 0;
-    return (carbs / 12).clamp(0, 12);
-  }
-
-  _InsulinWindows _insulinProfile({
-    required double basalPerHour,
-    required double bolusUnits,
-    required double minutesSinceBolus,
-  }) {
-    double bolusIn(double windowMin) {
-      if (minutesSinceBolus < 0) return 0;
-      if (minutesSinceBolus > windowMin) return 0;
-      return bolusUnits;
-    }
-
-    return _InsulinWindows(
-      last15: basalPerHour * 0.25 + bolusIn(15),
-      last30: basalPerHour * 0.5 + bolusIn(30),
-      last60: basalPerHour + bolusIn(60),
-      last120: basalPerHour * 2 + bolusIn(120),
-      last240: basalPerHour * 4 + bolusIn(240),
-    );
-  }
+  
 
   /// 5-minute CGM samples from now (index 0) back to 120 minutes (index 24).
   List<double> _glucoseSeries({
@@ -260,20 +235,4 @@ class FeatureEstimator {
   }
 
   double _r(double value) => double.parse(value.toStringAsFixed(2));
-}
-
-class _InsulinWindows {
-  const _InsulinWindows({
-    required this.last15,
-    required this.last30,
-    required this.last60,
-    required this.last120,
-    required this.last240,
-  });
-
-  final double last15;
-  final double last30;
-  final double last60;
-  final double last120;
-  final double last240;
 }

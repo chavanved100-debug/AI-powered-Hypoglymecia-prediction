@@ -36,6 +36,7 @@ class _PredictionScreenState extends State<PredictionScreen>
     with SingleTickerProviderStateMixin {
   final StorageService _storage = StorageService();
   late AnimationController _animController;
+  late Animation<double> _riskProgressAnimation;
   bool _saving = false;
 
   @override
@@ -43,8 +44,12 @@ class _PredictionScreenState extends State<PredictionScreen>
     super.initState();
     _animController = AnimationController(
       vsync: this,
-      duration: const Duration(milliseconds: 1200),
-    )..forward();
+      duration: const Duration(milliseconds: 1500),
+    );
+    _riskProgressAnimation = Tween<double>(begin: 0, end: 1).animate(
+      CurvedAnimation(parent: _animController, curve: Curves.elasticOut),
+    );
+    _animController.forward();
     NotificationService.instance.notifyIfHigherRisk(widget.prediction);
   }
 
@@ -92,14 +97,14 @@ class _PredictionScreenState extends State<PredictionScreen>
         children: [
           Center(
             child: AnimatedBuilder(
-              animation: _animController,
+              animation: _riskProgressAnimation,
               builder: (context, child) {
                 return SizedBox(
                   width: 200,
                   height: 200,
                   child: CustomPaint(
                     painter: _RiskRingPainter(
-                      progress: _animController.value *
+                      progress: _riskProgressAnimation.value *
                           widget.prediction.riskScore /
                           100,
                       color: color,
@@ -109,7 +114,8 @@ class _PredictionScreenState extends State<PredictionScreen>
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            '${(widget.prediction.riskScore * _animController.value).round()}%',
+                            '${(widget.prediction.riskScore *
+                                _riskProgressAnimation.value).round()}%',
                             style: Theme.of(context)
                                 .textTheme
                                 .headlineLarge
@@ -135,15 +141,6 @@ class _PredictionScreenState extends State<PredictionScreen>
                   ),
                 );
               },
-            ),
-          ),
-          const SizedBox(height: 8),
-          Center(
-            child: Text(
-              widget.prediction.demoLabel,
-              style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                    fontStyle: FontStyle.italic,
-                  ),
             ),
           ),
           const SizedBox(height: 24),

@@ -61,9 +61,7 @@ class PredictionResult {
   final String recommendation;
   final ClinicalFeatures? features;
 
-  String get demoLabel => features == null
-      ? 'Estimated from Dataset CSVs'
-      : '${features!.sourceLabel} + meal Dataset';
+  String get demoLabel => features?.sourceLabel ?? 'from dataset';
 
   Map<String, dynamic> toJson() => {
         'riskScore': riskScore,

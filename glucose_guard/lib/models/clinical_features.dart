@@ -27,17 +27,9 @@ class ClinicalFeatures {
     required this.glucoseMax60min,
     required this.glucoseStd30min,
     required this.glucoseStd60min,
-    required this.insulinLast15min,
-    required this.insulinLast30min,
-    required this.insulinLast60min,
-    required this.insulinLast120min,
+    required this.timeSinceLastInsulin,
     required this.totalInsulinLast2Hours,
     required this.totalInsulinLast4Hours,
-    required this.basalInsulinLast30min,
-    required this.basalInsulinLast60min,
-    required this.bolusInsulinLast30min,
-    required this.bolusInsulinLast60min,
-    required this.timeSinceLastInsulin,
     required this.carbsLastMeal,
     required this.carbsLast2Hours,
     required this.carbsLast4Hours,
@@ -53,6 +45,9 @@ class ClinicalFeatures {
     this.sleepCycleType = 0,
     this.timeSinceWake = 180,
     this.source = FeatureSource.estimated,
+    this.bolusInsulinUnits = 0,
+    this.glucoseFromUser = false,
+    this.insulinFromUser = false,
   });
 
   final double currentGlucose;
@@ -81,27 +76,25 @@ class ClinicalFeatures {
 
   final double glucoseMin30min;
   final double glucoseMin60min;
+
   final double glucoseMax30min;
   final double glucoseMax60min;
 
   final double glucoseStd30min;
   final double glucoseStd60min;
 
-  final double insulinLast15min;
-  final double insulinLast30min;
-  final double insulinLast60min;
-  final double insulinLast120min;
-
+  final double timeSinceLastInsulin;
   final double totalInsulinLast2Hours;
   final double totalInsulinLast4Hours;
 
-  final double basalInsulinLast30min;
-  final double basalInsulinLast60min;
+  /// Bolus units exactly as entered by the user (0 when not entered).
+  final double bolusInsulinUnits;
 
-  final double bolusInsulinLast30min;
-  final double bolusInsulinLast60min;
+  /// True only when the user typed the current glucose themselves.
+  final bool glucoseFromUser;
 
-  final double timeSinceLastInsulin;
+  /// True only when the user typed their insulin dose themselves.
+  final bool insulinFromUser;
 
   final double carbsLastMeal;
   final double carbsLast2Hours;
@@ -115,6 +108,7 @@ class ClinicalFeatures {
   final double exerciseDuration;
   final double exerciseIntensity;
   final double timeSinceExercise;
+
   final double sleepHours;
   final double sleepQuality;
   final double sleepCycles;
@@ -122,7 +116,6 @@ class ClinicalFeatures {
   final double timeSinceWake;
 
   final FeatureSource source;
-
   static const csvHeaders = [
     'Current_Glucose',
     'Glucose_5min_ago',
@@ -150,17 +143,10 @@ class ClinicalFeatures {
     'Glucose_Max_60min',
     'Glucose_Std_30min',
     'Glucose_Std_60min',
-    'Insulin_Last_15min',
-    'Insulin_Last_30min',
-    'Insulin_Last_60min',
-    'Insulin_Last_120min',
     'Total_Insulin_Last_2Hours',
     'Total_Insulin_Last_4Hours',
-    'Basal_Insulin_Last_30min',
-    'Basal_Insulin_Last_60min',
-    'Bolus_Insulin_Last_30min',
-    'Bolus_Insulin_Last_60min',
     'Time_Since_Last_Insulin',
+    'Bolus_Insulin_Units',
     'Carbs_Last_Meal',
     'Carbs_Last_2_Hours',
     'Carbs_Last_4_Hours',
@@ -204,17 +190,10 @@ class ClinicalFeatures {
         'Glucose_Max_60min': glucoseMax60min,
         'Glucose_Std_30min': glucoseStd30min,
         'Glucose_Std_60min': glucoseStd60min,
-        'Insulin_Last_15min': insulinLast15min,
-        'Insulin_Last_30min': insulinLast30min,
-        'Insulin_Last_60min': insulinLast60min,
-        'Insulin_Last_120min': insulinLast120min,
         'Total_Insulin_Last_2Hours': totalInsulinLast2Hours,
         'Total_Insulin_Last_4Hours': totalInsulinLast4Hours,
-        'Basal_Insulin_Last_30min': basalInsulinLast30min,
-        'Basal_Insulin_Last_60min': basalInsulinLast60min,
-        'Bolus_Insulin_Last_30min': bolusInsulinLast30min,
-        'Bolus_Insulin_Last_60min': bolusInsulinLast60min,
         'Time_Since_Last_Insulin': timeSinceLastInsulin,
+        'Bolus_Insulin_Units': bolusInsulinUnits,
         'Carbs_Last_Meal': carbsLastMeal,
         'Carbs_Last_2_Hours': carbsLast2Hours,
         'Carbs_Last_4_Hours': carbsLast4Hours,
@@ -243,6 +222,7 @@ class ClinicalFeatures {
 
     return ClinicalFeatures(
       currentGlucose: n('Current_Glucose', 110),
+      glucoseFromUser: source == FeatureSource.user,
       glucose5minAgo: n('Glucose_5min_ago', 110),
       glucose10minAgo: n('Glucose_10min_ago', 110),
       glucose15minAgo: n('Glucose_15min_ago', 110),
@@ -268,17 +248,11 @@ class ClinicalFeatures {
       glucoseMax60min: n('Glucose_Max_60min', 110),
       glucoseStd30min: n('Glucose_Std_30min'),
       glucoseStd60min: n('Glucose_Std_60min'),
-      insulinLast15min: n('Insulin_Last_15min'),
-      insulinLast30min: n('Insulin_Last_30min'),
-      insulinLast60min: n('Insulin_Last_60min'),
-      insulinLast120min: n('Insulin_Last_120min'),
-      totalInsulinLast2Hours: n('Total_Insulin_Last_2Hours'),
+totalInsulinLast2Hours: n('Total_Insulin_Last_2Hours'),
       totalInsulinLast4Hours: n('Total_Insulin_Last_4Hours'),
-      basalInsulinLast30min: n('Basal_Insulin_Last_30min'),
-      basalInsulinLast60min: n('Basal_Insulin_Last_60min'),
-      bolusInsulinLast30min: n('Bolus_Insulin_Last_30min'),
-      bolusInsulinLast60min: n('Bolus_Insulin_Last_60min'),
-      timeSinceLastInsulin: n('Time_Since_Last_Insulin', 180),
+timeSinceLastInsulin: n('Time_Since_Last_Insulin', 180),
+      bolusInsulinUnits: n('Bolus_Insulin_Units'),
+      insulinFromUser: n('Bolus_Insulin_Units') > 0,
       carbsLastMeal: n('Carbs_Last_Meal'),
       carbsLast2Hours: n('Carbs_Last_2_Hours'),
       carbsLast4Hours: n('Carbs_Last_4_Hours'),
@@ -321,7 +295,7 @@ class ClinicalFeatures {
 
   String get sourceLabel => source == FeatureSource.dataset
       ? 'From Dataset CSV'
-      : 'Estimated (placeholder)';
+      : 'Custom profile';
 
   String get sleepQualityLabel {
     switch (sleepQuality.round()) {
@@ -349,10 +323,41 @@ class ClinicalFeatures {
     }
   }
 
-  bool get hasUserGlucose => currentGlucose > 0;
+  /// Glucose was typed by the user, not synthesised by the estimator.
+  bool get hasUserGlucose => glucoseFromUser && currentGlucose > 0;
+
+  /// Insulin dose was typed by the user.
+  bool get hasUserInsulin => insulinFromUser && bolusInsulinUnits > 0;
+
+  /// Cumulative units the user bolused within the last [minutes] minutes.
+  /// No insulin is ever inferred - a window only counts a dose the user
+  /// actually recorded, so every window >= the recorded time is cumulative.
+  double insulinWithin(int minutes) {
+    if (!hasUserInsulin) return 0;
+    if (timeSinceLastInsulin < 0) return 0;
+    if (timeSinceLastInsulin > minutes) return 0;
+    return bolusInsulinUnits;
+  }
+
+  double get insulinLast45min => insulinWithin(45);
+  double get insulinLast60min => insulinWithin(60);
+  double get insulinLast120min => insulinWithin(120);
+  double get insulinLast240min => insulinWithin(240);
+
+  String get insulinDoseLabel =>
+      hasUserInsulin ? '${bolusInsulinUnits.toStringAsFixed(1)} U' : 'Not logged';
+
+  String get insulinTimeLabel {
+    if (!hasUserInsulin) return 'Not logged';
+    final minutes = timeSinceLastInsulin.round();
+    if (minutes < 60) return '$minutes min ago';
+    final hours = (minutes / 60).floor();
+    final rest = minutes - hours * 60;
+    return rest == 0 ? '${hours}h ago' : '${hours}h ${rest}m ago';
+  }
 }
 
-enum FeatureSource { estimated, dataset }
+enum FeatureSource { estimated, dataset, user }
 
 class SavedHealthContext {
   const SavedHealthContext({

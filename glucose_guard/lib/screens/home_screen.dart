@@ -100,7 +100,10 @@ class _HomeScreenState extends State<HomeScreen> {
             .map((m) => m.prediction.riskLevel)
             .reduce((a, b) => a.index > b.index ? a : b);
 
-    final glucose = _health?.snapshot.currentGlucose;
+    // Only show glucose when user has explicitly entered it via health context
+    final glucose = (_health?.overrides.currentGlucose != null)
+        ? _health!.snapshot.currentGlucose
+        : null;
 
     return Scaffold(
       body: SafeArea(
@@ -189,7 +192,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                       )
                     else
-                      ..._meals.take(2).map(
+                      ..._meals.map(
                             (meal) => MealCard(
                               meal: meal,
                               onTap: () => Navigator.of(context).push(
